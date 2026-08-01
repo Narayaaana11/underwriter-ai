@@ -1,0 +1,1968 @@
+{
+  "claims": [
+    {
+      "id": "CLM-99412-70",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-469",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-70/1785587489375_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T18:01:29.375279"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-960",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-70/1785587489375_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-14065",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (11 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T18:01:29.375325",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-965166",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-70",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T18:01:29.375335",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-794933",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-70",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T18:01:29.381098",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-60",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-740",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-60/1785586993249_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T17:53:13.249508"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-848",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-60/1785586993249_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-41207",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (10 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T17:53:13.249557",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-318394",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-60",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T17:53:13.249568",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-133818",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-60",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T17:53:13.256547",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-17",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-606",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-17/1785586447550_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T17:44:07.550174"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-574",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-17/1785586447550_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-49948",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (9 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T17:44:07.550258",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-938909",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-17",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T17:44:07.550275",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-173516",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-17",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T17:44:07.561054",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-52",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-337",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-52/1785586110834_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T17:38:30.834075"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-692",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-52/1785586110834_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-16309",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (8 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T17:38:30.834125",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-686292",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-52",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T17:38:30.834135",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-192467",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-52",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T17:38:30.840059",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-70",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-782",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-70/1785578311716_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T15:28:31.716481"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-154",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-70/1785578311716_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-48762",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (7 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T15:28:31.716596",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-564207",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-70",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T15:28:31.716619",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-832330",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-70",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T15:28:31.726020",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-25",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "policyCompany": "HDFC ERGO Health & General",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-335",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-25/1785578298233_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T15:28:18.233934"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-518",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-25/1785578298233_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-50586",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (6 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T15:28:18.234015",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "auditTrail": [
+        {
+          "eventId": "EVT-691077",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-25",
+          "details": "Claim submitted for Motor policy POL-99412 at HDFC ERGO Health & General (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T15:28:18.234036",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-636978",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-25",
+          "details": "Re-triggered Textract OCR & Bedrock AI summary",
+          "timestamp": "2026-08-01T15:28:18.242468",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-47",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-347",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-47/1785577740655_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T15:19:00.655079"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-480",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-47/1785577740655_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-37994",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (5 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T15:19:00.655142",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "eventId": "EVT-927101",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-47",
+          "details": "Claim submitted for Motor policy POL-99412 (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T15:19:00.655157",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-988538",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-47",
+          "details": "Re-triggered Textract OCR, Fraud Detector score, and Bedrock AI summary",
+          "timestamp": "2026-08-01T15:19:00.667384",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-99",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-211",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-99/1785577422298_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T15:13:42.298544"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-983",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-99/1785577422298_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-40122",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (4 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T15:13:42.298585",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "eventId": "EVT-418987",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-99",
+          "details": "Claim submitted for Motor policy POL-99412 (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T15:13:42.298595",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-374442",
+          "action": "PIPELINE_REPROCESSED",
+          "actor": "System (Step Functions)",
+          "resourceId": "CLM-99412-99",
+          "details": "Re-triggered Textract OCR, Fraud Detector score, and Bedrock AI summary",
+          "timestamp": "2026-08-01T15:13:42.303745",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-25",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "sumInsured": 600000.0,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000.0,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-781",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-25/1785577231280_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T15:10:31.280870"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-682",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-25/1785577231280_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-14675",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (2 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T15:10:31.280968",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000.0,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "eventId": "EVT-335914",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-25",
+          "details": "Claim submitted for Motor policy POL-99412 (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T15:10:31.280989",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-67",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "sumInsured": 600000,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-401",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-67/1785577112600_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T09:38:32.600Z"
+          },
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-352",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-67/1785577112600_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-17003",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (1 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T09:38:32.600Z",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "eventId": "EVT-797994",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-67",
+          "details": "Claim submitted for Motor policy POL-99412 (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T09:38:32.601Z",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-99412-14",
+      "claimantName": "Sneha Patel",
+      "policyNumber": "POL-99412",
+      "policyType": "Motor",
+      "sumInsured": 600000,
+      "policyStartDate": "2024-01-10",
+      "incidentDate": "2026-07-28",
+      "claimAmount": 75000,
+      "contactNumber": "+91 91234 56789",
+      "description": "Minor bumper dent during parking at mall basement.",
+      "documents": [
+        {
+          "id": "DOC-544",
+          "name": "Parking_Incident_Photo.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-99412-14/1785576796300_Parking_Incident_Photo.jpg",
+          "extractedFields": {
+            "imageAnalysis": "Visual Damage Inspection Validated",
+            "confidenceScore": "96.4%",
+            "detectedElements": [
+              "Impact damage",
+              "Structural deformation"
+            ],
+            "timestampExtracted": "2026-08-01T09:33:16.300Z"
+          },
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-267",
+          "name": "Garage_Repair_Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-99412-14/1785576796300_Garage_Repair_Estimate.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-83002",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 11,
+      "riskFlags": [
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning",
+          "explanation": "Description contains only 8 words, which is below the recommended detail length."
+        }
+      ],
+      "fraudDetectorScore": 12,
+      "aiSummary": "Claim of \u20b975,000 filed under Motor policy POL-POL-99412. Incident details align with verified Textract document extractions and policy terms.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Complies with Motor Policy Coverage Schedule Clause 4.2. Low risk score (11/100), clean policy history (0 previous claim(s)), and valid document proof.",
+      "assignedUnderwriterId": "USR-002",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-08-01T09:33:16.300Z",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 75000,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "eventId": "EVT-500703",
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sneha Patel (Claimant)",
+          "resourceId": "CLM-99412-14",
+          "details": "Claim submitted for Motor policy POL-99412 (Amount: \u20b975,000)",
+          "timestamp": "2026-08-01T09:33:16.300Z",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ]
+    },
+    {
+      "id": "CLM-88213-01",
+      "claimantName": "Ramesh Kumar",
+      "policyNumber": "POL-88213",
+      "policyType": "Health",
+      "sumInsured": 500000,
+      "policyStartDate": "2024-11-19",
+      "incidentDate": "2026-07-23",
+      "claimAmount": 145000,
+      "contactNumber": "+91 98765 43210",
+      "description": "Hospitalized for 4 days for acute appendicitis, underwent laparoscopic surgery at Apollo Hospital.",
+      "documents": [
+        {
+          "id": "DOC-101",
+          "name": "Hospital Discharge Summary.pdf",
+          "type": "Medical Report",
+          "s3Key": "claims/CLM-88213-01/discharge.pdf",
+          "extractedFields": {
+            "hospitalName": "Apollo Hospital",
+            "diagnosis": "Acute Appendicitis (K35.8)",
+            "procedure": "Laparoscopic Appendectomy",
+            "admissionDate": "2026-07-19",
+            "dischargeDate": "2026-07-23",
+            "billedAmount": "\u20b91,45,000"
+          }
+        },
+        {
+          "id": "DOC-102",
+          "name": "Final Itemized Bill.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-88213-01/final_bill.pdf",
+          "extractedFields": {
+            "invoiceNo": "APH-2026-8841",
+            "roomCharges": "\u20b932,000",
+            "OTCharges": "\u20b945,000",
+            "surgeonFees": "\u20b940,000",
+            "pharmacy": "\u20b928,000",
+            "total": "\u20b91,45,000"
+          }
+        },
+        {
+          "id": "DOC-103",
+          "name": "Aadhaar Card Copy.pdf",
+          "type": "ID Proof",
+          "s3Key": "claims/CLM-88213-01/aadhaar.pdf",
+          "extractedFields": {
+            "idType": "Aadhaar",
+            "idNumber": "XXXX-XXXX-4912",
+            "holderName": "Ramesh Kumar",
+            "dob": "1984-06-15"
+          }
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 15,
+      "riskFlags": [
+        {
+          "flag": "within early-claim window",
+          "impact": 15,
+          "severity": "warning"
+        }
+      ],
+      "fraudDetectorScore": 8,
+      "aiSummary": "Claimant was admitted to Apollo Hospital for acute appendicitis and underwent standard laparoscopic appendectomy. Claim amount \u20b91,45,000 is within 29% of policy sum insured (\u20b95,000,000). Documentation is complete with valid discharge summary, itemized bill, and identity verification.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Procedure and billing match standard clinical guidelines for acute appendicitis under Health Policy Clause 4.2. Incident occurred within 9 days of filing, well beyond the initial 30-day waiting period (policy start 620 days ago).",
+      "assignedUnderwriterId": "UW-102",
+      "assignedUnderwriterName": "Ananya Sharma",
+      "submittedAt": "2026-07-24T10:15:00Z",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 145000,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Ramesh Kumar (Claimant)",
+          "timestamp": "2026-07-24T10:15:00Z"
+        },
+        {
+          "action": "SQS_ENQUEUED",
+          "actor": "System (SQS)",
+          "timestamp": "2026-07-24T10:15:05Z"
+        },
+        {
+          "action": "TEXTRACT_PROCESSED",
+          "actor": "System (Textract)",
+          "timestamp": "2026-07-24T10:15:20Z"
+        },
+        {
+          "action": "AUTO_ASSIGNED",
+          "actor": "System (Workload Balancer)",
+          "timestamp": "2026-07-24T10:15:25Z"
+        }
+      ]
+    },
+    {
+      "id": "CLM-91027-01",
+      "claimantName": "Priya Nair",
+      "policyNumber": "POL-91027",
+      "policyType": "Motor",
+      "sumInsured": 800000,
+      "policyStartDate": "2026-07-18",
+      "incidentDate": "2026-07-30",
+      "claimAmount": 610000,
+      "contactNumber": "+91 98123 45678",
+      "description": "Car collided with a divider on the highway, front end damaged.",
+      "documents": [
+        {
+          "id": "DOC-201",
+          "name": "Damage Front View.jpg",
+          "type": "Photos",
+          "s3Key": "claims/CLM-91027-01/front_damage.jpg",
+          "extractedFields": {
+            "photoType": "Vehicle Visual Assessment",
+            "primaryImpact": "Front Bumper & Radiator Grille",
+            "estimatedSeverity": "Major Structural Damage"
+          }
+        }
+      ],
+      "status": "review",
+      "riskScore": 85,
+      "riskFlags": [
+        {
+          "flag": "possible waiting-period violation",
+          "impact": 40,
+          "severity": "alert"
+        },
+        {
+          "flag": "unusually high vs sum insured",
+          "impact": 30,
+          "severity": "alert"
+        },
+        {
+          "flag": "may be insufficient for verification",
+          "impact": 15,
+          "severity": "warning"
+        }
+      ],
+      "fraudDetectorScore": 78,
+      "aiSummary": "High-risk motor claim filed just 14 days after policy inception for \u20b96,10,000 (76% of vehicle IDV \u20b98,00,000). Only damage photographs attached without repair estimate or FIR/police entry. Early claim window and high claim percentage raise significant fraud risk indicators.",
+      "aiRecommendation": "Investigate Further",
+      "aiReasoning": "Triggered multiple risk flags under Motor Policy Rider 3.1 (Early Inception Loss). Requires physical surveyor inspection to verify impact patterns match reported highway divider incident and check for pre-existing damage.",
+      "assignedUnderwriterId": "UW-101",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-07-30T14:30:00Z",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 610000,
+      "investigatorFindings": {
+        "surveyorName": "Rajesh Gupta (AutoInspect Ltd)",
+        "status": "Assigned",
+        "report": "Surveyor appointed to inspect vehicle at City Garage, Sector 18 on Monday."
+      },
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Priya Nair (Claimant)",
+          "timestamp": "2026-07-30T14:30:00Z"
+        },
+        {
+          "action": "TEXTRACT_PROCESSED",
+          "actor": "System (Textract)",
+          "timestamp": "2026-07-30T14:30:15Z"
+        },
+        {
+          "action": "RISK_SCORE_EVALUATED",
+          "actor": "System (Risk Engine)",
+          "timestamp": "2026-07-30T14:30:20Z"
+        },
+        {
+          "action": "STATUS_CHANGED",
+          "actor": "Vikram Malhotra (Underwriter)",
+          "timestamp": "2026-07-31T09:00:00Z",
+          "details": "Moved to UNDER REVIEW - Assigned Surveyor"
+        }
+      ]
+    },
+    {
+      "id": "CLM-77410-01",
+      "claimantName": "Arjun Reddy",
+      "policyNumber": "POL-77410",
+      "policyType": "Health",
+      "sumInsured": 300000,
+      "policyStartDate": "2024-02-13",
+      "incidentDate": "2026-07-02",
+      "claimAmount": 42000,
+      "contactNumber": "+91 97654 32109",
+      "description": "Outpatient treatment for dengue fever, blood tests and medication over one week, fully recovered.",
+      "documents": [
+        {
+          "id": "DOC-301",
+          "name": "Complete Blood Count Lab Reports.pdf",
+          "type": "Medical Report",
+          "s3Key": "claims/CLM-77410-01/lab_report.pdf",
+          "extractedFields": {
+            "testName": "CBC & Dengue NS1 Antigen",
+            "result": "Positive NS1, Platelet Count 85,000/uL",
+            "labName": "Metropolis Diagnostics"
+          }
+        },
+        {
+          "id": "DOC-302",
+          "name": "Pharmacy Tax Bills.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-77410-01/pharmacy_bill.pdf",
+          "extractedFields": {
+            "vendor": "Apollo Pharmacy",
+            "totalAmount": "\u20b914,200",
+            "items": "IV Fluids, Paracetamol, Antiemetics, Supplements"
+          }
+        },
+        {
+          "id": "DOC-303",
+          "name": "Doctor Consultation Prescription.pdf",
+          "type": "Medical Report",
+          "s3Key": "claims/CLM-77410-01/prescription.pdf",
+          "extractedFields": {
+            "doctorName": "Dr. K. S. Rao, MD",
+            "diagnosis": "Dengue Fever with mild thrombocytopenia",
+            "advice": "OPD management, hydration, daily CBC"
+          }
+        }
+      ],
+      "status": "approved",
+      "riskScore": 0,
+      "riskFlags": [],
+      "fraudDetectorScore": 3,
+      "aiSummary": "Claim for OPD Dengue treatment totaling \u20b942,000 against sum insured \u20b93,00,000. Policy active for 900 days. Full diagnostic lab proof, doctor prescription, and verified pharmacy invoices attached.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Claim fully complies with Health Policy OPD OPD Cover Add-on Clause 7.1. Low risk score (0/100), verified lab diagnostics, zero waiting period concerns.",
+      "assignedUnderwriterId": "UW-103",
+      "assignedUnderwriterName": "Siddharth Verma",
+      "submittedAt": "2026-07-07T11:00:00Z",
+      "decidedAt": "2026-07-08T16:20:00Z",
+      "decidedBy": "Siddharth Verma (Underwriter)",
+      "reserveAmount": 42000,
+      "investigatorFindings": null,
+      "disbursementDetails": {
+        "approvedAmount": 42000,
+        "payoutMethod": "NEFT",
+        "bankDetailsRef": "HDFC-XXXX-8819",
+        "status": "Completed",
+        "disbursedAt": "2026-07-09T10:00:00Z"
+      },
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Arjun Reddy (Claimant)",
+          "timestamp": "2026-07-07T11:00:00Z"
+        },
+        {
+          "action": "AI_RECOMMENDATION_GENERATED",
+          "actor": "AWS Bedrock (Claude 3.5)",
+          "timestamp": "2026-07-07T11:00:15Z"
+        },
+        {
+          "action": "CLAIM_APPROVED",
+          "actor": "Siddharth Verma (Underwriter)",
+          "timestamp": "2026-07-08T16:20:00Z"
+        },
+        {
+          "action": "PAYOUT_DISBURSED",
+          "actor": "System (Disbursement Ledger)",
+          "timestamp": "2026-07-09T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "CLM-60312-01",
+      "claimantName": "Sunita Verma",
+      "policyNumber": "POL-60312",
+      "policyType": "Travel",
+      "sumInsured": 150000,
+      "policyStartDate": "2026-06-17",
+      "incidentDate": "2026-06-22",
+      "claimAmount": 138000,
+      "contactNumber": "+91 99112 23344",
+      "description": "Trip cancelled last minute.",
+      "documents": [
+        {
+          "id": "DOC-APP-855",
+          "name": "Airline_Cancellation_Cert.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-60312-01/1785577422309_Airline_Cancellation_Cert.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-27977",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        },
+        {
+          "id": "DOC-APP-551",
+          "name": "Airline_Cancellation_Cert.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-60312-01/1785577740677_Airline_Cancellation_Cert.pdf",
+          "extractedFields": {
+            "invoiceNumber": "INV-60560",
+            "issueDate": "2026-08-01",
+            "vendorName": "Verified Healthcare / Service Provider",
+            "subtotal": "\u20b91,20,000",
+            "taxAmount": "\u20b925,000",
+            "totalAmount": "\u20b91,45,000",
+            "paymentStatus": "Paid / Pending Reimbursement"
+          },
+          "comprehendEntities": [
+            {
+              "category": "MEDICAL_CONDITION",
+              "text": "Acute Appendicitis",
+              "icd10": "K35.8",
+              "score": 0.99
+            },
+            {
+              "category": "ANATOMY",
+              "text": "Appendix / Abdomen",
+              "score": 0.98
+            },
+            {
+              "category": "PROCEDURE",
+              "text": "Laparoscopic Appendectomy",
+              "score": 0.97
+            }
+          ],
+          "kmsEncrypted": true
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 70,
+      "riskFlags": [
+        {
+          "flag": "unusually high vs sum insured",
+          "impact": 30,
+          "severity": "alert"
+        },
+        {
+          "flag": "may be insufficient for verification",
+          "impact": 15,
+          "severity": "warning"
+        },
+        {
+          "flag": "very brief, may need follow-up",
+          "impact": 10,
+          "severity": "warning"
+        },
+        {
+          "flag": "within early-claim window",
+          "impact": 15,
+          "severity": "warning"
+        }
+      ],
+      "fraudDetectorScore": 65,
+      "aiSummary": "Travel cancellation claim for \u20b91,38,000 (92% of \u20b91,50,000 sum insured). Zero supporting documentation (airline cancellation proof, hotel booking vouchers, medical emergency certificate) provided. Brief description (4 words).",
+      "aiRecommendation": "Reject",
+      "aiReasoning": "Non-compliance with Travel Policy Section 12 (Mandatory Proof of Trip Cancellation & Financial Loss). Claim filed without mandatory airline cancellation or non-refundable receipt evidence.",
+      "assignedUnderwriterId": "UW-102",
+      "assignedUnderwriterName": "Ananya Sharma",
+      "submittedAt": "2026-06-27T09:10:00Z",
+      "decidedAt": "2026-06-28T14:00:00Z",
+      "decidedBy": "Ananya Sharma (Underwriter)",
+      "reserveAmount": 0,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Sunita Verma (Claimant)",
+          "timestamp": "2026-06-27T09:10:00Z"
+        },
+        {
+          "action": "RISK_FLAGGED",
+          "actor": "System (Risk Engine)",
+          "timestamp": "2026-06-27T09:10:05Z",
+          "details": "Zero documents attached"
+        },
+        {
+          "action": "CLAIM_REJECTED",
+          "actor": "Ananya Sharma (Underwriter)",
+          "timestamp": "2026-06-28T14:00:00Z",
+          "details": "Rejected due to missing cancellation documents"
+        },
+        {
+          "eventId": "EVT-157847",
+          "action": "CLAIM_APPEAL_FILED",
+          "actor": "Sunita Verma (Claimant)",
+          "resourceId": "CLM-60312-01",
+          "details": "Fleaed appeal with 1 additional document(s): Attaching requested airline cancellation certificate and non-refundable receipt.",
+          "timestamp": "2026-08-01T15:13:42.309804",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        },
+        {
+          "eventId": "EVT-817594",
+          "action": "CLAIM_APPEAL_FILED",
+          "actor": "Sunita Verma (Claimant)",
+          "resourceId": "CLM-60312-01",
+          "details": "Fleaed appeal with 1 additional document(s): Attaching requested airline cancellation certificate and non-refundable receipt.",
+          "timestamp": "2026-08-01T15:19:00.677850",
+          "userAgent": "Ledger-Underwriter-Dashboard/1.0",
+          "awsRegion": "us-east-1"
+        }
+      ],
+      "appealHistory": [
+        {
+          "appealDate": "2026-08-01T15:13:42.309797",
+          "reason": "Attaching requested airline cancellation certificate and non-refundable receipt.",
+          "newDocsCount": 1
+        },
+        {
+          "appealDate": "2026-08-01T15:19:00.677836",
+          "reason": "Attaching requested airline cancellation certificate and non-refundable receipt.",
+          "newDocsCount": 1
+        }
+      ]
+    },
+    {
+      "id": "CLM-53390-01",
+      "claimantName": "Mohammed Iqbal",
+      "policyNumber": "POL-53390",
+      "policyType": "Property",
+      "sumInsured": 2000000,
+      "policyStartDate": "2023-04-19",
+      "incidentDate": "2026-07-27",
+      "claimAmount": 380000,
+      "contactNumber": "+91 98450 12345",
+      "description": "Kitchen fire caused by electrical short circuit damaged cabinetry, appliances, and part of the ceiling. Fire department report filed.",
+      "documents": [
+        {
+          "id": "DOC-501",
+          "name": "Fire Department Incident Report.pdf",
+          "type": "Police Report (FIR)",
+          "s3Key": "claims/CLM-53390-01/fire_report.pdf",
+          "extractedFields": {
+            "department": "Mumbai Fire Brigade",
+            "incidentType": "Residential Fire (Electrical)",
+            "incidentTime": "2026-07-27 18:45",
+            "casualty": "None",
+            "cause": "Short circuit in modular kitchen wiring"
+          }
+        },
+        {
+          "id": "DOC-502",
+          "name": "Contractor Repair Estimate.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-53390-01/repair_estimate.pdf",
+          "extractedFields": {
+            "contractor": "Urban Craft Interior Solutions",
+            "scope": "Ceiling replastering, cabinetry replacement, rewiring",
+            "estimatedTotal": "\u20b93,80,000"
+          }
+        },
+        {
+          "id": "DOC-503",
+          "name": "Kitchen Fire Damage Photos.pdf",
+          "type": "Photos",
+          "s3Key": "claims/CLM-53390-01/kitchen_photos.pdf",
+          "extractedFields": {
+            "photoCount": 6,
+            "areaViewed": "Kitchen & Ceiling",
+            "damageVerified": "Soot marks, charred wooden cabinets, melted conduit"
+          }
+        },
+        {
+          "id": "DOC-504",
+          "name": "Property Ownership Deed.pdf",
+          "type": "Other",
+          "s3Key": "claims/CLM-53390-01/property_deed.pdf",
+          "extractedFields": {
+            "owner": "Mohammed Iqbal",
+            "propertyAddress": "Flat 402, Sea Crest Apartments, Bandra West, Mumbai"
+          }
+        }
+      ],
+      "status": "submitted",
+      "riskScore": 0,
+      "riskFlags": [],
+      "fraudDetectorScore": 4,
+      "aiSummary": "Property loss claim for \u20b93,80,000 following an electrical kitchen fire. Policy active for 1,200 days with total sum insured \u20b920,00,000 (claim is 19%). Full documentation attached including official Fire Brigade report, contractor repair estimate, photographs, and title deed.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Property Fire Policy Clause 1A covers accidental electrical fire. Official municipal fire report confirms short-circuit cause without negligence. Contractor estimate is itemized and realistic.",
+      "assignedUnderwriterId": "UW-101",
+      "assignedUnderwriterName": "Vikram Malhotra",
+      "submittedAt": "2026-07-28T16:45:00Z",
+      "decidedAt": null,
+      "decidedBy": null,
+      "reserveAmount": 380000,
+      "investigatorFindings": null,
+      "disbursementDetails": null,
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Mohammed Iqbal (Claimant)",
+          "timestamp": "2026-07-28T16:45:00Z"
+        },
+        {
+          "action": "TEXTRACT_PROCESSED",
+          "actor": "System (Textract)",
+          "timestamp": "2026-07-28T16:45:12Z"
+        },
+        {
+          "action": "MACIE_SCAN_PASSED",
+          "actor": "AWS Macie",
+          "timestamp": "2026-07-28T16:45:18Z",
+          "details": "No unencrypted PII leaked"
+        },
+        {
+          "action": "AUTO_ASSIGNED",
+          "actor": "System (Workload Balancer)",
+          "timestamp": "2026-07-28T16:45:22Z"
+        }
+      ]
+    },
+    {
+      "id": "CLM-88213-02",
+      "claimantName": "Ramesh Kumar",
+      "policyNumber": "POL-88213",
+      "policyType": "Health",
+      "sumInsured": 500000,
+      "policyStartDate": "2024-11-19",
+      "incidentDate": "2026-01-13",
+      "claimAmount": 60000,
+      "contactNumber": "+91 98765 43210",
+      "description": "Routine cataract surgery, single day procedure, no complications.",
+      "documents": [
+        {
+          "id": "DOC-601",
+          "name": "Eye Hospital Bill.pdf",
+          "type": "Bill/Invoice",
+          "s3Key": "claims/CLM-88213-02/eye_bill.pdf",
+          "extractedFields": {
+            "hospital": "Sankar Nethralaya",
+            "procedure": "Phacoemulsification with Foldable IOL",
+            "total": "\u20b960,000"
+          }
+        },
+        {
+          "id": "DOC-602",
+          "name": "Discharge Summary Cataract.pdf",
+          "type": "Medical Report",
+          "s3Key": "claims/CLM-88213-02/cataract_discharge.pdf",
+          "extractedFields": {
+            "surgeon": "Dr. S. Natarajan",
+            "eye": "Right Eye",
+            "outcome": "Uneventful surgery, visual recovery 6/6"
+          }
+        }
+      ],
+      "status": "approved",
+      "riskScore": 0,
+      "riskFlags": [],
+      "fraudDetectorScore": 2,
+      "aiSummary": "Day-care cataract procedure for \u20b960,000 on policy POL-88213 (same policy as Claim CLM-88213-01). Sum insured \u20b95,00,000. All hospital discharge and lens billing records verified.",
+      "aiRecommendation": "Approve",
+      "aiReasoning": "Cataract surgery covered under Health Policy Specific Disease Sub-limit Clause 5.4 after 2-year waiting period (policy start 620 days ago). Billing is within sub-limit cap of \u20b965,000.",
+      "assignedUnderwriterId": "UW-103",
+      "assignedUnderwriterName": "Siddharth Verma",
+      "submittedAt": "2026-01-23T08:30:00Z",
+      "decidedAt": "2026-01-24T11:15:00Z",
+      "decidedBy": "Siddharth Verma (Underwriter)",
+      "reserveAmount": 60000,
+      "investigatorFindings": null,
+      "disbursementDetails": {
+        "approvedAmount": 60000,
+        "payoutMethod": "NEFT",
+        "bankDetailsRef": "HDFC-XXXX-8819",
+        "status": "Completed",
+        "disbursedAt": "2026-01-25T09:00:00Z"
+      },
+      "auditTrail": [
+        {
+          "action": "CLAIM_SUBMITTED",
+          "actor": "Ramesh Kumar (Claimant)",
+          "timestamp": "2026-01-23T08:30:00Z"
+        },
+        {
+          "action": "CLAIM_APPROVED",
+          "actor": "Siddharth Verma (Underwriter)",
+          "timestamp": "2026-01-24T11:15:00Z"
+        },
+        {
+          "action": "PAYOUT_DISBURSED",
+          "actor": "System (Disbursement Ledger)",
+          "timestamp": "2026-01-25T09:00:00Z"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Ramesh Kumar",
+      "role": "claimant",
+      "email": "ramesh.k@example.com",
+      "policyNumbers": [
+        "POL-88213"
+      ]
+    },
+    {
+      "id": "USR-002",
+      "name": "Vikram Malhotra",
+      "role": "underwriter",
+      "email": "v.malhotra@ledger-insurance.com",
+      "specialty": "Motor & Property"
+    },
+    {
+      "id": "USR-003",
+      "name": "Ananya Sharma",
+      "role": "underwriter",
+      "email": "a.sharma@ledger-insurance.com",
+      "specialty": "Health & Travel"
+    },
+    {
+      "id": "USR-004",
+      "name": "Siddharth Verma",
+      "role": "senior_underwriter",
+      "email": "s.verma@ledger-insurance.com",
+      "specialty": "High-Value Claims & Escalations"
+    },
+    {
+      "id": "USR-005",
+      "name": "System Admin",
+      "role": "admin",
+      "email": "admin@ledger-insurance.com",
+      "specialty": "System Management"
+    },
+    {
+      "id": "USR-107",
+      "name": "Karan Mehta",
+      "email": "k.mehta.1785578237108@hdfcergo.com",
+      "passwordHash": "355d26d318cbe053343b303b2667e564ad60b8ad386a503e953c56ced94c8f95",
+      "role": "underwriter",
+      "company": "HDFC ERGO Health & General",
+      "specialty": "Health & General Claims"
+    },
+    {
+      "id": "USR-128",
+      "name": "Karan Mehta",
+      "email": "k.mehta.1785578298403@hdfcergo.com",
+      "passwordHash": "355d26d318cbe053343b303b2667e564ad60b8ad386a503e953c56ced94c8f95",
+      "role": "underwriter",
+      "company": "HDFC ERGO Health & General",
+      "specialty": "Health & General Claims"
+    },
+    {
+      "id": "USR-450",
+      "name": "Karan Mehta",
+      "email": "k.mehta.1785578311916@hdfcergo.com",
+      "passwordHash": "355d26d318cbe053343b303b2667e564ad60b8ad386a503e953c56ced94c8f95",
+      "role": "underwriter",
+      "company": "HDFC ERGO Health & General",
+      "specialty": "Health & General Claims"
+    }
+  ],
+  "config": {
+    "autoApprovalThresholds": {
+      "Health": 100000,
+      "Motor": 150000,
+      "Life": 500000,
+      "Travel": 50000,
+      "Property": 250000
+    },
+    "seniorApprovalThreshold": 500000
+  }
+}
