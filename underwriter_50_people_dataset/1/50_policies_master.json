@@ -1,0 +1,782 @@
+[
+  {
+    "policyNumber": "POL-77001",
+    "claimantName": "Rajesh Kumar",
+    "claimantEmail": "rajesh.kumar@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-03-21",
+    "policyEndDate": "2026-03-21",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77002",
+    "claimantName": "Priya Sharma",
+    "claimantEmail": "priya.sharma@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-07-08",
+    "policyEndDate": "2026-07-08",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77003",
+    "claimantName": "Vikram Mehta",
+    "claimantEmail": "vikram.mehta@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-03-03",
+    "policyEndDate": "2026-03-03",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77004",
+    "claimantName": "Ananya Malhotra",
+    "claimantEmail": "ananya.malhotra@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-08-07",
+    "policyEndDate": "2026-08-07",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77005",
+    "claimantName": "Siddharth Verma",
+    "claimantEmail": "siddharth.verma@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 300000,
+    "policyStartDate": "2026-03-09",
+    "policyEndDate": "2027-03-09",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77006",
+    "claimantName": "Sunita Agarwal",
+    "claimantEmail": "sunita.agarwal@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-12-14",
+    "policyEndDate": "2026-12-14",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77007",
+    "claimantName": "Arun Krishnamurthy",
+    "claimantEmail": "arun.krishnamurthy@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2026-04-11",
+    "policyEndDate": "2027-04-11",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77008",
+    "claimantName": "Meera Patil",
+    "claimantEmail": "meera.patil@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-07-10",
+    "policyEndDate": "2026-07-10",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77009",
+    "claimantName": "Rohan Deshmukh",
+    "claimantEmail": "rohan.deshmukh@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-04-27",
+    "policyEndDate": "2027-04-27",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77010",
+    "claimantName": "Kavita Nair",
+    "claimantEmail": "kavita.nair@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 1000000,
+    "policyStartDate": "2026-02-26",
+    "policyEndDate": "2027-02-26",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77011",
+    "claimantName": "Amit Joshi",
+    "claimantEmail": "amit.joshi@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-11-30",
+    "policyEndDate": "2026-11-30",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77012",
+    "claimantName": "Deepa Gupta",
+    "claimantEmail": "deepa.gupta@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2026-03-15",
+    "policyEndDate": "2027-03-15",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77013",
+    "claimantName": "Suresh Saxena",
+    "claimantEmail": "suresh.saxena@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-10-24",
+    "policyEndDate": "2026-10-24",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77014",
+    "claimantName": "Pooja Chawla",
+    "claimantEmail": "pooja.chawla@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-05-29",
+    "policyEndDate": "2026-05-29",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77015",
+    "claimantName": "Manish Bhasin",
+    "claimantEmail": "manish.bhasin@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2026-01-09",
+    "policyEndDate": "2027-01-09",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77016",
+    "claimantName": "Neha Reddy",
+    "claimantEmail": "neha.reddy@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-04-06",
+    "policyEndDate": "2027-04-06",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77017",
+    "claimantName": "Vijay Rao",
+    "claimantEmail": "vijay.rao@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-05-25",
+    "policyEndDate": "2026-05-25",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77018",
+    "claimantName": "Aarti Hegde",
+    "claimantEmail": "aarti.hegde@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-05-15",
+    "policyEndDate": "2026-05-15",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77019",
+    "claimantName": "Sanjay Pillai",
+    "claimantEmail": "sanjay.pillai@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 1000000,
+    "policyStartDate": "2024-12-23",
+    "policyEndDate": "2025-12-23",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77020",
+    "claimantName": "Swati Iyer",
+    "claimantEmail": "swati.iyer@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-02-07",
+    "policyEndDate": "2027-02-07",
+    "preExistingConditions": [],
+    "deductibleAmount": 5000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77021",
+    "claimantName": "Rahul Kumar",
+    "claimantEmail": "rahul.kumar@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-07-22",
+    "policyEndDate": "2026-07-22",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77022",
+    "claimantName": "Divya Sharma",
+    "claimantEmail": "divya.sharma@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-01-06",
+    "policyEndDate": "2027-01-06",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77023",
+    "claimantName": "Alok Mehta",
+    "claimantEmail": "alok.mehta@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-06-01",
+    "policyEndDate": "2026-06-01",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77024",
+    "claimantName": "Shweta Malhotra",
+    "claimantEmail": "shweta.malhotra@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 1000000,
+    "policyStartDate": "2024-12-31",
+    "policyEndDate": "2025-12-31",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77025",
+    "claimantName": "Gaurav Verma",
+    "claimantEmail": "gaurav.verma@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-03-21",
+    "policyEndDate": "2026-03-21",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77026",
+    "claimantName": "Nisha Agarwal",
+    "claimantEmail": "nisha.agarwal@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-12-22",
+    "policyEndDate": "2026-12-22",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77027",
+    "claimantName": "Karan Krishnamurthy",
+    "claimantEmail": "karan.krishnamurthy@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-09-21",
+    "policyEndDate": "2026-09-21",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77028",
+    "claimantName": "Tanvi Patil",
+    "claimantEmail": "tanvi.patil@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 1000000,
+    "policyStartDate": "2025-07-04",
+    "policyEndDate": "2026-07-04",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77029",
+    "claimantName": "Vikas Deshmukh",
+    "claimantEmail": "vikas.deshmukh@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-05-06",
+    "policyEndDate": "2026-05-06",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77030",
+    "claimantName": "Ritu Nair",
+    "claimantEmail": "ritu.nair@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-07-03",
+    "policyEndDate": "2026-07-03",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77031",
+    "claimantName": "Nikhil Joshi",
+    "claimantEmail": "nikhil.joshi@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-10-16",
+    "policyEndDate": "2026-10-16",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77032",
+    "claimantName": "Simran Gupta",
+    "claimantEmail": "simran.gupta@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-09-07",
+    "policyEndDate": "2026-09-07",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77033",
+    "claimantName": "Tarun Saxena",
+    "claimantEmail": "tarun.saxena@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 1000000,
+    "policyStartDate": "2025-05-01",
+    "policyEndDate": "2026-05-01",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77034",
+    "claimantName": "Bhavna Chawla",
+    "claimantEmail": "bhavna.chawla@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-10-12",
+    "policyEndDate": "2026-10-12",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77035",
+    "claimantName": "Abhishek Bhasin",
+    "claimantEmail": "abhishek.bhasin@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2026-04-15",
+    "policyEndDate": "2027-04-15",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77036",
+    "claimantName": "Jyoti Reddy",
+    "claimantEmail": "jyoti.reddy@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-11-13",
+    "policyEndDate": "2026-11-13",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77037",
+    "claimantName": "Dinesh Rao",
+    "claimantEmail": "dinesh.rao@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-06-19",
+    "policyEndDate": "2026-06-19",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77038",
+    "claimantName": "Kiran Hegde",
+    "claimantEmail": "kiran.hegde@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-08-20",
+    "policyEndDate": "2026-08-20",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77039",
+    "claimantName": "Varun Pillai",
+    "claimantEmail": "varun.pillai@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-04-01",
+    "policyEndDate": "2027-04-01",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77040",
+    "claimantName": "Rekha Iyer",
+    "claimantEmail": "rekha.iyer@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-07-04",
+    "policyEndDate": "2026-07-04",
+    "preExistingConditions": [],
+    "deductibleAmount": 5000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77041",
+    "claimantName": "Ashok Kumar",
+    "claimantEmail": "ashok.kumar@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-11-09",
+    "policyEndDate": "2026-11-09",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77042",
+    "claimantName": "Preeti Sharma",
+    "claimantEmail": "preeti.sharma@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 2000000,
+    "policyStartDate": "2025-08-13",
+    "policyEndDate": "2026-08-13",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77043",
+    "claimantName": "Harish Mehta",
+    "claimantEmail": "harish.mehta@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-09-22",
+    "policyEndDate": "2026-09-22",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77044",
+    "claimantName": "Seema Malhotra",
+    "claimantEmail": "seema.malhotra@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2026-01-10",
+    "policyEndDate": "2027-01-10",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77045",
+    "claimantName": "Rakesh Verma",
+    "claimantEmail": "rakesh.verma@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-03-07",
+    "policyEndDate": "2026-03-07",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77046",
+    "claimantName": "Anjali Agarwal",
+    "claimantEmail": "anjali.agarwal@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-11-14",
+    "policyEndDate": "2026-11-14",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77047",
+    "claimantName": "Manoj Krishnamurthy",
+    "claimantEmail": "manoj.krishnamurthy@example.com",
+    "policyType": "Life",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2025-08-25",
+    "policyEndDate": "2026-08-25",
+    "preExistingConditions": [
+      "Type-2 Diabetes (Declared 2021)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77048",
+    "claimantName": "Sangeeta Patil",
+    "claimantEmail": "sangeeta.patil@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-09-07",
+    "policyEndDate": "2026-09-07",
+    "preExistingConditions": [
+      "Asthma (Declared 2020)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77049",
+    "claimantName": "Pradeep Deshmukh",
+    "claimantEmail": "pradeep.deshmukh@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard",
+    "sumInsured": 500000,
+    "policyStartDate": "2025-09-22",
+    "policyEndDate": "2026-09-22",
+    "preExistingConditions": [
+      "Thyroid Disorder (Declared 2023)"
+    ],
+    "deductibleAmount": 2000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-77050",
+    "claimantName": "Rashmi Nair",
+    "claimantEmail": "rashmi.nair@example.com",
+    "policyType": "Property",
+    "policyCompany": "HDFC ERGO General Insurance",
+    "sumInsured": 300000,
+    "policyStartDate": "2025-07-05",
+    "policyEndDate": "2026-07-05",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  }
+]

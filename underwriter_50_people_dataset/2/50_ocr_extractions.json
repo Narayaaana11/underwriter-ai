@@ -1,0 +1,3018 @@
+[
+  {
+    "claim_id": "CLAIM-0001",
+    "policy_number": "POL-77001",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0001",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "James Lopez",
+          "Admission Date": "2023-10-28",
+          "Discharge Date": "2023-11-06",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "K35.80",
+          "Diagnosis": "Unspecified acute appendicitis",
+          "Procedure": "Laparoscopic appendectomy",
+          "Notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: James Lopez | Adm: 2023-10-28 Disch: 2023-11-06 | Dx: K35.80 - Unspecified acute appendicitis | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0001",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Invoice Number": "INV-20001",
+          "Invoice Date": "2023-11-06",
+          "Room Rent": 177.66,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 1058.81,
+          "Pharmacy Costs": 282.44,
+          "Tax": 75.95,
+          "Total Amount": 1594.86
+        },
+        "raw_text_excerpt": "INVOICE #INV-20001 DATE 2023-11-06 | Room Rent: 177.66 | ICU: 0.0 | Surgery: 1058.81 | Pharmacy: 282.44 | Tax: 75.95 | TOTAL: 1594.86"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0001",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis K35.80."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis K35.80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0001",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0002",
+    "policy_number": "POL-77002",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0002",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Meena Chowdhury",
+          "Admission Date": "2024-02-16",
+          "Discharge Date": "2024-02-20",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "E11.9",
+          "Diagnosis": "Type 2 diabetes mellitus without complications",
+          "Procedure": "Insulin stabilization",
+          "Notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Meena Chowdhury | Adm: 2024-02-16 Disch: 2024-02-20 | Dx: E11.9 - Type 2 diabetes mellitus without complications | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0002",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20002",
+          "Invoice Date": "2024-02-20",
+          "Room Rent": 578.64,
+          "ICU Charges": 308.92,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 250.66,
+          "Tax": 56.91,
+          "Total Amount": 1195.13
+        },
+        "raw_text_excerpt": "INVOICE #INV-20002 DATE 2024-02-20 | Room Rent: 578.64 | ICU: 308.92 | Surgery: 0 | Pharmacy: 250.66 | Tax: 56.91 | TOTAL: 1195.13"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0002",
+        "ocr_confidence": 0.86,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0002",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0003",
+    "policy_number": "POL-77003",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0003",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Sanjay Verma",
+          "Admission Date": "2024-02-10",
+          "Discharge Date": "2024-02-18",
+          "Attending Doctor": "Dr. Farah Iqbal",
+          "ICD-10 Code": "O80",
+          "Diagnosis": "Encounter for full-term uncomplicated delivery",
+          "Procedure": "Normal vaginal delivery",
+          "Notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Farah Iqbal. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sanjay Verma | Adm: 2024-02-10 Disch: 2024-02-18 | Dx: O80 - Encounter for full-term uncomplicated delivery | Attending: Dr. Farah Iqbal"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0003",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Invoice Number": "INV-20003",
+          "Invoice Date": "2024-02-19",
+          "Room Rent": 430.56,
+          "ICU Charges": 431.37,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 371.52,
+          "Tax": 61.67,
+          "Total Amount": 1295.12
+        },
+        "raw_text_excerpt": "INVOICE #INV-20003 DATE 2024-02-19 | Room Rent: 430.56 | ICU: 431.37 | Surgery: 0 | Pharmacy: 371.52 | Tax: 61.67 | TOTAL: 1295.12"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0003",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0003",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0004",
+    "policy_number": "POL-77004",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Linda Williams",
+          "Admission Date": "2022-10-28",
+          "Discharge Date": "2022-11-04",
+          "Attending Doctor": "Dr. Farah Iqbal",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Farah Iqbal. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Linda Williams | Adm: 2022-10-28 Disch: 2022-11-04 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. Farah Iqbal"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Invoice Number": "INV-20004",
+          "Invoice Date": "2022-11-04",
+          "Room Rent": 273.14,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 469.08,
+          "Tax": 37.11,
+          "Total Amount": 779.33
+        },
+        "raw_text_excerpt": "INVOICE #INV-20004 DATE 2022-11-04 | Room Rent: 273.14 | ICU: 0.0 | Surgery: 0 | Pharmacy: 469.08 | Tax: 37.11 | TOTAL: 779.33"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 13 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 13 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "FIR-4258/2022 filed at Denver Traffic Police Station on 2022-10-28; recorded as a road traffic collision, claimant listed as driver."
+        },
+        "raw_text_excerpt": "FIR-4258/2022 filed at Denver Traffic Police Station on 2022-10-28; recorded as a road traffic collision, claimant listed as driver."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0004",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0005",
+    "policy_number": "POL-77005",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0005",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "Neha Sharma",
+          "Admission Date": "2022-09-29",
+          "Discharge Date": "2022-10-08",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "J45.901",
+          "Diagnosis": "Unspecified asthma with acute exacerbation",
+          "Procedure": "Nebulization and steroid therapy",
+          "Notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. James Carter. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Neha Sharma | Adm: 2022-09-29 Disch: 2022-10-08 | Dx: J45.901 - Unspecified asthma with acute exacerbation | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0005",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Invoice Number": "INV-20005",
+          "Invoice Date": "2022-10-10",
+          "Room Rent": 1040.4,
+          "ICU Charges": 600.86,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 221.44,
+          "Tax": 93.14,
+          "Total Amount": 1955.84
+        },
+        "raw_text_excerpt": "INVOICE #INV-20005 DATE 2022-10-10 | Room Rent: 1040.4 | ICU: 600.86 | Surgery: 0 | Pharmacy: 221.44 | Tax: 93.14 | TOTAL: 1955.84"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0005",
+        "ocr_confidence": 0.86,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0005",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 13 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 13 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0006",
+    "policy_number": "POL-77006",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0006",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Arjun Rao",
+          "Admission Date": "2024-07-06",
+          "Discharge Date": "2024-07-09",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "C50.911",
+          "Diagnosis": "Malignant neoplasm of right breast",
+          "Procedure": "Modified radical mastectomy",
+          "Notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Arjun Rao | Adm: 2024-07-06 Disch: 2024-07-09 | Dx: C50.911 - Malignant neoplasm of right breast | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0006",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20006",
+          "Invoice Date": "2024-07-10",
+          "Room Rent": 88.38,
+          "ICU Charges": 197.6,
+          "Surgery Fee": 839.26,
+          "Pharmacy Costs": 287.08,
+          "Tax": 70.62,
+          "Total Amount": 1482.94
+        },
+        "raw_text_excerpt": "INVOICE #INV-20006 DATE 2024-07-10 | Room Rent: 88.38 | ICU: 197.6 | Surgery: 839.26 | Pharmacy: 287.08 | Tax: 70.62 | TOTAL: 1482.94"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0006",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis C50.911."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis C50.911."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0006",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0007",
+    "policy_number": "POL-77007",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Linda Brown",
+          "Admission Date": "2024-08-30",
+          "Discharge Date": "2024-09-02",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Linda Brown | Adm: 2024-08-30 Disch: 2024-09-02 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20007",
+          "Invoice Date": "2024-09-03",
+          "Room Rent": 87.18,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 51.19,
+          "Tax": 6.92,
+          "Total Amount": 145.29
+        },
+        "raw_text_excerpt": "INVOICE #INV-20007 DATE 2024-09-03 | Room Rent: 87.18 | ICU: 0.0 | Surgery: 0 | Pharmacy: 51.19 | Tax: 6.92 | TOTAL: 145.29"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 13 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 13 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "FIR-8973/2024 filed at Phoenix Traffic Police Station on 2024-08-30; recorded as a road traffic collision, claimant listed as driver."
+        },
+        "raw_text_excerpt": "FIR-8973/2024 filed at Phoenix Traffic Police Station on 2024-08-30; recorded as a road traffic collision, claimant listed as driver."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0007",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0008",
+    "policy_number": "POL-77008",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0008",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Charles Lopez",
+          "Admission Date": "2023-11-23",
+          "Discharge Date": "2023-11-27",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "E11.9",
+          "Diagnosis": "Type 2 diabetes mellitus without complications",
+          "Procedure": "Insulin stabilization",
+          "Notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Priyanka Menon. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Charles Lopez | Adm: 2023-11-23 Disch: 2023-11-27 | Dx: E11.9 - Type 2 diabetes mellitus without complications | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0008",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20008",
+          "Invoice Date": "2023-11-29",
+          "Room Rent": 318.96,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 280.57,
+          "Tax": 29.98,
+          "Total Amount": 629.51
+        },
+        "raw_text_excerpt": "INVOICE #INV-20008 DATE 2023-11-29 | Room Rent: 318.96 | ICU: 0.0 | Surgery: 0 | Pharmacy: 280.57 | Tax: 29.98 | TOTAL: 629.51"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0008",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0008",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Atorvastatin 20mg for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Atorvastatin 20mg for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0009",
+    "policy_number": "POL-77009",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Vikram Naidu",
+          "Admission Date": "2024-12-02",
+          "Discharge Date": "2024-12-08",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "S72.001A",
+          "Diagnosis": "Fracture of neck of right femur",
+          "Procedure": "Open reduction internal fixation (ORIF)",
+          "Notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Vikram Naidu | Adm: 2024-12-02 Disch: 2024-12-08 | Dx: S72.001A - Fracture of neck of right femur | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Invoice Number": "INV-20009",
+          "Invoice Date": "2024-12-10",
+          "Room Rent": 334.92,
+          "ICU Charges": 791.93,
+          "Surgery Fee": 3324.85,
+          "Pharmacy Costs": 340.92,
+          "Tax": 239.63,
+          "Total Amount": 5032.25
+        },
+        "raw_text_excerpt": "INVOICE #INV-20009 DATE 2024-12-10 | Room Rent: 334.92 | ICU: 791.93 | Surgery: 3324.85 | Pharmacy: 340.92 | Tax: 239.63 | TOTAL: 5032.25"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis S72.001A."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis S72.001A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 6 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "FIR-3200/2024 filed at Pune Traffic Police Station on 2024-12-02; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-3200/2024 filed at Pune Traffic Police Station on 2024-12-02; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0009",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0010",
+    "policy_number": "POL-77010",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0010",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Patient Name": "Divya Nair",
+          "Admission Date": "2023-08-20",
+          "Discharge Date": "2023-08-28",
+          "Attending Doctor": "Dr. Nithya Subramanian",
+          "ICD-10 Code": "K80.20",
+          "Diagnosis": "Calculus of gallbladder without obstruction",
+          "Procedure": "Laparoscopic cholecystectomy",
+          "Notes": "Patient presented with symptoms consistent with calculus of gallbladder without obstruction. Underwent laparoscopic cholecystectomy under supervision of Dr. Nithya Subramanian. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Divya Nair | Adm: 2023-08-20 Disch: 2023-08-28 | Dx: K80.20 - Calculus of gallbladder without obstruction | Attending: Dr. Nithya Subramanian"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0010",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Invoice Number": "INV-20010",
+          "Invoice Date": "2023-09-18",
+          "Room Rent": 243.12,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 2918.57,
+          "Pharmacy Costs": 131.98,
+          "Tax": 164.68,
+          "Total Amount": 3458.35
+        },
+        "raw_text_excerpt": "INVOICE #INV-20010 DATE 2023-09-18 | Room Rent: 243.12 | ICU: 0.0 | Surgery: 2918.57 | Pharmacy: 131.98 | Tax: 164.68 | TOTAL: 3458.35"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0010",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis K80.20."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis K80.20."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0010",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "Prescribed Insulin Glargine for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Insulin Glargine for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0011",
+    "policy_number": "POL-77011",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0011",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Meena Bose",
+          "Admission Date": "2022-12-13",
+          "Discharge Date": "2022-12-16",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "M17.11",
+          "Diagnosis": "Unilateral primary osteoarthritis, right knee",
+          "Procedure": "Total knee replacement",
+          "Notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Meena Bose | Adm: 2022-12-13 Disch: 2022-12-16 | Dx: M17.11 - Unilateral primary osteoarthritis, right knee | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0011",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Invoice Number": "INV-20011",
+          "Invoice Date": "2022-12-17",
+          "Room Rent": 309.9,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 3255.81,
+          "Pharmacy Costs": 109.45,
+          "Tax": 183.76,
+          "Total Amount": 3858.92
+        },
+        "raw_text_excerpt": "INVOICE #INV-20011 DATE 2022-12-17 | Room Rent: 309.9 | ICU: 0.0 | Surgery: 3255.81 | Pharmacy: 109.45 | Tax: 183.76 | TOTAL: 3858.92"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0011",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis M17.11."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis M17.11."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0011",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 12 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0012",
+    "policy_number": "POL-77012",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0012",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Jennifer Brown",
+          "Admission Date": "2024-07-01",
+          "Discharge Date": "2024-07-11",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "I10",
+          "Diagnosis": "Essential (primary) hypertension",
+          "Procedure": "Medical management, no surgery",
+          "Notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Jennifer Brown | Adm: 2024-07-01 Disch: 2024-07-11 | Dx: I10 - Essential (primary) hypertension | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0012",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Invoice Number": "INV-20012",
+          "Invoice Date": "2024-07-27",
+          "Room Rent": 1421.5,
+          "ICU Charges": 1039.82,
+          "Surgery Fee": 2027.38,
+          "Pharmacy Costs": 591.33,
+          "Tax": 254.0,
+          "Total Amount": 5334.03
+        },
+        "raw_text_excerpt": "INVOICE #INV-20012 DATE 2024-07-27 | Room Rent: 1421.5 | ICU: 1039.82 | Surgery: 2027.38 | Pharmacy: 591.33 | Tax: 254.0 | TOTAL: 5334.03"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0012",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0012",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 11 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 11 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0013",
+    "policy_number": "POL-77013",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0013",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Arjun Naidu",
+          "Admission Date": "2023-11-25",
+          "Discharge Date": "2023-11-28",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "C50.911",
+          "Diagnosis": "Malignant neoplasm of right breast",
+          "Procedure": "Modified radical mastectomy",
+          "Notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Arjun Naidu | Adm: 2023-11-25 Disch: 2023-11-28 | Dx: C50.911 - Malignant neoplasm of right breast | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0013",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Invoice Number": "INV-20013",
+          "Invoice Date": "2023-11-29",
+          "Room Rent": 280.35,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 1235.64,
+          "Pharmacy Costs": 482.17,
+          "Tax": 99.91,
+          "Total Amount": 2098.07
+        },
+        "raw_text_excerpt": "INVOICE #INV-20013 DATE 2023-11-29 | Room Rent: 280.35 | ICU: 0.0 | Surgery: 1235.64 | Pharmacy: 482.17 | Tax: 99.91 | TOTAL: 2098.07"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0013",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0013",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 12 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0014",
+    "policy_number": "POL-77014",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0014",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Patricia Hernandez",
+          "Admission Date": "2023-04-12",
+          "Discharge Date": "2023-04-19",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "K35.80",
+          "Diagnosis": "Unspecified acute appendicitis",
+          "Procedure": "Laparoscopic appendectomy",
+          "Notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Patricia Hernandez | Adm: 2023-04-12 Disch: 2023-04-19 | Dx: K35.80 - Unspecified acute appendicitis | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0014",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20014",
+          "Invoice Date": "2023-04-19",
+          "Room Rent": 190.54,
+          "ICU Charges": 211.0,
+          "Surgery Fee": 2796.2,
+          "Pharmacy Costs": 53.05,
+          "Tax": 162.54,
+          "Total Amount": 3413.33
+        },
+        "raw_text_excerpt": "INVOICE #INV-20014 DATE 2023-04-19 | Room Rent: 190.54 | ICU: 211.0 | Surgery: 2796.2 | Pharmacy: 53.05 | Tax: 162.54 | TOTAL: 3413.33"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0014",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0014",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0015",
+    "policy_number": "POL-77015",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Patient Name": "Priya Patel",
+          "Admission Date": "2025-10-14",
+          "Discharge Date": "2025-10-19",
+          "Attending Doctor": "Dr. Nithya Subramanian",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Nithya Subramanian. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Priya Patel | Adm: 2025-10-14 Disch: 2025-10-19 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. Nithya Subramanian"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Invoice Number": "INV-20015",
+          "Invoice Date": "2025-10-21",
+          "Room Rent": 737.7,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 178.97,
+          "Tax": 45.83,
+          "Total Amount": 962.5
+        },
+        "raw_text_excerpt": "INVOICE #INV-20015 DATE 2025-10-21 | Room Rent: 737.7 | ICU: 0.0 | Surgery: 0 | Pharmacy: 178.97 | Tax: 45.83 | TOTAL: 962.5"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 7 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": 0.84,
+        "extracted_fields": {
+          "Summary": "FIR-4788/2025 filed at Chennai Traffic Police Station on 2025-10-14; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-4788/2025 filed at Chennai Traffic Police Station on 2025-10-14; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0015",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0016",
+    "policy_number": "POL-77016",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0016",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "Rajesh Menon",
+          "Admission Date": "2022-12-27",
+          "Discharge Date": "2023-01-01",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "A09",
+          "Diagnosis": "Infectious gastroenteritis and colitis",
+          "Procedure": "IV fluids and antibiotics",
+          "Notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Rajesh Menon | Adm: 2022-12-27 Disch: 2023-01-01 | Dx: A09 - Infectious gastroenteritis and colitis | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0016",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20016",
+          "Invoice Date": "2023-01-02",
+          "Room Rent": 1293.85,
+          "ICU Charges": 699.93,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 543.8,
+          "Tax": 126.88,
+          "Total Amount": 2664.46
+        },
+        "raw_text_excerpt": "INVOICE #INV-20016 DATE 2023-01-02 | Room Rent: 1293.85 | ICU: 699.93 | Surgery: 0 | Pharmacy: 543.8 | Tax: 126.88 | TOTAL: 2664.46"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0016",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0016",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 5 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 5 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0017",
+    "policy_number": "POL-77017",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0017",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Richard Lopez",
+          "Admission Date": "2024-08-04",
+          "Discharge Date": "2024-08-12",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "I21.9",
+          "Diagnosis": "Acute myocardial infarction, unspecified",
+          "Procedure": "Percutaneous coronary intervention (PCI) with stent",
+          "Notes": "Patient presented with symptoms consistent with acute myocardial infarction, unspecified. Underwent percutaneous coronary intervention (pci) with stent under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Richard Lopez | Adm: 2024-08-04 Disch: 2024-08-12 | Dx: I21.9 - Acute myocardial infarction, unspecified | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0017",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20017",
+          "Invoice Date": "2024-08-13",
+          "Room Rent": 240.32,
+          "ICU Charges": 213.07,
+          "Surgery Fee": 786.67,
+          "Pharmacy Costs": 60.66,
+          "Tax": 65.04,
+          "Total Amount": 1365.76
+        },
+        "raw_text_excerpt": "INVOICE #INV-20017 DATE 2024-08-13 | Room Rent: 240.32 | ICU: 213.07 | Surgery: 786.67 | Pharmacy: 60.66 | Tax: 65.04 | TOTAL: 1365.76"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0017",
+        "ocr_confidence": 0.85,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis I21.9."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis I21.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0017",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0018",
+    "policy_number": "POL-77018",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0018",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Michael Anderson",
+          "Admission Date": "2025-08-15",
+          "Discharge Date": "2025-08-16",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "C50.911",
+          "Diagnosis": "Malignant neoplasm of right breast",
+          "Procedure": "Modified radical mastectomy",
+          "Notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. Elena Vasquez. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Michael Anderson | Adm: 2025-08-15 Disch: 2025-08-16 | Dx: C50.911 - Malignant neoplasm of right breast | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0018",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Invoice Number": "INV-20018",
+          "Invoice Date": "2025-08-18",
+          "Room Rent": 34.4,
+          "ICU Charges": 598.75,
+          "Surgery Fee": 2572.34,
+          "Pharmacy Costs": 506.81,
+          "Tax": 185.62,
+          "Total Amount": 3897.92
+        },
+        "raw_text_excerpt": "INVOICE #INV-20018 DATE 2025-08-18 | Room Rent: 34.4 | ICU: 598.75 | Surgery: 2572.34 | Pharmacy: 506.81 | Tax: 185.62 | TOTAL: 3897.92"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0018",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis C50.911."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis C50.911."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0018",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 14 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 14 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0019",
+    "policy_number": "POL-77019",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0019",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Pooja Naidu",
+          "Admission Date": "2025-04-21",
+          "Discharge Date": "2025-04-28",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "O80",
+          "Diagnosis": "Encounter for full-term uncomplicated delivery",
+          "Procedure": "Normal vaginal delivery",
+          "Notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Pooja Naidu | Adm: 2025-04-21 Disch: 2025-04-28 | Dx: O80 - Encounter for full-term uncomplicated delivery | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0019",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20019",
+          "Invoice Date": "2025-04-30",
+          "Room Rent": 849.8,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 297.94,
+          "Tax": 57.39,
+          "Total Amount": 1205.13
+        },
+        "raw_text_excerpt": "INVOICE #INV-20019 DATE 2025-04-30 | Room Rent: 849.8 | ICU: 0.0 | Surgery: 0 | Pharmacy: 297.94 | Tax: 57.39 | TOTAL: 1205.13"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0019",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis O80."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis O80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0019",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 11 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 11 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0020",
+    "policy_number": "POL-77020",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Rajesh Iyer",
+          "Admission Date": "2024-07-22",
+          "Discharge Date": "2024-07-26",
+          "Attending Doctor": "Dr. Samuel Okafor",
+          "ICD-10 Code": "V43.52XA",
+          "Diagnosis": "Car driver injured in collision with car, traffic accident",
+          "Procedure": "Polytrauma management, ICU care",
+          "Notes": "Patient presented with symptoms consistent with car driver injured in collision with car, traffic accident. Underwent polytrauma management, icu care under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Rajesh Iyer | Adm: 2024-07-22 Disch: 2024-07-26 | Dx: V43.52XA - Car driver injured in collision with car, traffic accident | Attending: Dr. Samuel Okafor"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Invoice Number": "INV-20020",
+          "Invoice Date": "2024-07-27",
+          "Room Rent": 460.08,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 171.88,
+          "Tax": 31.6,
+          "Total Amount": 663.56
+        },
+        "raw_text_excerpt": "INVOICE #INV-20020 DATE 2024-07-27 | Room Rent: 460.08 | ICU: 0.0 | Surgery: 0 | Pharmacy: 171.88 | Tax: 31.6 | TOTAL: 663.56"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis V43.52XA."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis V43.52XA."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Atorvastatin 20mg for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Atorvastatin 20mg for 12 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": 0.81,
+        "extracted_fields": {
+          "Summary": "FIR-9698/2024 filed at Ahmedabad Traffic Police Station on 2024-07-22; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-9698/2024 filed at Ahmedabad Traffic Police Station on 2024-07-22; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0020",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0021",
+    "policy_number": "POL-77021",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "William Jones",
+          "Admission Date": "2023-10-31",
+          "Discharge Date": "2023-11-04",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "S72.001A",
+          "Diagnosis": "Fracture of neck of right femur",
+          "Procedure": "Open reduction internal fixation (ORIF)",
+          "Notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: William Jones | Adm: 2023-10-31 Disch: 2023-11-04 | Dx: S72.001A - Fracture of neck of right femur | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Invoice Number": "INV-20021",
+          "Invoice Date": "2023-11-04",
+          "Room Rent": 559.88,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 3910.03,
+          "Pharmacy Costs": 354.35,
+          "Tax": 241.21,
+          "Total Amount": 5065.47
+        },
+        "raw_text_excerpt": "INVOICE #INV-20021 DATE 2023-11-04 | Room Rent: 559.88 | ICU: 0.0 | Surgery: 3910.03 | Pharmacy: 354.35 | Tax: 241.21 | TOTAL: 5065.47"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": 0.85,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 5 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 5 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "FIR-5658/2023 filed at Portland Traffic Police Station on 2023-10-31; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-5658/2023 filed at Portland Traffic Police Station on 2023-10-31; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0021",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0022",
+    "policy_number": "POL-77022",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0022",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Sunita Verma",
+          "Admission Date": "2024-06-19",
+          "Discharge Date": "2024-06-26",
+          "Attending Doctor": "Dr. Samuel Okafor",
+          "ICD-10 Code": "I63.9",
+          "Diagnosis": "Cerebral infarction, unspecified",
+          "Procedure": "Thrombolysis and stroke unit care",
+          "Notes": "Patient presented with symptoms consistent with cerebral infarction, unspecified. Underwent thrombolysis and stroke unit care under supervision of Dr. Samuel Okafor. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sunita Verma | Adm: 2024-06-19 Disch: 2024-06-26 | Dx: I63.9 - Cerebral infarction, unspecified | Attending: Dr. Samuel Okafor"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0022",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Invoice Number": "INV-20022",
+          "Invoice Date": "2024-06-28",
+          "Room Rent": 1298.43,
+          "ICU Charges": 226.35,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 391.57,
+          "Tax": 95.82,
+          "Total Amount": 2012.17
+        },
+        "raw_text_excerpt": "INVOICE #INV-20022 DATE 2024-06-28 | Room Rent: 1298.43 | ICU: 226.35 | Surgery: 0 | Pharmacy: 391.57 | Tax: 95.82 | TOTAL: 2012.17"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0022",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis I63.9."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis I63.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0022",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0023",
+    "policy_number": "POL-77023",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0023",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Anjali Menon",
+          "Admission Date": "2023-09-28",
+          "Discharge Date": "2023-10-08",
+          "Attending Doctor": "Dr. Manjunath Rao",
+          "ICD-10 Code": "J45.901",
+          "Diagnosis": "Unspecified asthma with acute exacerbation",
+          "Procedure": "Nebulization and steroid therapy",
+          "Notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Manjunath Rao. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Anjali Menon | Adm: 2023-09-28 Disch: 2023-10-08 | Dx: J45.901 - Unspecified asthma with acute exacerbation | Attending: Dr. Manjunath Rao"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0023",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Invoice Number": "INV-20023",
+          "Invoice Date": "2023-10-23",
+          "Room Rent": 561.5,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 504.65,
+          "Tax": 53.31,
+          "Total Amount": 1119.46
+        },
+        "raw_text_excerpt": "INVOICE #INV-20023 DATE 2023-10-23 | Room Rent: 561.5 | ICU: 0.0 | Surgery: 0 | Pharmacy: 504.65 | Tax: 53.31 | TOTAL: 1119.46"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0023",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0023",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "Prescribed Insulin Glargine for 14 days."
+        },
+        "raw_text_excerpt": "Prescribed Insulin Glargine for 14 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0024",
+    "policy_number": "POL-77024",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0024",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Naveen Verma",
+          "Admission Date": "2023-11-22",
+          "Discharge Date": "2023-12-02",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "I10",
+          "Diagnosis": "Essential (primary) hypertension",
+          "Procedure": "Medical management, no surgery",
+          "Notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Naveen Verma | Adm: 2023-11-22 Disch: 2023-12-02 | Dx: I10 - Essential (primary) hypertension | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0024",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20024",
+          "Invoice Date": "2023-12-04",
+          "Room Rent": 1061.0,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 2780.28,
+          "Pharmacy Costs": 553.84,
+          "Tax": 219.76,
+          "Total Amount": 4614.88
+        },
+        "raw_text_excerpt": "INVOICE #INV-20024 DATE 2023-12-04 | Room Rent: 1061.0 | ICU: 0.0 | Surgery: 2780.28 | Pharmacy: 553.84 | Tax: 219.76 | TOTAL: 4614.88"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0024",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0024",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 12 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0025",
+    "policy_number": "POL-77025",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0025",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Patient Name": "Rajesh Rao",
+          "Admission Date": "2022-04-29",
+          "Discharge Date": "2022-05-06",
+          "Attending Doctor": "Dr. Nithya Subramanian",
+          "ICD-10 Code": "A09",
+          "Diagnosis": "Infectious gastroenteritis and colitis",
+          "Procedure": "IV fluids and antibiotics",
+          "Notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. Nithya Subramanian. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Rajesh Rao | Adm: 2022-04-29 Disch: 2022-05-06 | Dx: A09 - Infectious gastroenteritis and colitis | Attending: Dr. Nithya Subramanian"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0025",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Invoice Number": "INV-20025",
+          "Invoice Date": "2022-05-07",
+          "Room Rent": 680.12,
+          "ICU Charges": 253.31,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 153.17,
+          "Tax": 54.33,
+          "Total Amount": 1140.93
+        },
+        "raw_text_excerpt": "INVOICE #INV-20025 DATE 2022-05-07 | Room Rent: 680.12 | ICU: 253.31 | Surgery: 0 | Pharmacy: 153.17 | Tax: 54.33 | TOTAL: 1140.93"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0025",
+        "ocr_confidence": 0.86,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0025",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0026",
+    "policy_number": "POL-77026",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0026",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Joseph Thomas",
+          "Admission Date": "2023-10-26",
+          "Discharge Date": "2023-11-04",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "J45.901",
+          "Diagnosis": "Unspecified asthma with acute exacerbation",
+          "Procedure": "Nebulization and steroid therapy",
+          "Notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Joseph Thomas | Adm: 2023-10-26 Disch: 2023-11-04 | Dx: J45.901 - Unspecified asthma with acute exacerbation | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0026",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20026",
+          "Invoice Date": "2023-11-06",
+          "Room Rent": 386.37,
+          "ICU Charges": 372.32,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 154.84,
+          "Tax": 45.68,
+          "Total Amount": 959.21
+        },
+        "raw_text_excerpt": "INVOICE #INV-20026 DATE 2023-11-06 | Room Rent: 386.37 | ICU: 372.32 | Surgery: 0 | Pharmacy: 154.84 | Tax: 45.68 | TOTAL: 959.21"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0026",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis J45.901."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis J45.901."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0026",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 9 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 9 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0027",
+    "policy_number": "POL-77027",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0027",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Thomas Jones",
+          "Admission Date": "2024-08-27",
+          "Discharge Date": "2024-09-03",
+          "Attending Doctor": "Dr. A. Krishnamurthy",
+          "ICD-10 Code": "I21.9",
+          "Diagnosis": "Acute myocardial infarction, unspecified",
+          "Procedure": "Percutaneous coronary intervention (PCI) with stent",
+          "Notes": "Patient presented with symptoms consistent with acute myocardial infarction, unspecified. Underwent percutaneous coronary intervention (pci) with stent under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Thomas Jones | Adm: 2024-08-27 Disch: 2024-09-03 | Dx: I21.9 - Acute myocardial infarction, unspecified | Attending: Dr. A. Krishnamurthy"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0027",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Invoice Number": "INV-20027",
+          "Invoice Date": "2024-09-04",
+          "Room Rent": 1222.41,
+          "ICU Charges": 246.52,
+          "Surgery Fee": 2822.91,
+          "Pharmacy Costs": 501.41,
+          "Tax": 239.66,
+          "Total Amount": 5032.91
+        },
+        "raw_text_excerpt": "INVOICE #INV-20027 DATE 2024-09-04 | Room Rent: 1222.41 | ICU: 246.52 | Surgery: 2822.91 | Pharmacy: 501.41 | Tax: 239.66 | TOTAL: 5032.91"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0027",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis I21.9."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis I21.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0027",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 13 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 13 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0028",
+    "policy_number": "POL-77028",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0028",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Patient Name": "Joseph Johnson",
+          "Admission Date": "2025-10-03",
+          "Discharge Date": "2025-10-11",
+          "Attending Doctor": "Dr. Nithya Subramanian",
+          "ICD-10 Code": "I10",
+          "Diagnosis": "Essential (primary) hypertension",
+          "Procedure": "Medical management, no surgery",
+          "Notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Nithya Subramanian. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Joseph Johnson | Adm: 2025-10-03 Disch: 2025-10-11 | Dx: I10 - Essential (primary) hypertension | Attending: Dr. Nithya Subramanian"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0028",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20028",
+          "Invoice Date": "2025-10-11",
+          "Room Rent": 504.24,
+          "ICU Charges": 1140.7,
+          "Surgery Fee": 3990.99,
+          "Pharmacy Costs": 460.72,
+          "Tax": 304.83,
+          "Total Amount": 6401.48
+        },
+        "raw_text_excerpt": "INVOICE #INV-20028 DATE 2025-10-11 | Room Rent: 504.24 | ICU: 1140.7 | Surgery: 3990.99 | Pharmacy: 460.72 | Tax: 304.83 | TOTAL: 6401.48"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0028",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis I10."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis I10."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0028",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0029",
+    "policy_number": "POL-77029",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0029",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Sunita Verma",
+          "Admission Date": "2023-05-25",
+          "Discharge Date": "2023-06-04",
+          "Attending Doctor": "Dr. Farah Iqbal",
+          "ICD-10 Code": "K35.80",
+          "Diagnosis": "Unspecified acute appendicitis",
+          "Procedure": "Laparoscopic appendectomy",
+          "Notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Farah Iqbal. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sunita Verma | Adm: 2023-05-25 Disch: 2023-06-04 | Dx: K35.80 - Unspecified acute appendicitis | Attending: Dr. Farah Iqbal"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0029",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Invoice Number": "INV-20029",
+          "Invoice Date": "2023-06-06",
+          "Room Rent": 200.8,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 3646.18,
+          "Pharmacy Costs": 305.89,
+          "Tax": 207.64,
+          "Total Amount": 4360.51
+        },
+        "raw_text_excerpt": "INVOICE #INV-20029 DATE 2023-06-06 | Room Rent: 200.8 | ICU: 0.0 | Surgery: 3646.18 | Pharmacy: 305.89 | Tax: 207.64 | TOTAL: 4360.51"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0029",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis K35.80."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis K35.80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0029",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 12 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0030",
+    "policy_number": "POL-77030",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0030",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Jessica Lopez",
+          "Admission Date": "2023-10-09",
+          "Discharge Date": "2023-10-10",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "A09",
+          "Diagnosis": "Infectious gastroenteritis and colitis",
+          "Procedure": "IV fluids and antibiotics",
+          "Notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Jessica Lopez | Adm: 2023-10-09 Disch: 2023-10-10 | Dx: A09 - Infectious gastroenteritis and colitis | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0030",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20030",
+          "Invoice Date": "2023-10-10",
+          "Room Rent": 55.16,
+          "ICU Charges": 672.59,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 508.06,
+          "Tax": 61.79,
+          "Total Amount": 1297.6
+        },
+        "raw_text_excerpt": "INVOICE #INV-20030 DATE 2023-10-10 | Room Rent: 55.16 | ICU: 672.59 | Surgery: 0 | Pharmacy: 508.06 | Tax: 61.79 | TOTAL: 1297.6"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0030",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis A09."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis A09."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0030",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Atorvastatin 20mg for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Atorvastatin 20mg for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0031",
+    "policy_number": "POL-77031",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0031",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "John Hernandez",
+          "Admission Date": "2023-09-27",
+          "Discharge Date": "2023-10-06",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "N20.0",
+          "Diagnosis": "Calculus of kidney",
+          "Procedure": "Percutaneous nephrolithotomy (PCNL)",
+          "Notes": "Patient presented with symptoms consistent with calculus of kidney. Underwent percutaneous nephrolithotomy (pcnl) under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: John Hernandez | Adm: 2023-09-27 Disch: 2023-10-06 | Dx: N20.0 - Calculus of kidney | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0031",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Invoice Number": "INV-20031",
+          "Invoice Date": "2023-10-07",
+          "Room Rent": 614.52,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 3804.66,
+          "Pharmacy Costs": 582.06,
+          "Tax": 250.06,
+          "Total Amount": 5251.3
+        },
+        "raw_text_excerpt": "INVOICE #INV-20031 DATE 2023-10-07 | Room Rent: 614.52 | ICU: 0.0 | Surgery: 3804.66 | Pharmacy: 582.06 | Tax: 250.06 | TOTAL: 5251.3"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0031",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis N20.0."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis N20.0."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0031",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0032",
+    "policy_number": "POL-77032",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0032",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Richard Anderson",
+          "Admission Date": "2023-07-21",
+          "Discharge Date": "2023-07-25",
+          "Attending Doctor": "Dr. Samuel Okafor",
+          "ICD-10 Code": "I10",
+          "Diagnosis": "Essential (primary) hypertension",
+          "Procedure": "Medical management, no surgery",
+          "Notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Richard Anderson | Adm: 2023-07-21 Disch: 2023-07-25 | Dx: I10 - Essential (primary) hypertension | Attending: Dr. Samuel Okafor"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0032",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20032",
+          "Invoice Date": "2023-07-26",
+          "Room Rent": 827.92,
+          "ICU Charges": 410.68,
+          "Surgery Fee": 721.26,
+          "Pharmacy Costs": 503.12,
+          "Tax": 123.15,
+          "Total Amount": 2586.13
+        },
+        "raw_text_excerpt": "INVOICE #INV-20032 DATE 2023-07-26 | Room Rent: 827.92 | ICU: 410.68 | Surgery: 721.26 | Pharmacy: 503.12 | Tax: 123.15 | TOTAL: 2586.13"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0032",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0032",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0033",
+    "policy_number": "POL-77033",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0033",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Neha Reddy",
+          "Admission Date": "2025-05-16",
+          "Discharge Date": "2025-05-26",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "O80",
+          "Diagnosis": "Encounter for full-term uncomplicated delivery",
+          "Procedure": "Normal vaginal delivery",
+          "Notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Priyanka Menon. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Neha Reddy | Adm: 2025-05-16 Disch: 2025-05-26 | Dx: O80 - Encounter for full-term uncomplicated delivery | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0033",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20033",
+          "Invoice Date": "2025-05-28",
+          "Room Rent": 1075.7,
+          "ICU Charges": 261.17,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 179.86,
+          "Tax": 75.84,
+          "Total Amount": 1592.57
+        },
+        "raw_text_excerpt": "INVOICE #INV-20033 DATE 2025-05-28 | Room Rent: 1075.7 | ICU: 261.17 | Surgery: 0 | Pharmacy: 179.86 | Tax: 75.84 | TOTAL: 1592.57"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0033",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0033",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "Prescribed Insulin Glargine for 10 days."
+        },
+        "raw_text_excerpt": "Prescribed Insulin Glargine for 10 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0034",
+    "policy_number": "POL-77034",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0034",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Priya Desai",
+          "Admission Date": "2023-12-03",
+          "Discharge Date": "2023-12-06",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "I10",
+          "Diagnosis": "Essential (primary) hypertension",
+          "Procedure": "Medical management, no surgery",
+          "Notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Priya Desai | Adm: 2023-12-03 Disch: 2023-12-06 | Dx: I10 - Essential (primary) hypertension | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0034",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Invoice Number": "INV-20034",
+          "Invoice Date": "2023-12-16",
+          "Room Rent": 600.48,
+          "ICU Charges": 425.33,
+          "Surgery Fee": 1110.74,
+          "Pharmacy Costs": 413.58,
+          "Tax": 127.51,
+          "Total Amount": 2677.64
+        },
+        "raw_text_excerpt": "INVOICE #INV-20034 DATE 2023-12-16 | Room Rent: 600.48 | ICU: 425.33 | Surgery: 1110.74 | Pharmacy: 413.58 | Tax: 127.51 | TOTAL: 2677.64"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0034",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0034",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 14 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 14 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0035",
+    "policy_number": "POL-77035",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Sunita Iyer",
+          "Admission Date": "2025-04-14",
+          "Discharge Date": "2025-04-15",
+          "Attending Doctor": "Dr. A. Krishnamurthy",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sunita Iyer | Adm: 2025-04-14 Disch: 2025-04-15 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. A. Krishnamurthy"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Invoice Number": "INV-20035",
+          "Invoice Date": "2025-04-16",
+          "Room Rent": 41.36,
+          "ICU Charges": 328.1,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 293.96,
+          "Tax": 33.17,
+          "Total Amount": 696.59
+        },
+        "raw_text_excerpt": "INVOICE #INV-20035 DATE 2025-04-16 | Room Rent: 41.36 | ICU: 328.1 | Surgery: 0 | Pharmacy: 293.96 | Tax: 33.17 | TOTAL: 696.59"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": 0.86,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 6 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "FIR-3067/2025 filed at Kolkata Traffic Police Station on 2025-04-14; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-3067/2025 filed at Kolkata Traffic Police Station on 2025-04-14; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0035",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0036",
+    "policy_number": "POL-77036",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Patient Name": "Divya Gupta",
+          "Admission Date": "2025-11-12",
+          "Discharge Date": "2025-11-17",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "S72.001A",
+          "Diagnosis": "Fracture of neck of right femur",
+          "Procedure": "Open reduction internal fixation (ORIF)",
+          "Notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Divya Gupta | Adm: 2025-11-12 Disch: 2025-11-17 | Dx: S72.001A - Fracture of neck of right femur | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20036",
+          "Invoice Date": "2025-11-19",
+          "Room Rent": 196.1,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 837.98,
+          "Pharmacy Costs": 456.34,
+          "Tax": 74.52,
+          "Total Amount": 1564.94
+        },
+        "raw_text_excerpt": "INVOICE #INV-20036 DATE 2025-11-19 | Room Rent: 196.1 | ICU: 0.0 | Surgery: 837.98 | Pharmacy: 456.34 | Tax: 74.52 | TOTAL: 1564.94"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": 0.85,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis S72.001A."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis S72.001A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Insulin Glargine for 13 days."
+        },
+        "raw_text_excerpt": "Prescribed Insulin Glargine for 13 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "FIR-6400/2025 filed at Mumbai Traffic Police Station on 2025-11-12; recorded as a road traffic collision, claimant listed as pedestrian."
+        },
+        "raw_text_excerpt": "FIR-6400/2025 filed at Mumbai Traffic Police Station on 2025-11-12; recorded as a road traffic collision, claimant listed as pedestrian."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0036",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0037",
+    "policy_number": "POL-77037",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0037",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Jessica Anderson",
+          "Admission Date": "2023-10-13",
+          "Discharge Date": "2023-10-23",
+          "Attending Doctor": "Dr. Manjunath Rao",
+          "ICD-10 Code": "M17.11",
+          "Diagnosis": "Unilateral primary osteoarthritis, right knee",
+          "Procedure": "Total knee replacement",
+          "Notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Manjunath Rao. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Jessica Anderson | Adm: 2023-10-13 Disch: 2023-10-23 | Dx: M17.11 - Unilateral primary osteoarthritis, right knee | Attending: Dr. Manjunath Rao"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0037",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Invoice Number": "INV-20037",
+          "Invoice Date": "2023-10-25",
+          "Room Rent": 1655.6,
+          "ICU Charges": 606.79,
+          "Surgery Fee": 2749.45,
+          "Pharmacy Costs": 64.44,
+          "Tax": 253.81,
+          "Total Amount": 5330.09
+        },
+        "raw_text_excerpt": "INVOICE #INV-20037 DATE 2023-10-25 | Room Rent: 1655.6 | ICU: 606.79 | Surgery: 2749.45 | Pharmacy: 64.44 | Tax: 253.81 | TOTAL: 5330.09"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0037",
+        "ocr_confidence": 0.86,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis M17.11."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis M17.11."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0037",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0038",
+    "policy_number": "POL-77038",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0038",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Patient Name": "Susan Smith",
+          "Admission Date": "2024-11-15",
+          "Discharge Date": "2024-11-21",
+          "Attending Doctor": "Dr. James Carter",
+          "ICD-10 Code": "C50.911",
+          "Diagnosis": "Malignant neoplasm of right breast",
+          "Procedure": "Modified radical mastectomy",
+          "Notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Susan Smith | Adm: 2024-11-15 Disch: 2024-11-21 | Dx: C50.911 - Malignant neoplasm of right breast | Attending: Dr. James Carter"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0038",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20038",
+          "Invoice Date": "2024-11-23",
+          "Room Rent": 312.96,
+          "ICU Charges": 324.88,
+          "Surgery Fee": 785.54,
+          "Pharmacy Costs": 293.71,
+          "Tax": 85.85,
+          "Total Amount": 1802.94
+        },
+        "raw_text_excerpt": "INVOICE #INV-20038 DATE 2024-11-23 | Room Rent: 312.96 | ICU: 324.88 | Surgery: 785.54 | Pharmacy: 293.71 | Tax: 85.85 | TOTAL: 1802.94"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0038",
+        "ocr_confidence": 0.85,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0038",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 9 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 9 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0039",
+    "policy_number": "POL-77039",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Patient Name": "Priya Verma",
+          "Admission Date": "2023-04-08",
+          "Discharge Date": "2023-04-16",
+          "Attending Doctor": "Dr. Priyanka Menon",
+          "ICD-10 Code": "S72.001A",
+          "Diagnosis": "Fracture of neck of right femur",
+          "Procedure": "Open reduction internal fixation (ORIF)",
+          "Notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Priyanka Menon. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Priya Verma | Adm: 2023-04-08 Disch: 2023-04-16 | Dx: S72.001A - Fracture of neck of right femur | Attending: Dr. Priyanka Menon"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Invoice Number": "INV-20039",
+          "Invoice Date": "2023-04-27",
+          "Room Rent": 615.6,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 3416.74,
+          "Pharmacy Costs": 493.41,
+          "Tax": 226.29,
+          "Total Amount": 4752.04
+        },
+        "raw_text_excerpt": "INVOICE #INV-20039 DATE 2023-04-27 | Room Rent: 615.6 | ICU: 0.0 | Surgery: 3416.74 | Pharmacy: 493.41 | Tax: 226.29 | TOTAL: 4752.04"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 12 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 12 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": 0.82,
+        "extracted_fields": {
+          "Summary": "FIR-2275/2023 filed at Ahmedabad Traffic Police Station on 2023-04-08; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-2275/2023 filed at Ahmedabad Traffic Police Station on 2023-04-08; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0039",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0040",
+    "policy_number": "POL-77040",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0040",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "Sanjay Sharma",
+          "Admission Date": "2024-08-14",
+          "Discharge Date": "2024-08-20",
+          "Attending Doctor": "Dr. Farah Iqbal",
+          "ICD-10 Code": "E11.9",
+          "Diagnosis": "Type 2 diabetes mellitus without complications",
+          "Procedure": "Insulin stabilization",
+          "Notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Farah Iqbal. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sanjay Sharma | Adm: 2024-08-14 Disch: 2024-08-20 | Dx: E11.9 - Type 2 diabetes mellitus without complications | Attending: Dr. Farah Iqbal"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0040",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20040",
+          "Invoice Date": "2024-08-22",
+          "Room Rent": 373.26,
+          "ICU Charges": 396.95,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 476.93,
+          "Tax": 62.36,
+          "Total Amount": 1309.5
+        },
+        "raw_text_excerpt": "INVOICE #INV-20040 DATE 2024-08-22 | Room Rent: 373.26 | ICU: 396.95 | Surgery: 0 | Pharmacy: 476.93 | Tax: 62.36 | TOTAL: 1309.5"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0040",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis E11.9."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis E11.9."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0040",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0041",
+    "policy_number": "POL-77041",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0041",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Patient Name": "Divya Iyer",
+          "Admission Date": "2024-04-25",
+          "Discharge Date": "2024-05-03",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "M17.11",
+          "Diagnosis": "Unilateral primary osteoarthritis, right knee",
+          "Procedure": "Total knee replacement",
+          "Notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Divya Iyer | Adm: 2024-04-25 Disch: 2024-05-03 | Dx: M17.11 - Unilateral primary osteoarthritis, right knee | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0041",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Invoice Number": "INV-20041",
+          "Invoice Date": "2024-05-04",
+          "Room Rent": 825.52,
+          "ICU Charges": 337.1,
+          "Surgery Fee": 2116.1,
+          "Pharmacy Costs": 70.68,
+          "Tax": 167.47,
+          "Total Amount": 3516.87
+        },
+        "raw_text_excerpt": "INVOICE #INV-20041 DATE 2024-05-04 | Room Rent: 825.52 | ICU: 337.1 | Surgery: 2116.1 | Pharmacy: 70.68 | Tax: 167.47 | TOTAL: 3516.87"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0041",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis M17.11."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis M17.11."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0041",
+        "ocr_confidence": 0.87,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 6 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 6 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0042",
+    "policy_number": "POL-77042",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Swati Bose",
+          "Admission Date": "2022-08-30",
+          "Discharge Date": "2022-09-03",
+          "Attending Doctor": "Dr. Samuel Okafor",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Swati Bose | Adm: 2022-08-30 Disch: 2022-09-03 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. Samuel Okafor"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Invoice Number": "INV-20042",
+          "Invoice Date": "2022-09-04",
+          "Room Rent": 261.08,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 205.59,
+          "Tax": 23.33,
+          "Total Amount": 490.0
+        },
+        "raw_text_excerpt": "INVOICE #INV-20042 DATE 2022-09-04 | Room Rent: 261.08 | ICU: 0.0 | Surgery: 0 | Pharmacy: 205.59 | Tax: 23.33 | TOTAL: 490.0"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Amoxicillin 500mg for 10 days."
+        },
+        "raw_text_excerpt": "Prescribed Amoxicillin 500mg for 10 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": 0.82,
+        "extracted_fields": {
+          "Summary": "FIR-2079/2022 filed at Hyderabad Traffic Police Station on 2022-08-30; recorded as a road traffic collision, claimant listed as passenger."
+        },
+        "raw_text_excerpt": "FIR-2079/2022 filed at Hyderabad Traffic Police Station on 2022-08-30; recorded as a road traffic collision, claimant listed as passenger."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0042",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0043",
+    "policy_number": "POL-77043",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Patient Name": "Lakshmi Bose",
+          "Admission Date": "2024-11-17",
+          "Discharge Date": "2024-11-26",
+          "Attending Doctor": "Dr. Rebecca Song",
+          "ICD-10 Code": "V43.52XA",
+          "Diagnosis": "Car driver injured in collision with car, traffic accident",
+          "Procedure": "Polytrauma management, ICU care",
+          "Notes": "Patient presented with symptoms consistent with car driver injured in collision with car, traffic accident. Underwent polytrauma management, icu care under supervision of Dr. Rebecca Song. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Lakshmi Bose | Adm: 2024-11-17 Disch: 2024-11-26 | Dx: V43.52XA - Car driver injured in collision with car, traffic accident | Attending: Dr. Rebecca Song"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Invoice Number": "INV-20043",
+          "Invoice Date": "2024-11-27",
+          "Room Rent": 489.33,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 149.14,
+          "Tax": 31.92,
+          "Total Amount": 670.39
+        },
+        "raw_text_excerpt": "INVOICE #INV-20043 DATE 2024-11-27 | Room Rent: 489.33 | ICU: 0.0 | Surgery: 0 | Pharmacy: 149.14 | Tax: 31.92 | TOTAL: 670.39"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "CBC, KFT \u2014 results consistent with diagnosis V43.52XA."
+        },
+        "raw_text_excerpt": "CBC, KFT \u2014 results consistent with diagnosis V43.52XA."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 7 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "FIR-3538/2024 filed at Chennai Traffic Police Station on 2024-11-17; recorded as a road traffic collision, claimant listed as driver."
+        },
+        "raw_text_excerpt": "FIR-3538/2024 filed at Chennai Traffic Police Station on 2024-11-17; recorded as a road traffic collision, claimant listed as driver."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0043",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0044",
+    "policy_number": "POL-77044",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0044",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Nancy Williams",
+          "Admission Date": "2024-06-30",
+          "Discharge Date": "2024-07-04",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "M17.11",
+          "Diagnosis": "Unilateral primary osteoarthritis, right knee",
+          "Procedure": "Total knee replacement",
+          "Notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Nancy Williams | Adm: 2024-06-30 Disch: 2024-07-04 | Dx: M17.11 - Unilateral primary osteoarthritis, right knee | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0044",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Invoice Number": "INV-20044",
+          "Invoice Date": "2024-07-06",
+          "Room Rent": 286.16,
+          "ICU Charges": 792.22,
+          "Surgery Fee": 2115.88,
+          "Pharmacy Costs": 204.97,
+          "Tax": 169.96,
+          "Total Amount": 3569.19
+        },
+        "raw_text_excerpt": "INVOICE #INV-20044 DATE 2024-07-06 | Room Rent: 286.16 | ICU: 792.22 | Surgery: 2115.88 | Pharmacy: 204.97 | Tax: 169.96 | TOTAL: 3569.19"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0044",
+        "ocr_confidence": 0.92,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis M17.11."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis M17.11."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0044",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0045",
+    "policy_number": "POL-77045",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0045",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Neha Desai",
+          "Admission Date": "2022-11-28",
+          "Discharge Date": "2022-12-05",
+          "Attending Doctor": "Dr. A. Krishnamurthy",
+          "ICD-10 Code": "J45.901",
+          "Diagnosis": "Unspecified asthma with acute exacerbation",
+          "Procedure": "Nebulization and steroid therapy",
+          "Notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Neha Desai | Adm: 2022-11-28 Disch: 2022-12-05 | Dx: J45.901 - Unspecified asthma with acute exacerbation | Attending: Dr. A. Krishnamurthy"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0045",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Invoice Number": "INV-20045",
+          "Invoice Date": "2022-12-07",
+          "Room Rent": 414.05,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 65.5,
+          "Tax": 23.98,
+          "Total Amount": 503.53
+        },
+        "raw_text_excerpt": "INVOICE #INV-20045 DATE 2022-12-07 | Room Rent: 414.05 | ICU: 0.0 | Surgery: 0 | Pharmacy: 65.5 | Tax: 23.98 | TOTAL: 503.53"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0045",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0045",
+        "ocr_confidence": 0.91,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 7 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 7 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0046",
+    "policy_number": "POL-77046",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0046",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Patient Name": "Sarah Lopez",
+          "Admission Date": "2025-01-15",
+          "Discharge Date": "2025-01-16",
+          "Attending Doctor": "Dr. Manjunath Rao",
+          "ICD-10 Code": "J45.901",
+          "Diagnosis": "Unspecified asthma with acute exacerbation",
+          "Procedure": "Nebulization and steroid therapy",
+          "Notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Manjunath Rao. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Sarah Lopez | Adm: 2025-01-15 Disch: 2025-01-16 | Dx: J45.901 - Unspecified asthma with acute exacerbation | Attending: Dr. Manjunath Rao"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0046",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20046",
+          "Invoice Date": "2025-01-18",
+          "Room Rent": 24.14,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 324.91,
+          "Tax": 17.45,
+          "Total Amount": 366.5
+        },
+        "raw_text_excerpt": "INVOICE #INV-20046 DATE 2025-01-18 | Room Rent: 24.14 | ICU: 0.0 | Surgery: 0 | Pharmacy: 324.91 | Tax: 17.45 | TOTAL: 366.5"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0046",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis J45.901."
+        },
+        "raw_text_excerpt": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis J45.901."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0046",
+        "ocr_confidence": 0.93,
+        "extracted_fields": {
+          "Summary": "Prescribed Insulin Glargine for 8 days."
+        },
+        "raw_text_excerpt": "Prescribed Insulin Glargine for 8 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0047",
+    "policy_number": "POL-77047",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0047",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Patient Name": "Divya Rao",
+          "Admission Date": "2025-10-12",
+          "Discharge Date": "2025-10-19",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "O80",
+          "Diagnosis": "Encounter for full-term uncomplicated delivery",
+          "Procedure": "Normal vaginal delivery",
+          "Notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Divya Rao | Adm: 2025-10-12 Disch: 2025-10-19 | Dx: O80 - Encounter for full-term uncomplicated delivery | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0047",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Invoice Number": "INV-20047",
+          "Invoice Date": "2025-10-21",
+          "Room Rent": 465.01,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 453.12,
+          "Tax": 45.91,
+          "Total Amount": 964.04
+        },
+        "raw_text_excerpt": "INVOICE #INV-20047 DATE 2025-10-21 | Room Rent: 465.01 | ICU: 0.0 | Surgery: 0 | Pharmacy: 453.12 | Tax: 45.91 | TOTAL: 964.04"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0047",
+        "ocr_confidence": 0.88,
+        "extracted_fields": {
+          "Summary": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+        },
+        "raw_text_excerpt": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0047",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 5 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 5 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0048",
+    "policy_number": "POL-77048",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0048",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Patricia Anderson",
+          "Admission Date": "2023-09-17",
+          "Discharge Date": "2023-09-18",
+          "Attending Doctor": "Dr. Manjunath Rao",
+          "ICD-10 Code": "O80",
+          "Diagnosis": "Encounter for full-term uncomplicated delivery",
+          "Procedure": "Normal vaginal delivery",
+          "Notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Manjunath Rao. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Patricia Anderson | Adm: 2023-09-17 Disch: 2023-09-18 | Dx: O80 - Encounter for full-term uncomplicated delivery | Attending: Dr. Manjunath Rao"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0048",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Invoice Number": "INV-20048",
+          "Invoice Date": "2023-09-19",
+          "Room Rent": 38.78,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 489.64,
+          "Tax": 26.42,
+          "Total Amount": 554.84
+        },
+        "raw_text_excerpt": "INVOICE #INV-20048 DATE 2023-09-19 | Room Rent: 38.78 | ICU: 0.0 | Surgery: 0 | Pharmacy: 489.64 | Tax: 26.42 | TOTAL: 554.84"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0048",
+        "ocr_confidence": 0.95,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis O80."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis O80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0048",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Paracetamol 650mg for 10 days."
+        },
+        "raw_text_excerpt": "Prescribed Paracetamol 650mg for 10 days."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0049",
+    "policy_number": "POL-77049",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": 0.97,
+        "extracted_fields": {
+          "Patient Name": "Susan Thomas",
+          "Admission Date": "2023-12-03",
+          "Discharge Date": "2023-12-11",
+          "Attending Doctor": "Dr. Thomas Blake",
+          "ICD-10 Code": "S06.0X0A",
+          "Diagnosis": "Concussion without loss of consciousness",
+          "Procedure": "Observation, neurology consult",
+          "Notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Thomas Blake. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Susan Thomas | Adm: 2023-12-03 Disch: 2023-12-11 | Dx: S06.0X0A - Concussion without loss of consciousness | Attending: Dr. Thomas Blake"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Invoice Number": "INV-20049",
+          "Invoice Date": "2023-12-11",
+          "Room Rent": 466.56,
+          "ICU Charges": 0.0,
+          "Surgery Fee": 0,
+          "Pharmacy Costs": 289.22,
+          "Tax": 37.79,
+          "Total Amount": 793.57
+        },
+        "raw_text_excerpt": "INVOICE #INV-20049 DATE 2023-12-11 | Room Rent: 466.56 | ICU: 0.0 | Surgery: 0 | Pharmacy: 289.22 | Tax: 37.79 | TOTAL: 793.57"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": 0.85,
+        "extracted_fields": {
+          "Summary": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A."
+        },
+        "raw_text_excerpt": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": 0.96,
+        "extracted_fields": {
+          "Summary": "Prescribed Salbutamol Inhaler for 11 days."
+        },
+        "raw_text_excerpt": "Prescribed Salbutamol Inhaler for 11 days."
+      },
+      {
+        "document_type": "Police FIR",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Summary": "FIR-6952/2023 filed at Portland Traffic Police Station on 2023-12-03; recorded as a road traffic collision, claimant listed as pedestrian."
+        },
+        "raw_text_excerpt": "FIR-6952/2023 filed at Portland Traffic Police Station on 2023-12-03; recorded as a road traffic collision, claimant listed as pedestrian."
+      },
+      {
+        "document_type": "Photo Analysis Notes",
+        "source_claim_id": "CLAIM-0049",
+        "ocr_confidence": null,
+        "extracted_fields": {
+          "Summary": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+        },
+        "raw_text_excerpt": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+      }
+    ]
+  },
+  {
+    "claim_id": "CLAIM-0050",
+    "policy_number": "POL-77050",
+    "documents": [
+      {
+        "document_type": "Hospital Discharge Summary",
+        "source_claim_id": "CLAIM-0050",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Patient Name": "Joseph Smith",
+          "Admission Date": "2025-02-11",
+          "Discharge Date": "2025-02-17",
+          "Attending Doctor": "Dr. Elena Vasquez",
+          "ICD-10 Code": "K35.80",
+          "Diagnosis": "Unspecified acute appendicitis",
+          "Procedure": "Laparoscopic appendectomy",
+          "Notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+        },
+        "raw_text_excerpt": "DISCHARGE SUMMARY | Patient: Joseph Smith | Adm: 2025-02-11 Disch: 2025-02-17 | Dx: K35.80 - Unspecified acute appendicitis | Attending: Dr. Elena Vasquez"
+      },
+      {
+        "document_type": "Itemized Medical Bill",
+        "source_claim_id": "CLAIM-0050",
+        "ocr_confidence": 0.9,
+        "extracted_fields": {
+          "Invoice Number": "INV-20050",
+          "Invoice Date": "2025-02-19",
+          "Room Rent": 285.24,
+          "ICU Charges": 279.44,
+          "Surgery Fee": 3697.4,
+          "Pharmacy Costs": 114.77,
+          "Tax": 218.84,
+          "Total Amount": 4595.69
+        },
+        "raw_text_excerpt": "INVOICE #INV-20050 DATE 2025-02-19 | Room Rent: 285.24 | ICU: 279.44 | Surgery: 3697.4 | Pharmacy: 114.77 | Tax: 218.84 | TOTAL: 4595.69"
+      },
+      {
+        "document_type": "Lab Report",
+        "source_claim_id": "CLAIM-0050",
+        "ocr_confidence": 0.89,
+        "extracted_fields": {
+          "Summary": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80."
+        },
+        "raw_text_excerpt": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80."
+      },
+      {
+        "document_type": "Pharmacy Prescription",
+        "source_claim_id": "CLAIM-0050",
+        "ocr_confidence": 0.94,
+        "extracted_fields": {
+          "Summary": "Prescribed Metformin 500mg for 14 days."
+        },
+        "raw_text_excerpt": "Prescribed Metformin 500mg for 14 days."
+      }
+    ]
+  }
+]

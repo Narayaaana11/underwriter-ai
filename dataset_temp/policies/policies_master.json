@@ -1,0 +1,32 @@
+[
+  {
+    "policyNumber": "POL-77788",
+    "claimantName": "Rajesh Kumar",
+    "claimantEmail": "rajesh.kumar@example.com",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2024-01-15",
+    "policyEndDate": "2026-01-14",
+    "preExistingConditions": [
+      "Hypertension (Declared 2022)"
+    ],
+    "deductibleAmount": 5000,
+    "copayPercentage": 10.0,
+    "status": "Active"
+  },
+  {
+    "policyNumber": "POL-88213",
+    "claimantName": "Ananya Sharma",
+    "claimantEmail": "ananya.s@example.com",
+    "policyType": "Motor",
+    "policyCompany": "ICICI Lombard General Insurance",
+    "sumInsured": 800000,
+    "policyStartDate": "2024-06-01",
+    "policyEndDate": "2025-05-31",
+    "preExistingConditions": [],
+    "deductibleAmount": 2000,
+    "copayPercentage": 0.0,
+    "status": "Active"
+  }
+]

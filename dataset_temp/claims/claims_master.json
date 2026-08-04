@@ -1,0 +1,23 @@
+[
+  {
+    "id": "CLM-77788-01",
+    "policyNumber": "POL-77788",
+    "claimantName": "Rajesh Kumar",
+    "policyType": "Health",
+    "policyCompany": "Star Health & Allied Insurance",
+    "sumInsured": 500000,
+    "policyStartDate": "2024-01-15",
+    "incidentDate": "2026-01-20",
+    "claimAmount": 125000,
+    "reserveAmount": 125000,
+    "description": "Emergency hospitalization for acute appendicitis at Apollo Hospital. Laparoscopic appendectomy performed.",
+    "status": "submitted",
+    "riskScore": 15,
+    "fraudDetectorScore": 12,
+    "aiSummary": "Health claim for \u20b91,25,000 under active policy POL-77788. Discharge summary, itemized invoice, and lab reports verified.",
+    "aiRecommendation": "Approve",
+    "citedClause": "Health Policy Schedule \u2014 Clause 4.2 (Surgical Reimbursement)",
+    "aiConfidenceScore": "97.5%",
+    "submittedAt": "2026-08-05T01:27:31.565246"
+  }
+]

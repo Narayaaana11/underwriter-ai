@@ -1,0 +1,2367 @@
+[
+  {
+    "claim_id": "CLAIM-0001",
+    "policy_number": "POL-77001",
+    "claimant_id": "CLM-001",
+    "discharge_summary": {
+      "admission_date": "2023-10-28",
+      "discharge_date": "2023-11-06",
+      "length_of_stay_days": 9,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "K35.80",
+      "icd10_diagnosis_description": "Unspecified acute appendicitis",
+      "procedure": "Laparoscopic appendectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20001",
+      "invoice_date": "2023-11-06",
+      "line_items": {
+        "room_rent_per_day": 19.74,
+        "room_rent_total": 177.66,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 1058.81,
+        "pharmacy_costs": 282.44,
+        "tax": 75.95
+      },
+      "total_amount": 1594.86,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis K35.80.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 37,
+      "fraud_detector_score": 8,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "James's claim under POL-77001 involves a 9-day admission for unspecified acute appendicitis treated with laparoscopic appendectomy by Dr. Priyanka Menon. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 37/100 and fraud score of 8/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0002",
+    "policy_number": "POL-77002",
+    "claimant_id": "CLM-002",
+    "discharge_summary": {
+      "admission_date": "2024-02-16",
+      "discharge_date": "2024-02-20",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "E11.9",
+      "icd10_diagnosis_description": "Type 2 diabetes mellitus without complications",
+      "procedure": "Insulin stabilization",
+      "treatment_notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20002",
+      "invoice_date": "2024-02-20",
+      "line_items": {
+        "room_rent_per_day": 144.66,
+        "room_rent_total": 578.64,
+        "icu_days": 1,
+        "icu_charges": 308.92,
+        "surgery_fee": 0,
+        "pharmacy_costs": 250.66,
+        "tax": 56.91
+      },
+      "total_amount": 1195.13,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 20,
+      "fraud_detector_score": 12,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Meena's claim under POL-77002 involves a 4-day admission for type 2 diabetes mellitus without complications treated with insulin stabilization by Dr. Elena Vasquez. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 20/100 and fraud score of 12/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0003",
+    "policy_number": "POL-77003",
+    "claimant_id": "CLM-003",
+    "discharge_summary": {
+      "admission_date": "2024-02-10",
+      "discharge_date": "2024-02-18",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Farah Iqbal",
+      "icd10_diagnosis_code": "O80",
+      "icd10_diagnosis_description": "Encounter for full-term uncomplicated delivery",
+      "procedure": "Normal vaginal delivery",
+      "treatment_notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Farah Iqbal. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20003",
+      "invoice_date": "2024-02-19",
+      "line_items": {
+        "room_rent_per_day": 53.82,
+        "room_rent_total": 430.56,
+        "icu_days": 2,
+        "icu_charges": 431.37,
+        "surgery_fee": 0,
+        "pharmacy_costs": 371.52,
+        "tax": 61.67
+      },
+      "total_amount": 1295.12,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 55,
+      "fraud_detector_score": 12,
+      "discrepancies_detected": [
+        "Daily room rent ($53.82) exceeds the policy's room rent cap ($45.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Sanjay's claim under POL-77003 involves a 8-day admission for encounter for full-term uncomplicated delivery treated with normal vaginal delivery by Dr. Farah Iqbal. The AI engine flagged 2 discrepancy(ies), including daily room rent ($53.82) exceeds the policy's room rent cap ($45.00); proportionate deduction applies. Based on a risk score of 55/100 and fraud score of 12/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $45.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0004",
+    "policy_number": "POL-77004",
+    "claimant_id": "CLM-004",
+    "discharge_summary": {
+      "admission_date": "2022-10-28",
+      "discharge_date": "2022-11-04",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. Farah Iqbal",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Farah Iqbal. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20004",
+      "invoice_date": "2022-11-04",
+      "line_items": {
+        "room_rent_per_day": 39.02,
+        "room_rent_total": 273.14,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 469.08,
+        "tax": 37.11
+      },
+      "total_amount": 779.33,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 13 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-4258/2022 filed at Denver Traffic Police Station on 2022-10-28; recorded as a road traffic collision, claimant listed as driver.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 35,
+      "fraud_detector_score": 10,
+      "discrepancies_detected": [
+        "Daily room rent ($39.02) exceeds the policy's room rent cap ($30.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Linda's claim under POL-77004 involves a 7-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. Farah Iqbal. The AI engine flagged 1 discrepancy(ies), including daily room rent ($39.02) exceeds the policy's room rent cap ($30.00); proportionate deduction applies. Based on a risk score of 35/100 and fraud score of 10/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $30.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0005",
+    "policy_number": "POL-77005",
+    "claimant_id": "CLM-005",
+    "discharge_summary": {
+      "admission_date": "2022-09-29",
+      "discharge_date": "2022-10-08",
+      "length_of_stay_days": 9,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "J45.901",
+      "icd10_diagnosis_description": "Unspecified asthma with acute exacerbation",
+      "procedure": "Nebulization and steroid therapy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. James Carter. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20005",
+      "invoice_date": "2022-10-10",
+      "line_items": {
+        "room_rent_per_day": 115.6,
+        "room_rent_total": 1040.4,
+        "icu_days": 3,
+        "icu_charges": 600.86,
+        "surgery_fee": 0,
+        "pharmacy_costs": 221.44,
+        "tax": 93.14
+      },
+      "total_amount": 1955.84,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 13 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 54,
+      "fraud_detector_score": 13,
+      "discrepancies_detected": [
+        "Daily room rent ($115.60) exceeds the policy's room rent cap ($96.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Neha's claim under POL-77005 involves a 9-day admission for unspecified asthma with acute exacerbation treated with nebulization and steroid therapy by Dr. James Carter. The AI engine flagged 2 discrepancy(ies), including daily room rent ($115.60) exceeds the policy's room rent cap ($96.00); proportionate deduction applies. Based on a risk score of 54/100 and fraud score of 13/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $96.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0006",
+    "policy_number": "POL-77006",
+    "claimant_id": "CLM-006",
+    "discharge_summary": {
+      "admission_date": "2024-07-06",
+      "discharge_date": "2024-07-09",
+      "length_of_stay_days": 3,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "C50.911",
+      "icd10_diagnosis_description": "Malignant neoplasm of right breast",
+      "procedure": "Modified radical mastectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20006",
+      "invoice_date": "2024-07-10",
+      "line_items": {
+        "room_rent_per_day": 29.46,
+        "room_rent_total": 88.38,
+        "icu_days": 1,
+        "icu_charges": 197.6,
+        "surgery_fee": 839.26,
+        "pharmacy_costs": 287.08,
+        "tax": 70.62
+      },
+      "total_amount": 1482.94,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis C50.911.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 31,
+      "fraud_detector_score": 22,
+      "discrepancies_detected": [
+        "Daily room rent ($29.46) exceeds the policy's room rent cap ($24.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Arjun's claim under POL-77006 involves a 3-day admission for malignant neoplasm of right breast treated with modified radical mastectomy by Dr. James Carter. The AI engine flagged 1 discrepancy(ies), including daily room rent ($29.46) exceeds the policy's room rent cap ($24.00); proportionate deduction applies. Based on a risk score of 31/100 and fraud score of 22/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $24.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0007",
+    "policy_number": "POL-77007",
+    "claimant_id": "CLM-007",
+    "discharge_summary": {
+      "admission_date": "2024-08-30",
+      "discharge_date": "2024-09-02",
+      "length_of_stay_days": 3,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20007",
+      "invoice_date": "2024-09-03",
+      "line_items": {
+        "room_rent_per_day": 29.06,
+        "room_rent_total": 87.18,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 51.19,
+        "tax": 6.92
+      },
+      "total_amount": 145.29,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 13 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-8973/2024 filed at Phoenix Traffic Police Station on 2024-08-30; recorded as a road traffic collision, claimant listed as driver.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 39,
+      "fraud_detector_score": 16,
+      "discrepancies_detected": [
+        "Daily room rent ($29.06) exceeds the policy's room rent cap ($22.50); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Linda's claim under POL-77007 involves a 3-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. Priyanka Menon. The AI engine flagged 1 discrepancy(ies), including daily room rent ($29.06) exceeds the policy's room rent cap ($22.50); proportionate deduction applies. Based on a risk score of 39/100 and fraud score of 16/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $22.50/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0008",
+    "policy_number": "POL-77008",
+    "claimant_id": "CLM-008",
+    "discharge_summary": {
+      "admission_date": "2023-11-23",
+      "discharge_date": "2023-11-27",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "E11.9",
+      "icd10_diagnosis_description": "Type 2 diabetes mellitus without complications",
+      "procedure": "Insulin stabilization",
+      "treatment_notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Priyanka Menon. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20008",
+      "invoice_date": "2023-11-29",
+      "line_items": {
+        "room_rent_per_day": 79.74,
+        "room_rent_total": 318.96,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 280.57,
+        "tax": 29.98
+      },
+      "total_amount": 629.51,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis E11.9.",
+      "pharmacy_prescription": "Prescribed Atorvastatin 20mg for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 40,
+      "fraud_detector_score": 17,
+      "discrepancies_detected": [
+        "Daily room rent ($79.74) exceeds the policy's room rent cap ($75.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Charles's claim under POL-77008 involves a 4-day admission for type 2 diabetes mellitus without complications treated with insulin stabilization by Dr. Priyanka Menon. The AI engine flagged 1 discrepancy(ies), including daily room rent ($79.74) exceeds the policy's room rent cap ($75.00); proportionate deduction applies. Based on a risk score of 40/100 and fraud score of 17/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $75.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0009",
+    "policy_number": "POL-77009",
+    "claimant_id": "CLM-009",
+    "discharge_summary": {
+      "admission_date": "2024-12-02",
+      "discharge_date": "2024-12-08",
+      "length_of_stay_days": 6,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "S72.001A",
+      "icd10_diagnosis_description": "Fracture of neck of right femur",
+      "procedure": "Open reduction internal fixation (ORIF)",
+      "treatment_notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20009",
+      "invoice_date": "2024-12-10",
+      "line_items": {
+        "room_rent_per_day": 55.82,
+        "room_rent_total": 334.92,
+        "icu_days": 2,
+        "icu_charges": 791.93,
+        "surgery_fee": 3324.85,
+        "pharmacy_costs": 340.92,
+        "tax": 239.63
+      },
+      "total_amount": 5032.25,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis S72.001A.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 6 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-3200/2024 filed at Pune Traffic Police Station on 2024-12-02; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 33,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "Daily room rent ($55.82) exceeds the policy's room rent cap ($48.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Vikram's claim under POL-77009 involves a 6-day admission for fracture of neck of right femur treated with open reduction internal fixation (orif) by Dr. Elena Vasquez. The AI engine flagged 1 discrepancy(ies), including daily room rent ($55.82) exceeds the policy's room rent cap ($48.00); proportionate deduction applies. Based on a risk score of 33/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $48.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0010",
+    "policy_number": "POL-77010",
+    "claimant_id": "CLM-010",
+    "discharge_summary": {
+      "admission_date": "2023-08-20",
+      "discharge_date": "2023-08-28",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Nithya Subramanian",
+      "icd10_diagnosis_code": "K80.20",
+      "icd10_diagnosis_description": "Calculus of gallbladder without obstruction",
+      "procedure": "Laparoscopic cholecystectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with calculus of gallbladder without obstruction. Underwent laparoscopic cholecystectomy under supervision of Dr. Nithya Subramanian. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20010",
+      "invoice_date": "2023-09-18",
+      "line_items": {
+        "room_rent_per_day": 30.39,
+        "room_rent_total": 243.12,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 2918.57,
+        "pharmacy_costs": 131.98,
+        "tax": 164.68
+      },
+      "total_amount": 3458.35,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis K80.20.",
+      "pharmacy_prescription": "Prescribed Insulin Glargine for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 58,
+      "fraud_detector_score": 39,
+      "discrepancies_detected": [
+        "Invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Divya's claim under POL-77010 involves a 8-day admission for calculus of gallbladder without obstruction treated with laparoscopic cholecystectomy by Dr. Nithya Subramanian. The AI engine flagged 2 discrepancy(ies), including invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing. Based on a risk score of 58/100 and fraud score of 39/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 9.3 \u2014 Claim Documentation Consistency: all submitted documents must reflect a consistent treatment timeline; material inconsistencies trigger manual document verification."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0011",
+    "policy_number": "POL-77011",
+    "claimant_id": "CLM-011",
+    "discharge_summary": {
+      "admission_date": "2022-12-13",
+      "discharge_date": "2022-12-16",
+      "length_of_stay_days": 3,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "M17.11",
+      "icd10_diagnosis_description": "Unilateral primary osteoarthritis, right knee",
+      "procedure": "Total knee replacement",
+      "treatment_notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20011",
+      "invoice_date": "2022-12-17",
+      "line_items": {
+        "room_rent_per_day": 103.3,
+        "room_rent_total": 309.9,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 3255.81,
+        "pharmacy_costs": 109.45,
+        "tax": 183.76
+      },
+      "total_amount": 3858.92,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis M17.11.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 12 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 41,
+      "fraud_detector_score": 19,
+      "discrepancies_detected": [
+        "Daily room rent ($103.30) exceeds the policy's room rent cap ($80.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Meena's claim under POL-77011 involves a 3-day admission for unilateral primary osteoarthritis, right knee treated with total knee replacement by Dr. Thomas Blake. The AI engine flagged 1 discrepancy(ies), including daily room rent ($103.30) exceeds the policy's room rent cap ($80.00); proportionate deduction applies. Based on a risk score of 41/100 and fraud score of 19/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $80.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0012",
+    "policy_number": "POL-77012",
+    "claimant_id": "CLM-012",
+    "discharge_summary": {
+      "admission_date": "2024-07-01",
+      "discharge_date": "2024-07-11",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "I10",
+      "icd10_diagnosis_description": "Essential (primary) hypertension",
+      "procedure": "Medical management, no surgery",
+      "treatment_notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20012",
+      "invoice_date": "2024-07-27",
+      "line_items": {
+        "room_rent_per_day": 142.15,
+        "room_rent_total": 1421.5,
+        "icu_days": 3,
+        "icu_charges": 1039.82,
+        "surgery_fee": 2027.38,
+        "pharmacy_costs": 591.33,
+        "tax": 254.0
+      },
+      "total_amount": 5334.03,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 11 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 45,
+      "fraud_detector_score": 41,
+      "discrepancies_detected": [
+        "Invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Jennifer's claim under POL-77012 involves a 10-day admission for essential (primary) hypertension treated with medical management, no surgery by Dr. Elena Vasquez. The AI engine flagged 2 discrepancy(ies), including invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing. Based on a risk score of 45/100 and fraud score of 41/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 9.3 \u2014 Claim Documentation Consistency: all submitted documents must reflect a consistent treatment timeline; material inconsistencies trigger manual document verification."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0013",
+    "policy_number": "POL-77013",
+    "claimant_id": "CLM-013",
+    "discharge_summary": {
+      "admission_date": "2023-11-25",
+      "discharge_date": "2023-11-28",
+      "length_of_stay_days": 3,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "C50.911",
+      "icd10_diagnosis_description": "Malignant neoplasm of right breast",
+      "procedure": "Modified radical mastectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20013",
+      "invoice_date": "2023-11-29",
+      "line_items": {
+        "room_rent_per_day": 93.45,
+        "room_rent_total": 280.35,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 1235.64,
+        "pharmacy_costs": 482.17,
+        "tax": 99.91
+      },
+      "total_amount": 2098.07,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 12 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 36,
+      "fraud_detector_score": 25,
+      "discrepancies_detected": [
+        "Daily room rent ($93.45) exceeds the policy's room rent cap ($90.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Arjun's claim under POL-77013 involves a 3-day admission for malignant neoplasm of right breast treated with modified radical mastectomy by Dr. James Carter. The AI engine flagged 1 discrepancy(ies), including daily room rent ($93.45) exceeds the policy's room rent cap ($90.00); proportionate deduction applies. Based on a risk score of 36/100 and fraud score of 25/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $90.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0014",
+    "policy_number": "POL-77014",
+    "claimant_id": "CLM-014",
+    "discharge_summary": {
+      "admission_date": "2023-04-12",
+      "discharge_date": "2023-04-19",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "K35.80",
+      "icd10_diagnosis_description": "Unspecified acute appendicitis",
+      "procedure": "Laparoscopic appendectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20014",
+      "invoice_date": "2023-04-19",
+      "line_items": {
+        "room_rent_per_day": 27.22,
+        "room_rent_total": 190.54,
+        "icu_days": 1,
+        "icu_charges": 211.0,
+        "surgery_fee": 2796.2,
+        "pharmacy_costs": 53.05,
+        "tax": 162.54
+      },
+      "total_amount": 3413.33,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 29,
+      "fraud_detector_score": 6,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Patricia's claim under POL-77014 involves a 7-day admission for unspecified acute appendicitis treated with laparoscopic appendectomy by Dr. James Carter. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 29/100 and fraud score of 6/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0015",
+    "policy_number": "POL-77015",
+    "claimant_id": "CLM-015",
+    "discharge_summary": {
+      "admission_date": "2025-10-14",
+      "discharge_date": "2025-10-19",
+      "length_of_stay_days": 5,
+      "attending_doctor": "Dr. Nithya Subramanian",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Nithya Subramanian. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20015",
+      "invoice_date": "2025-10-21",
+      "line_items": {
+        "room_rent_per_day": 147.54,
+        "room_rent_total": 737.7,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 178.97,
+        "tax": 45.83
+      },
+      "total_amount": 962.5,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 7 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-4788/2025 filed at Chennai Traffic Police Station on 2025-10-14; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 21,
+      "fraud_detector_score": 7,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Priya's claim under POL-77015 involves a 5-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. Nithya Subramanian. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 21/100 and fraud score of 7/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0016",
+    "policy_number": "POL-77016",
+    "claimant_id": "CLM-016",
+    "discharge_summary": {
+      "admission_date": "2022-12-27",
+      "discharge_date": "2023-01-01",
+      "length_of_stay_days": 5,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "A09",
+      "icd10_diagnosis_description": "Infectious gastroenteritis and colitis",
+      "procedure": "IV fluids and antibiotics",
+      "treatment_notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. Priyanka Menon. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20016",
+      "invoice_date": "2023-01-02",
+      "line_items": {
+        "room_rent_per_day": 258.77,
+        "room_rent_total": 1293.85,
+        "icu_days": 2,
+        "icu_charges": 699.93,
+        "surgery_fee": 0,
+        "pharmacy_costs": 543.8,
+        "tax": 126.88
+      },
+      "total_amount": 2664.46,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 5 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 42,
+      "fraud_detector_score": 20,
+      "discrepancies_detected": [
+        "Daily room rent ($258.77) exceeds the policy's room rent cap ($216.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Rajesh's claim under POL-77016 involves a 5-day admission for infectious gastroenteritis and colitis treated with iv fluids and antibiotics by Dr. Priyanka Menon. The AI engine flagged 1 discrepancy(ies), including daily room rent ($258.77) exceeds the policy's room rent cap ($216.00); proportionate deduction applies. Based on a risk score of 42/100 and fraud score of 20/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $216.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0017",
+    "policy_number": "POL-77017",
+    "claimant_id": "CLM-017",
+    "discharge_summary": {
+      "admission_date": "2024-08-04",
+      "discharge_date": "2024-08-12",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "I21.9",
+      "icd10_diagnosis_description": "Acute myocardial infarction, unspecified",
+      "procedure": "Percutaneous coronary intervention (PCI) with stent",
+      "treatment_notes": "Patient presented with symptoms consistent with acute myocardial infarction, unspecified. Underwent percutaneous coronary intervention (pci) with stent under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20017",
+      "invoice_date": "2024-08-13",
+      "line_items": {
+        "room_rent_per_day": 30.04,
+        "room_rent_total": 240.32,
+        "icu_days": 1,
+        "icu_charges": 213.07,
+        "surgery_fee": 786.67,
+        "pharmacy_costs": 60.66,
+        "tax": 65.04
+      },
+      "total_amount": 1365.76,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis I21.9.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 41,
+      "fraud_detector_score": 10,
+      "discrepancies_detected": [
+        "Daily room rent ($30.04) exceeds the policy's room rent cap ($25.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Richard's claim under POL-77017 involves a 8-day admission for acute myocardial infarction, unspecified treated with percutaneous coronary intervention (pci) with stent by Dr. Thomas Blake. The AI engine flagged 2 discrepancy(ies), including daily room rent ($30.04) exceeds the policy's room rent cap ($25.00); proportionate deduction applies. Based on a risk score of 41/100 and fraud score of 10/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $25.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0018",
+    "policy_number": "POL-77018",
+    "claimant_id": "CLM-018",
+    "discharge_summary": {
+      "admission_date": "2025-08-15",
+      "discharge_date": "2025-08-16",
+      "length_of_stay_days": 1,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "C50.911",
+      "icd10_diagnosis_description": "Malignant neoplasm of right breast",
+      "procedure": "Modified radical mastectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. Elena Vasquez. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20018",
+      "invoice_date": "2025-08-18",
+      "line_items": {
+        "room_rent_per_day": 34.4,
+        "room_rent_total": 34.4,
+        "icu_days": 3,
+        "icu_charges": 598.75,
+        "surgery_fee": 2572.34,
+        "pharmacy_costs": 506.81,
+        "tax": 185.62
+      },
+      "total_amount": 3897.92,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis C50.911.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 14 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 18,
+      "fraud_detector_score": 6,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Michael's claim under POL-77018 involves a 1-day admission for malignant neoplasm of right breast treated with modified radical mastectomy by Dr. Elena Vasquez. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 18/100 and fraud score of 6/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0019",
+    "policy_number": "POL-77019",
+    "claimant_id": "CLM-019",
+    "discharge_summary": {
+      "admission_date": "2025-04-21",
+      "discharge_date": "2025-04-28",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "O80",
+      "icd10_diagnosis_description": "Encounter for full-term uncomplicated delivery",
+      "procedure": "Normal vaginal delivery",
+      "treatment_notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20019",
+      "invoice_date": "2025-04-30",
+      "line_items": {
+        "room_rent_per_day": 121.4,
+        "room_rent_total": 849.8,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 297.94,
+        "tax": 57.39
+      },
+      "total_amount": 1205.13,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis O80.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 11 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 40,
+      "fraud_detector_score": 10,
+      "discrepancies_detected": [
+        "Daily room rent ($121.40) exceeds the policy's room rent cap ($96.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Pooja's claim under POL-77019 involves a 7-day admission for encounter for full-term uncomplicated delivery treated with normal vaginal delivery by Dr. James Carter. The AI engine flagged 1 discrepancy(ies), including daily room rent ($121.40) exceeds the policy's room rent cap ($96.00); proportionate deduction applies. Based on a risk score of 40/100 and fraud score of 10/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $96.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0020",
+    "policy_number": "POL-77020",
+    "claimant_id": "CLM-020",
+    "discharge_summary": {
+      "admission_date": "2024-07-22",
+      "discharge_date": "2024-07-26",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Samuel Okafor",
+      "icd10_diagnosis_code": "V43.52XA",
+      "icd10_diagnosis_description": "Car driver injured in collision with car, traffic accident",
+      "procedure": "Polytrauma management, ICU care",
+      "treatment_notes": "Patient presented with symptoms consistent with car driver injured in collision with car, traffic accident. Underwent polytrauma management, icu care under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20020",
+      "invoice_date": "2024-07-27",
+      "line_items": {
+        "room_rent_per_day": 115.02,
+        "room_rent_total": 460.08,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 171.88,
+        "tax": 31.6
+      },
+      "total_amount": 663.56,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis V43.52XA.",
+      "pharmacy_prescription": "Prescribed Atorvastatin 20mg for 12 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-9698/2024 filed at Ahmedabad Traffic Police Station on 2024-07-22; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 25,
+      "fraud_detector_score": 16,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Rajesh's claim under POL-77020 involves a 4-day admission for car driver injured in collision with car, traffic accident treated with polytrauma management, icu care by Dr. Samuel Okafor. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 25/100 and fraud score of 16/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0021",
+    "policy_number": "POL-77021",
+    "claimant_id": "CLM-021",
+    "discharge_summary": {
+      "admission_date": "2023-10-31",
+      "discharge_date": "2023-11-04",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "S72.001A",
+      "icd10_diagnosis_description": "Fracture of neck of right femur",
+      "procedure": "Open reduction internal fixation (ORIF)",
+      "treatment_notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Thomas Blake. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20021",
+      "invoice_date": "2023-11-04",
+      "line_items": {
+        "room_rent_per_day": 139.97,
+        "room_rent_total": 559.88,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 3910.03,
+        "pharmacy_costs": 354.35,
+        "tax": 241.21
+      },
+      "total_amount": 5065.47,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 5 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-5658/2023 filed at Portland Traffic Police Station on 2023-10-31; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 44,
+      "fraud_detector_score": 20,
+      "discrepancies_detected": [
+        "Daily room rent ($139.97) exceeds the policy's room rent cap ($120.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "William's claim under POL-77021 involves a 4-day admission for fracture of neck of right femur treated with open reduction internal fixation (orif) by Dr. Thomas Blake. The AI engine flagged 1 discrepancy(ies), including daily room rent ($139.97) exceeds the policy's room rent cap ($120.00); proportionate deduction applies. Based on a risk score of 44/100 and fraud score of 20/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $120.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0022",
+    "policy_number": "POL-77022",
+    "claimant_id": "CLM-022",
+    "discharge_summary": {
+      "admission_date": "2024-06-19",
+      "discharge_date": "2024-06-26",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. Samuel Okafor",
+      "icd10_diagnosis_code": "I63.9",
+      "icd10_diagnosis_description": "Cerebral infarction, unspecified",
+      "procedure": "Thrombolysis and stroke unit care",
+      "treatment_notes": "Patient presented with symptoms consistent with cerebral infarction, unspecified. Underwent thrombolysis and stroke unit care under supervision of Dr. Samuel Okafor. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20022",
+      "invoice_date": "2024-06-28",
+      "line_items": {
+        "room_rent_per_day": 185.49,
+        "room_rent_total": 1298.43,
+        "icu_days": 1,
+        "icu_charges": 226.35,
+        "surgery_fee": 0,
+        "pharmacy_costs": 391.57,
+        "tax": 95.82
+      },
+      "total_amount": 2012.17,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis I63.9.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 38,
+      "fraud_detector_score": 12,
+      "discrepancies_detected": [
+        "Daily room rent ($185.49) exceeds the policy's room rent cap ($144.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Sunita's claim under POL-77022 involves a 7-day admission for cerebral infarction, unspecified treated with thrombolysis and stroke unit care by Dr. Samuel Okafor. The AI engine flagged 1 discrepancy(ies), including daily room rent ($185.49) exceeds the policy's room rent cap ($144.00); proportionate deduction applies. Based on a risk score of 38/100 and fraud score of 12/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $144.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0023",
+    "policy_number": "POL-77023",
+    "claimant_id": "CLM-023",
+    "discharge_summary": {
+      "admission_date": "2023-09-28",
+      "discharge_date": "2023-10-08",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. Manjunath Rao",
+      "icd10_diagnosis_code": "J45.901",
+      "icd10_diagnosis_description": "Unspecified asthma with acute exacerbation",
+      "procedure": "Nebulization and steroid therapy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Manjunath Rao. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20023",
+      "invoice_date": "2023-10-23",
+      "line_items": {
+        "room_rent_per_day": 56.15,
+        "room_rent_total": 561.5,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 504.65,
+        "tax": 53.31
+      },
+      "total_amount": 1119.46,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901.",
+      "pharmacy_prescription": "Prescribed Insulin Glargine for 14 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 54,
+      "fraud_detector_score": 49,
+      "discrepancies_detected": [
+        "Invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Anjali's claim under POL-77023 involves a 10-day admission for unspecified asthma with acute exacerbation treated with nebulization and steroid therapy by Dr. Manjunath Rao. The AI engine flagged 2 discrepancy(ies), including invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing. Based on a risk score of 54/100 and fraud score of 49/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 9.3 \u2014 Claim Documentation Consistency: all submitted documents must reflect a consistent treatment timeline; material inconsistencies trigger manual document verification."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0024",
+    "policy_number": "POL-77024",
+    "claimant_id": "CLM-024",
+    "discharge_summary": {
+      "admission_date": "2023-11-22",
+      "discharge_date": "2023-12-02",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "I10",
+      "icd10_diagnosis_description": "Essential (primary) hypertension",
+      "procedure": "Medical management, no surgery",
+      "treatment_notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20024",
+      "invoice_date": "2023-12-04",
+      "line_items": {
+        "room_rent_per_day": 106.1,
+        "room_rent_total": 1061.0,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 2780.28,
+        "pharmacy_costs": 553.84,
+        "tax": 219.76
+      },
+      "total_amount": 4614.88,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 12 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 42,
+      "fraud_detector_score": 25,
+      "discrepancies_detected": [
+        "Daily room rent ($106.10) exceeds the policy's room rent cap ($100.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Naveen's claim under POL-77024 involves a 10-day admission for essential (primary) hypertension treated with medical management, no surgery by Dr. James Carter. The AI engine flagged 2 discrepancy(ies), including daily room rent ($106.10) exceeds the policy's room rent cap ($100.00); proportionate deduction applies. Based on a risk score of 42/100 and fraud score of 25/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $100.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0025",
+    "policy_number": "POL-77025",
+    "claimant_id": "CLM-025",
+    "discharge_summary": {
+      "admission_date": "2022-04-29",
+      "discharge_date": "2022-05-06",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. Nithya Subramanian",
+      "icd10_diagnosis_code": "A09",
+      "icd10_diagnosis_description": "Infectious gastroenteritis and colitis",
+      "procedure": "IV fluids and antibiotics",
+      "treatment_notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. Nithya Subramanian. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20025",
+      "invoice_date": "2022-05-07",
+      "line_items": {
+        "room_rent_per_day": 97.16,
+        "room_rent_total": 680.12,
+        "icu_days": 1,
+        "icu_charges": 253.31,
+        "surgery_fee": 0,
+        "pharmacy_costs": 153.17,
+        "tax": 54.33
+      },
+      "total_amount": 1140.93,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis A09.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 38,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "Daily room rent ($97.16) exceeds the policy's room rent cap ($75.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Rajesh's claim under POL-77025 involves a 7-day admission for infectious gastroenteritis and colitis treated with iv fluids and antibiotics by Dr. Nithya Subramanian. The AI engine flagged 1 discrepancy(ies), including daily room rent ($97.16) exceeds the policy's room rent cap ($75.00); proportionate deduction applies. Based on a risk score of 38/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $75.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0026",
+    "policy_number": "POL-77026",
+    "claimant_id": "CLM-026",
+    "discharge_summary": {
+      "admission_date": "2023-10-26",
+      "discharge_date": "2023-11-04",
+      "length_of_stay_days": 9,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "J45.901",
+      "icd10_diagnosis_description": "Unspecified asthma with acute exacerbation",
+      "procedure": "Nebulization and steroid therapy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20026",
+      "invoice_date": "2023-11-06",
+      "line_items": {
+        "room_rent_per_day": 42.93,
+        "room_rent_total": 386.37,
+        "icu_days": 2,
+        "icu_charges": 372.32,
+        "surgery_fee": 0,
+        "pharmacy_costs": 154.84,
+        "tax": 45.68
+      },
+      "total_amount": 959.21,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis J45.901.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 9 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 38,
+      "fraud_detector_score": 15,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Joseph's claim under POL-77026 involves a 9-day admission for unspecified asthma with acute exacerbation treated with nebulization and steroid therapy by Dr. Elena Vasquez. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 38/100 and fraud score of 15/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0027",
+    "policy_number": "POL-77027",
+    "claimant_id": "CLM-027",
+    "discharge_summary": {
+      "admission_date": "2024-08-27",
+      "discharge_date": "2024-09-03",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. A. Krishnamurthy",
+      "icd10_diagnosis_code": "I21.9",
+      "icd10_diagnosis_description": "Acute myocardial infarction, unspecified",
+      "procedure": "Percutaneous coronary intervention (PCI) with stent",
+      "treatment_notes": "Patient presented with symptoms consistent with acute myocardial infarction, unspecified. Underwent percutaneous coronary intervention (pci) with stent under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20027",
+      "invoice_date": "2024-09-04",
+      "line_items": {
+        "room_rent_per_day": 174.63,
+        "room_rent_total": 1222.41,
+        "icu_days": 1,
+        "icu_charges": 246.52,
+        "surgery_fee": 2822.91,
+        "pharmacy_costs": 501.41,
+        "tax": 239.66
+      },
+      "total_amount": 5032.91,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis I21.9.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 13 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 40,
+      "fraud_detector_score": 13,
+      "discrepancies_detected": [
+        "Daily room rent ($174.63) exceeds the policy's room rent cap ($150.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Thomas's claim under POL-77027 involves a 7-day admission for acute myocardial infarction, unspecified treated with percutaneous coronary intervention (pci) with stent by Dr. A. Krishnamurthy. The AI engine flagged 1 discrepancy(ies), including daily room rent ($174.63) exceeds the policy's room rent cap ($150.00); proportionate deduction applies. Based on a risk score of 40/100 and fraud score of 13/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $150.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0028",
+    "policy_number": "POL-77028",
+    "claimant_id": "CLM-028",
+    "discharge_summary": {
+      "admission_date": "2025-10-03",
+      "discharge_date": "2025-10-11",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Nithya Subramanian",
+      "icd10_diagnosis_code": "I10",
+      "icd10_diagnosis_description": "Essential (primary) hypertension",
+      "procedure": "Medical management, no surgery",
+      "treatment_notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Nithya Subramanian. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20028",
+      "invoice_date": "2025-10-11",
+      "line_items": {
+        "room_rent_per_day": 63.03,
+        "room_rent_total": 504.24,
+        "icu_days": 3,
+        "icu_charges": 1140.7,
+        "surgery_fee": 3990.99,
+        "pharmacy_costs": 460.72,
+        "tax": 304.83
+      },
+      "total_amount": 6401.48,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis I10.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 34,
+      "fraud_detector_score": 5,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Joseph's claim under POL-77028 involves a 8-day admission for essential (primary) hypertension treated with medical management, no surgery by Dr. Nithya Subramanian. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 34/100 and fraud score of 5/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0029",
+    "policy_number": "POL-77029",
+    "claimant_id": "CLM-029",
+    "discharge_summary": {
+      "admission_date": "2023-05-25",
+      "discharge_date": "2023-06-04",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. Farah Iqbal",
+      "icd10_diagnosis_code": "K35.80",
+      "icd10_diagnosis_description": "Unspecified acute appendicitis",
+      "procedure": "Laparoscopic appendectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Farah Iqbal. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20029",
+      "invoice_date": "2023-06-06",
+      "line_items": {
+        "room_rent_per_day": 20.08,
+        "room_rent_total": 200.8,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 3646.18,
+        "pharmacy_costs": 305.89,
+        "tax": 207.64
+      },
+      "total_amount": 4360.51,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis K35.80.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 12 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 36,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Sunita's claim under POL-77029 involves a 10-day admission for unspecified acute appendicitis treated with laparoscopic appendectomy by Dr. Farah Iqbal. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 36/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0030",
+    "policy_number": "POL-77030",
+    "claimant_id": "CLM-030",
+    "discharge_summary": {
+      "admission_date": "2023-10-09",
+      "discharge_date": "2023-10-10",
+      "length_of_stay_days": 1,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "A09",
+      "icd10_diagnosis_description": "Infectious gastroenteritis and colitis",
+      "procedure": "IV fluids and antibiotics",
+      "treatment_notes": "Patient presented with symptoms consistent with infectious gastroenteritis and colitis. Underwent iv fluids and antibiotics under supervision of Dr. James Carter. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20030",
+      "invoice_date": "2023-10-10",
+      "line_items": {
+        "room_rent_per_day": 55.16,
+        "room_rent_total": 55.16,
+        "icu_days": 2,
+        "icu_charges": 672.59,
+        "surgery_fee": 0,
+        "pharmacy_costs": 508.06,
+        "tax": 61.79
+      },
+      "total_amount": 1297.6,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis A09.",
+      "pharmacy_prescription": "Prescribed Atorvastatin 20mg for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 36,
+      "fraud_detector_score": 18,
+      "discrepancies_detected": [
+        "Daily room rent ($55.16) exceeds the policy's room rent cap ($40.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Jessica's claim under POL-77030 involves a 1-day admission for infectious gastroenteritis and colitis treated with iv fluids and antibiotics by Dr. James Carter. The AI engine flagged 1 discrepancy(ies), including daily room rent ($55.16) exceeds the policy's room rent cap ($40.00); proportionate deduction applies. Based on a risk score of 36/100 and fraud score of 18/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $40.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0031",
+    "policy_number": "POL-77031",
+    "claimant_id": "CLM-031",
+    "discharge_summary": {
+      "admission_date": "2023-09-27",
+      "discharge_date": "2023-10-06",
+      "length_of_stay_days": 9,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "N20.0",
+      "icd10_diagnosis_description": "Calculus of kidney",
+      "procedure": "Percutaneous nephrolithotomy (PCNL)",
+      "treatment_notes": "Patient presented with symptoms consistent with calculus of kidney. Underwent percutaneous nephrolithotomy (pcnl) under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20031",
+      "invoice_date": "2023-10-07",
+      "line_items": {
+        "room_rent_per_day": 68.28,
+        "room_rent_total": 614.52,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 3804.66,
+        "pharmacy_costs": 582.06,
+        "tax": 250.06
+      },
+      "total_amount": 5251.3,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis N20.0.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 69,
+      "fraud_detector_score": 27,
+      "discrepancies_detected": [
+        "Daily room rent ($68.28) exceeds the policy's room rent cap ($54.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review.",
+        "Total claimed amount ($5251.30) exceeds the policy sum insured ($4500.00)."
+      ],
+      "executive_ai_case_summary": "John's claim under POL-77031 involves a 9-day admission for calculus of kidney treated with percutaneous nephrolithotomy (pcnl) by Dr. Thomas Blake. The AI engine flagged 3 discrepancy(ies), including daily room rent ($68.28) exceeds the policy's room rent cap ($54.00); proportionate deduction applies. Based on a risk score of 69/100 and fraud score of 27/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $54.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0032",
+    "policy_number": "POL-77032",
+    "claimant_id": "CLM-032",
+    "discharge_summary": {
+      "admission_date": "2023-07-21",
+      "discharge_date": "2023-07-25",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Samuel Okafor",
+      "icd10_diagnosis_code": "I10",
+      "icd10_diagnosis_description": "Essential (primary) hypertension",
+      "procedure": "Medical management, no surgery",
+      "treatment_notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20032",
+      "invoice_date": "2023-07-26",
+      "line_items": {
+        "room_rent_per_day": 206.98,
+        "room_rent_total": 827.92,
+        "icu_days": 2,
+        "icu_charges": 410.68,
+        "surgery_fee": 721.26,
+        "pharmacy_costs": 503.12,
+        "tax": 123.15
+      },
+      "total_amount": 2586.13,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis I10.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 16,
+      "fraud_detector_score": 6,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Richard's claim under POL-77032 involves a 4-day admission for essential (primary) hypertension treated with medical management, no surgery by Dr. Samuel Okafor. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 16/100 and fraud score of 6/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0033",
+    "policy_number": "POL-77033",
+    "claimant_id": "CLM-033",
+    "discharge_summary": {
+      "admission_date": "2025-05-16",
+      "discharge_date": "2025-05-26",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "O80",
+      "icd10_diagnosis_description": "Encounter for full-term uncomplicated delivery",
+      "procedure": "Normal vaginal delivery",
+      "treatment_notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Priyanka Menon. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20033",
+      "invoice_date": "2025-05-28",
+      "line_items": {
+        "room_rent_per_day": 107.57,
+        "room_rent_total": 1075.7,
+        "icu_days": 1,
+        "icu_charges": 261.17,
+        "surgery_fee": 0,
+        "pharmacy_costs": 179.86,
+        "tax": 75.84
+      },
+      "total_amount": 1592.57,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80.",
+      "pharmacy_prescription": "Prescribed Insulin Glargine for 10 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 26,
+      "fraud_detector_score": 17,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Neha's claim under POL-77033 involves a 10-day admission for encounter for full-term uncomplicated delivery treated with normal vaginal delivery by Dr. Priyanka Menon. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 26/100 and fraud score of 17/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0034",
+    "policy_number": "POL-77034",
+    "claimant_id": "CLM-034",
+    "discharge_summary": {
+      "admission_date": "2023-12-03",
+      "discharge_date": "2023-12-06",
+      "length_of_stay_days": 3,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "I10",
+      "icd10_diagnosis_description": "Essential (primary) hypertension",
+      "procedure": "Medical management, no surgery",
+      "treatment_notes": "Patient presented with symptoms consistent with essential (primary) hypertension. Underwent medical management, no surgery under supervision of Dr. James Carter. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20034",
+      "invoice_date": "2023-12-16",
+      "line_items": {
+        "room_rent_per_day": 200.16,
+        "room_rent_total": 600.48,
+        "icu_days": 2,
+        "icu_charges": 425.33,
+        "surgery_fee": 1110.74,
+        "pharmacy_costs": 413.58,
+        "tax": 127.51
+      },
+      "total_amount": 2677.64,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis I10.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 14 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 60,
+      "fraud_detector_score": 40,
+      "discrepancies_detected": [
+        "Invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing.",
+        "Daily room rent ($200.16) exceeds the policy's room rent cap ($144.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Priya's claim under POL-77034 involves a 3-day admission for essential (primary) hypertension treated with medical management, no surgery by Dr. James Carter. The AI engine flagged 2 discrepancy(ies), including invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing. Based on a risk score of 60/100 and fraud score of 40/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $144.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0035",
+    "policy_number": "POL-77035",
+    "claimant_id": "CLM-035",
+    "discharge_summary": {
+      "admission_date": "2025-04-14",
+      "discharge_date": "2025-04-15",
+      "length_of_stay_days": 1,
+      "attending_doctor": "Dr. A. Krishnamurthy",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20035",
+      "invoice_date": "2025-04-16",
+      "line_items": {
+        "room_rent_per_day": 41.36,
+        "room_rent_total": 41.36,
+        "icu_days": 1,
+        "icu_charges": 328.1,
+        "surgery_fee": 0,
+        "pharmacy_costs": 293.96,
+        "tax": 33.17
+      },
+      "total_amount": 696.59,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 6 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-3067/2025 filed at Kolkata Traffic Police Station on 2025-04-14; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 42,
+      "fraud_detector_score": 19,
+      "discrepancies_detected": [
+        "Daily room rent ($41.36) exceeds the policy's room rent cap ($36.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Sunita's claim under POL-77035 involves a 1-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. A. Krishnamurthy. The AI engine flagged 1 discrepancy(ies), including daily room rent ($41.36) exceeds the policy's room rent cap ($36.00); proportionate deduction applies. Based on a risk score of 42/100 and fraud score of 19/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $36.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0036",
+    "policy_number": "POL-77036",
+    "claimant_id": "CLM-036",
+    "discharge_summary": {
+      "admission_date": "2025-11-12",
+      "discharge_date": "2025-11-17",
+      "length_of_stay_days": 5,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "S72.001A",
+      "icd10_diagnosis_description": "Fracture of neck of right femur",
+      "procedure": "Open reduction internal fixation (ORIF)",
+      "treatment_notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20036",
+      "invoice_date": "2025-11-19",
+      "line_items": {
+        "room_rent_per_day": 39.22,
+        "room_rent_total": 196.1,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 837.98,
+        "pharmacy_costs": 456.34,
+        "tax": 74.52
+      },
+      "total_amount": 1564.94,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis S72.001A.",
+      "pharmacy_prescription": "Prescribed Insulin Glargine for 13 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-6400/2025 filed at Mumbai Traffic Police Station on 2025-11-12; recorded as a road traffic collision, claimant listed as pedestrian.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 28,
+      "fraud_detector_score": 16,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Divya's claim under POL-77036 involves a 5-day admission for fracture of neck of right femur treated with open reduction internal fixation (orif) by Dr. Thomas Blake. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 28/100 and fraud score of 16/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0037",
+    "policy_number": "POL-77037",
+    "claimant_id": "CLM-037",
+    "discharge_summary": {
+      "admission_date": "2023-10-13",
+      "discharge_date": "2023-10-23",
+      "length_of_stay_days": 10,
+      "attending_doctor": "Dr. Manjunath Rao",
+      "icd10_diagnosis_code": "M17.11",
+      "icd10_diagnosis_description": "Unilateral primary osteoarthritis, right knee",
+      "procedure": "Total knee replacement",
+      "treatment_notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Manjunath Rao. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20037",
+      "invoice_date": "2023-10-25",
+      "line_items": {
+        "room_rent_per_day": 165.56,
+        "room_rent_total": 1655.6,
+        "icu_days": 2,
+        "icu_charges": 606.79,
+        "surgery_fee": 2749.45,
+        "pharmacy_costs": 64.44,
+        "tax": 253.81
+      },
+      "total_amount": 5330.09,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis M17.11.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 48,
+      "fraud_detector_score": 19,
+      "discrepancies_detected": [
+        "Daily room rent ($165.56) exceeds the policy's room rent cap ($120.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Jessica's claim under POL-77037 involves a 10-day admission for unilateral primary osteoarthritis, right knee treated with total knee replacement by Dr. Manjunath Rao. The AI engine flagged 2 discrepancy(ies), including daily room rent ($165.56) exceeds the policy's room rent cap ($120.00); proportionate deduction applies. Based on a risk score of 48/100 and fraud score of 19/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $120.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0038",
+    "policy_number": "POL-77038",
+    "claimant_id": "CLM-038",
+    "discharge_summary": {
+      "admission_date": "2024-11-15",
+      "discharge_date": "2024-11-21",
+      "length_of_stay_days": 6,
+      "attending_doctor": "Dr. James Carter",
+      "icd10_diagnosis_code": "C50.911",
+      "icd10_diagnosis_description": "Malignant neoplasm of right breast",
+      "procedure": "Modified radical mastectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with malignant neoplasm of right breast. Underwent modified radical mastectomy under supervision of Dr. James Carter. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20038",
+      "invoice_date": "2024-11-23",
+      "line_items": {
+        "room_rent_per_day": 52.16,
+        "room_rent_total": 312.96,
+        "icu_days": 2,
+        "icu_charges": 324.88,
+        "surgery_fee": 785.54,
+        "pharmacy_costs": 293.71,
+        "tax": 85.85
+      },
+      "total_amount": 1802.94,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis C50.911.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 9 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 21,
+      "fraud_detector_score": 8,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Susan's claim under POL-77038 involves a 6-day admission for malignant neoplasm of right breast treated with modified radical mastectomy by Dr. James Carter. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 21/100 and fraud score of 8/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0039",
+    "policy_number": "POL-77039",
+    "claimant_id": "CLM-039",
+    "discharge_summary": {
+      "admission_date": "2023-04-08",
+      "discharge_date": "2023-04-16",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Priyanka Menon",
+      "icd10_diagnosis_code": "S72.001A",
+      "icd10_diagnosis_description": "Fracture of neck of right femur",
+      "procedure": "Open reduction internal fixation (ORIF)",
+      "treatment_notes": "Patient presented with symptoms consistent with fracture of neck of right femur. Underwent open reduction internal fixation (orif) under supervision of Dr. Priyanka Menon. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20039",
+      "invoice_date": "2023-04-27",
+      "line_items": {
+        "room_rent_per_day": 76.95,
+        "room_rent_total": 615.6,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 3416.74,
+        "pharmacy_costs": 493.41,
+        "tax": 226.29
+      },
+      "total_amount": 4752.04,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis S72.001A.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 12 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-2275/2023 filed at Ahmedabad Traffic Police Station on 2023-04-08; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 72,
+      "fraud_detector_score": 53,
+      "discrepancies_detected": [
+        "Invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing.",
+        "Daily room rent ($76.95) exceeds the policy's room rent cap ($75.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Priya's claim under POL-77039 involves a 8-day admission for fracture of neck of right femur treated with open reduction internal fixation (orif) by Dr. Priyanka Menon. The AI engine flagged 3 discrepancy(ies), including invoice date falls significantly after discharge date \u2014 possible backdated or delayed billing. Based on a risk score of 72/100 and fraud score of 53/100, the recommended action is to investigate this case.",
+      "recommended_decision": "Investigate",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $75.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0040",
+    "policy_number": "POL-77040",
+    "claimant_id": "CLM-040",
+    "discharge_summary": {
+      "admission_date": "2024-08-14",
+      "discharge_date": "2024-08-20",
+      "length_of_stay_days": 6,
+      "attending_doctor": "Dr. Farah Iqbal",
+      "icd10_diagnosis_code": "E11.9",
+      "icd10_diagnosis_description": "Type 2 diabetes mellitus without complications",
+      "procedure": "Insulin stabilization",
+      "treatment_notes": "Patient presented with symptoms consistent with type 2 diabetes mellitus without complications. Underwent insulin stabilization under supervision of Dr. Farah Iqbal. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20040",
+      "invoice_date": "2024-08-22",
+      "line_items": {
+        "room_rent_per_day": 62.21,
+        "room_rent_total": 373.26,
+        "icu_days": 2,
+        "icu_charges": 396.95,
+        "surgery_fee": 0,
+        "pharmacy_costs": 476.93,
+        "tax": 62.36
+      },
+      "total_amount": 1309.5,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis E11.9.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 19,
+      "fraud_detector_score": 13,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Sanjay's claim under POL-77040 involves a 6-day admission for type 2 diabetes mellitus without complications treated with insulin stabilization by Dr. Farah Iqbal. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 19/100 and fraud score of 13/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0041",
+    "policy_number": "POL-77041",
+    "claimant_id": "CLM-041",
+    "discharge_summary": {
+      "admission_date": "2024-04-25",
+      "discharge_date": "2024-05-03",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "M17.11",
+      "icd10_diagnosis_description": "Unilateral primary osteoarthritis, right knee",
+      "procedure": "Total knee replacement",
+      "treatment_notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20041",
+      "invoice_date": "2024-05-04",
+      "line_items": {
+        "room_rent_per_day": 103.19,
+        "room_rent_total": 825.52,
+        "icu_days": 2,
+        "icu_charges": 337.1,
+        "surgery_fee": 2116.1,
+        "pharmacy_costs": 70.68,
+        "tax": 167.47
+      },
+      "total_amount": 3516.87,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis M17.11.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 6 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 37,
+      "fraud_detector_score": 19,
+      "discrepancies_detected": [
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Divya's claim under POL-77041 involves a 8-day admission for unilateral primary osteoarthritis, right knee treated with total knee replacement by Dr. Elena Vasquez. The AI engine flagged 1 discrepancy(ies), including length of stay is unusually long relative to diagnosis; recommend medical necessity review. Based on a risk score of 37/100 and fraud score of 19/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0042",
+    "policy_number": "POL-77042",
+    "claimant_id": "CLM-042",
+    "discharge_summary": {
+      "admission_date": "2022-08-30",
+      "discharge_date": "2022-09-03",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Samuel Okafor",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Samuel Okafor. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20042",
+      "invoice_date": "2022-09-04",
+      "line_items": {
+        "room_rent_per_day": 65.27,
+        "room_rent_total": 261.08,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 205.59,
+        "tax": 23.33
+      },
+      "total_amount": 490.0,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Amoxicillin 500mg for 10 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-2079/2022 filed at Hyderabad Traffic Police Station on 2022-08-30; recorded as a road traffic collision, claimant listed as passenger.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 42,
+      "fraud_detector_score": 19,
+      "discrepancies_detected": [
+        "Daily room rent ($65.27) exceeds the policy's room rent cap ($60.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Swati's claim under POL-77042 involves a 4-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. Samuel Okafor. The AI engine flagged 1 discrepancy(ies), including daily room rent ($65.27) exceeds the policy's room rent cap ($60.00); proportionate deduction applies. Based on a risk score of 42/100 and fraud score of 19/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $60.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0043",
+    "policy_number": "POL-77043",
+    "claimant_id": "CLM-043",
+    "discharge_summary": {
+      "admission_date": "2024-11-17",
+      "discharge_date": "2024-11-26",
+      "length_of_stay_days": 9,
+      "attending_doctor": "Dr. Rebecca Song",
+      "icd10_diagnosis_code": "V43.52XA",
+      "icd10_diagnosis_description": "Car driver injured in collision with car, traffic accident",
+      "procedure": "Polytrauma management, ICU care",
+      "treatment_notes": "Patient presented with symptoms consistent with car driver injured in collision with car, traffic accident. Underwent polytrauma management, icu care under supervision of Dr. Rebecca Song. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20043",
+      "invoice_date": "2024-11-27",
+      "line_items": {
+        "room_rent_per_day": 54.37,
+        "room_rent_total": 489.33,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 149.14,
+        "tax": 31.92
+      },
+      "total_amount": 670.39,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, KFT \u2014 results consistent with diagnosis V43.52XA.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 7 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-3538/2024 filed at Chennai Traffic Police Station on 2024-11-17; recorded as a road traffic collision, claimant listed as driver.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata could not be fully verified from image metadata."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 43,
+      "fraud_detector_score": 11,
+      "discrepancies_detected": [
+        "Daily room rent ($54.37) exceeds the policy's room rent cap ($54.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Lakshmi's claim under POL-77043 involves a 9-day admission for car driver injured in collision with car, traffic accident treated with polytrauma management, icu care by Dr. Rebecca Song. The AI engine flagged 2 discrepancy(ies), including daily room rent ($54.37) exceeds the policy's room rent cap ($54.00); proportionate deduction applies. Based on a risk score of 43/100 and fraud score of 11/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $54.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0044",
+    "policy_number": "POL-77044",
+    "claimant_id": "CLM-044",
+    "discharge_summary": {
+      "admission_date": "2024-06-30",
+      "discharge_date": "2024-07-04",
+      "length_of_stay_days": 4,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "M17.11",
+      "icd10_diagnosis_description": "Unilateral primary osteoarthritis, right knee",
+      "procedure": "Total knee replacement",
+      "treatment_notes": "Patient presented with symptoms consistent with unilateral primary osteoarthritis, right knee. Underwent total knee replacement under supervision of Dr. Elena Vasquez. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20044",
+      "invoice_date": "2024-07-06",
+      "line_items": {
+        "room_rent_per_day": 71.54,
+        "room_rent_total": 286.16,
+        "icu_days": 2,
+        "icu_charges": 792.22,
+        "surgery_fee": 2115.88,
+        "pharmacy_costs": 204.97,
+        "tax": 169.96
+      },
+      "total_amount": 3569.19,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis M17.11.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 19,
+      "fraud_detector_score": 13,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Nancy's claim under POL-77044 involves a 4-day admission for unilateral primary osteoarthritis, right knee treated with total knee replacement by Dr. Elena Vasquez. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 19/100 and fraud score of 13/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0045",
+    "policy_number": "POL-77045",
+    "claimant_id": "CLM-045",
+    "discharge_summary": {
+      "admission_date": "2022-11-28",
+      "discharge_date": "2022-12-05",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. A. Krishnamurthy",
+      "icd10_diagnosis_code": "J45.901",
+      "icd10_diagnosis_description": "Unspecified asthma with acute exacerbation",
+      "procedure": "Nebulization and steroid therapy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. A. Krishnamurthy. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 2 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20045",
+      "invoice_date": "2022-12-07",
+      "line_items": {
+        "room_rent_per_day": 59.15,
+        "room_rent_total": 414.05,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 65.5,
+        "tax": 23.98
+      },
+      "total_amount": 503.53,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis J45.901.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 7 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 16,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Neha's claim under POL-77045 involves a 7-day admission for unspecified asthma with acute exacerbation treated with nebulization and steroid therapy by Dr. A. Krishnamurthy. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 16/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0046",
+    "policy_number": "POL-77046",
+    "claimant_id": "CLM-046",
+    "discharge_summary": {
+      "admission_date": "2025-01-15",
+      "discharge_date": "2025-01-16",
+      "length_of_stay_days": 1,
+      "attending_doctor": "Dr. Manjunath Rao",
+      "icd10_diagnosis_code": "J45.901",
+      "icd10_diagnosis_description": "Unspecified asthma with acute exacerbation",
+      "procedure": "Nebulization and steroid therapy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified asthma with acute exacerbation. Underwent nebulization and steroid therapy under supervision of Dr. Manjunath Rao. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20046",
+      "invoice_date": "2025-01-18",
+      "line_items": {
+        "room_rent_per_day": 24.14,
+        "room_rent_total": 24.14,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 324.91,
+        "tax": 17.45
+      },
+      "total_amount": 366.5,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Cardiac Enzymes \u2014 results consistent with diagnosis J45.901.",
+      "pharmacy_prescription": "Prescribed Insulin Glargine for 8 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 19,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Sarah's claim under POL-77046 involves a 1-day admission for unspecified asthma with acute exacerbation treated with nebulization and steroid therapy by Dr. Manjunath Rao. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 19/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0047",
+    "policy_number": "POL-77047",
+    "claimant_id": "CLM-047",
+    "discharge_summary": {
+      "admission_date": "2025-10-12",
+      "discharge_date": "2025-10-19",
+      "length_of_stay_days": 7,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "O80",
+      "icd10_diagnosis_description": "Encounter for full-term uncomplicated delivery",
+      "procedure": "Normal vaginal delivery",
+      "treatment_notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Thomas Blake. Post-procedure recovery was complicated by a minor infection, resolved with antibiotics. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20047",
+      "invoice_date": "2025-10-21",
+      "line_items": {
+        "room_rent_per_day": 66.43,
+        "room_rent_total": 465.01,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 453.12,
+        "tax": 45.91
+      },
+      "total_amount": 964.04,
+      "currency": "INR"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Lipid Profile \u2014 results consistent with diagnosis O80.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 5 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 26,
+      "fraud_detector_score": 15,
+      "discrepancies_detected": [
+        "No material discrepancies detected between discharge summary, itemized bill, and policy terms."
+      ],
+      "executive_ai_case_summary": "Divya's claim under POL-77047 involves a 7-day admission for encounter for full-term uncomplicated delivery treated with normal vaginal delivery by Dr. Thomas Blake. No discrepancies were detected across the discharge summary, itemized bill, and policy terms. Based on a risk score of 26/100 and fraud score of 15/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 2.4 \u2014 Standard Claim Eligibility: claim documentation is complete, consistent, and within policy limits; standard settlement process applies."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0048",
+    "policy_number": "POL-77048",
+    "claimant_id": "CLM-048",
+    "discharge_summary": {
+      "admission_date": "2023-09-17",
+      "discharge_date": "2023-09-18",
+      "length_of_stay_days": 1,
+      "attending_doctor": "Dr. Manjunath Rao",
+      "icd10_diagnosis_code": "O80",
+      "icd10_diagnosis_description": "Encounter for full-term uncomplicated delivery",
+      "procedure": "Normal vaginal delivery",
+      "treatment_notes": "Patient presented with symptoms consistent with encounter for full-term uncomplicated delivery. Underwent normal vaginal delivery under supervision of Dr. Manjunath Rao. Post-procedure recovery was monitored closely due to comorbidities. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20048",
+      "invoice_date": "2023-09-19",
+      "line_items": {
+        "room_rent_per_day": 38.78,
+        "room_rent_total": 38.78,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 489.64,
+        "tax": 26.42
+      },
+      "total_amount": 554.84,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis O80.",
+      "pharmacy_prescription": "Prescribed Paracetamol 650mg for 10 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 35,
+      "fraud_detector_score": 25,
+      "discrepancies_detected": [
+        "Daily room rent ($38.78) exceeds the policy's room rent cap ($30.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Patricia's claim under POL-77048 involves a 1-day admission for encounter for full-term uncomplicated delivery treated with normal vaginal delivery by Dr. Manjunath Rao. The AI engine flagged 1 discrepancy(ies), including daily room rent ($38.78) exceeds the policy's room rent cap ($30.00); proportionate deduction applies. Based on a risk score of 35/100 and fraud score of 25/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $30.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0049",
+    "policy_number": "POL-77049",
+    "claimant_id": "CLM-049",
+    "discharge_summary": {
+      "admission_date": "2023-12-03",
+      "discharge_date": "2023-12-11",
+      "length_of_stay_days": 8,
+      "attending_doctor": "Dr. Thomas Blake",
+      "icd10_diagnosis_code": "S06.0X0A",
+      "icd10_diagnosis_description": "Concussion without loss of consciousness",
+      "procedure": "Observation, neurology consult",
+      "treatment_notes": "Patient presented with symptoms consistent with concussion without loss of consciousness. Underwent observation, neurology consult under supervision of Dr. Thomas Blake. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 4 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20049",
+      "invoice_date": "2023-12-11",
+      "line_items": {
+        "room_rent_per_day": 58.32,
+        "room_rent_total": 466.56,
+        "icu_days": 0,
+        "icu_charges": 0.0,
+        "surgery_fee": 0,
+        "pharmacy_costs": 289.22,
+        "tax": 37.79
+      },
+      "total_amount": 793.57,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, LFT \u2014 results consistent with diagnosis S06.0X0A.",
+      "pharmacy_prescription": "Prescribed Salbutamol Inhaler for 11 days.",
+      "is_accident_claim": true,
+      "police_fir": "FIR-6952/2023 filed at Portland Traffic Police Station on 2023-12-03; recorded as a road traffic collision, claimant listed as pedestrian.",
+      "photo_analysis_notes": "Photo analysis of submitted accident-site images shows damage consistent with reported collision; vehicle registration and location metadata match the FIR record."
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 40,
+      "fraud_detector_score": 14,
+      "discrepancies_detected": [
+        "Daily room rent ($58.32) exceeds the policy's room rent cap ($45.00); proportionate deduction applies.",
+        "Length of stay is unusually long relative to diagnosis; recommend medical necessity review."
+      ],
+      "executive_ai_case_summary": "Susan's claim under POL-77049 involves a 8-day admission for concussion without loss of consciousness treated with observation, neurology consult by Dr. Thomas Blake. The AI engine flagged 2 discrepancy(ies), including daily room rent ($58.32) exceeds the policy's room rent cap ($45.00); proportionate deduction applies. Based on a risk score of 40/100 and fraud score of 14/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $45.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  },
+  {
+    "claim_id": "CLAIM-0050",
+    "policy_number": "POL-77050",
+    "claimant_id": "CLM-050",
+    "discharge_summary": {
+      "admission_date": "2025-02-11",
+      "discharge_date": "2025-02-17",
+      "length_of_stay_days": 6,
+      "attending_doctor": "Dr. Elena Vasquez",
+      "icd10_diagnosis_code": "K35.80",
+      "icd10_diagnosis_description": "Unspecified acute appendicitis",
+      "procedure": "Laparoscopic appendectomy",
+      "treatment_notes": "Patient presented with symptoms consistent with unspecified acute appendicitis. Underwent laparoscopic appendectomy under supervision of Dr. Elena Vasquez. Post-procedure recovery was uneventful. Discharged in stable condition with follow-up advised in 1 weeks."
+    },
+    "itemized_medical_bill": {
+      "invoice_number": "INV-20050",
+      "invoice_date": "2025-02-19",
+      "line_items": {
+        "room_rent_per_day": 47.54,
+        "room_rent_total": 285.24,
+        "icu_days": 1,
+        "icu_charges": 279.44,
+        "surgery_fee": 3697.4,
+        "pharmacy_costs": 114.77,
+        "tax": 218.84
+      },
+      "total_amount": 4595.69,
+      "currency": "USD"
+    },
+    "supporting_documents": {
+      "lab_reports": "CBC, Blood Sugar Panel \u2014 results consistent with diagnosis K35.80.",
+      "pharmacy_prescription": "Prescribed Metformin 500mg for 14 days.",
+      "is_accident_claim": false,
+      "police_fir": null,
+      "photo_analysis_notes": null
+    },
+    "ai_underwriting_evaluation": {
+      "risk_score": 39,
+      "fraud_detector_score": 25,
+      "discrepancies_detected": [
+        "Daily room rent ($47.54) exceeds the policy's room rent cap ($40.00); proportionate deduction applies."
+      ],
+      "executive_ai_case_summary": "Joseph's claim under POL-77050 involves a 6-day admission for unspecified acute appendicitis treated with laparoscopic appendectomy by Dr. Elena Vasquez. The AI engine flagged 1 discrepancy(ies), including daily room rent ($47.54) exceeds the policy's room rent cap ($40.00); proportionate deduction applies. Based on a risk score of 39/100 and fraud score of 25/100, the recommended action is to approve this case.",
+      "recommended_decision": "Approve",
+      "cited_policy_clause": "Clause 6.1 \u2014 Room Rent Sub-limit: reimbursement for room rent is capped at $40.00/day; excess room rent and associated proportionate charges are payable by the insured."
+    }
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "claimant_id": "CLM-001",
+    "full_name": "James Lopez",
+    "date_of_birth": "1962-10-19",
+    "contact": {
+      "phone": "+1-954-304-9935",
+      "email": "james.lopez1@example.com",
+      "address": "605 Hill Cross, Portland, OR, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "350-38-3286"
+    },
+    "policy_number": "POL-77001",
+    "sum_insured": 3000,
+    "currency": "USD",
+    "policy_start_date": "2022-03-03",
+    "policy_end_date": "2023-03-03",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 24.0,
+      "deductible_amount": 150,
+      "copay_percent": 0,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-002",
+    "full_name": "Meena Chowdhury",
+    "date_of_birth": "1962-01-26",
+    "contact": {
+      "phone": "+91-7409059615",
+      "email": "meena.chowdhury2@example.com",
+      "address": "566 Lake Rd, Pune, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "1711 8527 9785"
+    },
+    "policy_number": "POL-77002",
+    "sum_insured": 20000,
+    "currency": "INR",
+    "policy_start_date": "2024-01-11",
+    "policy_end_date": "2025-01-10",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 160.0,
+      "deductible_amount": 500,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-003",
+    "full_name": "Sanjay Verma",
+    "date_of_birth": "1983-04-20",
+    "contact": {
+      "phone": "+91-9692814207",
+      "email": "sanjay.verma3@example.com",
+      "address": "411 Lake Rd, Bengaluru, Karnataka, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "6313 1916 4752"
+    },
+    "policy_number": "POL-77003",
+    "sum_insured": 4500,
+    "currency": "INR",
+    "policy_start_date": "2023-03-09",
+    "policy_end_date": "2024-03-08",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 45.0,
+      "deductible_amount": 150,
+      "copay_percent": 20,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-004",
+    "full_name": "Linda Williams",
+    "date_of_birth": "1977-07-22",
+    "contact": {
+      "phone": "+1-594-590-8668",
+      "email": "linda.williams4@example.com",
+      "address": "995 Park Lane, Denver, CO, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "796-64-2040"
+    },
+    "policy_number": "POL-77004",
+    "sum_insured": 3000,
+    "currency": "USD",
+    "policy_start_date": "2022-08-23",
+    "policy_end_date": "2023-08-23",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 30.0,
+      "deductible_amount": 500,
+      "copay_percent": 15,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-005",
+    "full_name": "Neha Sharma",
+    "date_of_birth": "1962-01-24",
+    "contact": {
+      "phone": "+91-7189841571",
+      "email": "neha.sharma5@example.com",
+      "address": "88 MG Road, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "6947 6038 4923"
+    },
+    "policy_number": "POL-77005",
+    "sum_insured": 12000,
+    "currency": "INR",
+    "policy_start_date": "2022-05-22",
+    "policy_end_date": "2023-05-22",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 96.0,
+      "deductible_amount": 150,
+      "copay_percent": 20,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-006",
+    "full_name": "Arjun Rao",
+    "date_of_birth": "1960-04-13",
+    "contact": {
+      "phone": "+91-7232692719",
+      "email": "arjun.rao6@example.com",
+      "address": "235 Main St, Hyderabad, Telangana, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "4770 4608 1117"
+    },
+    "policy_number": "POL-77006",
+    "sum_insured": 3000,
+    "currency": "INR",
+    "policy_start_date": "2023-11-08",
+    "policy_end_date": "2024-11-07",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 24.0,
+      "deductible_amount": 200,
+      "copay_percent": 20,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-007",
+    "full_name": "Linda Brown",
+    "date_of_birth": "1979-12-28",
+    "contact": {
+      "phone": "+1-343-632-4006",
+      "email": "linda.brown7@example.com",
+      "address": "474 Oak Ave, Phoenix, AZ, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "294-78-8350"
+    },
+    "policy_number": "POL-77007",
+    "sum_insured": 4500,
+    "currency": "USD",
+    "policy_start_date": "2024-06-26",
+    "policy_end_date": "2025-06-26",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 22.5,
+      "deductible_amount": 100,
+      "copay_percent": 0,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-008",
+    "full_name": "Charles Lopez",
+    "date_of_birth": "2000-02-11",
+    "contact": {
+      "phone": "+1-251-798-8811",
+      "email": "charles.lopez8@example.com",
+      "address": "942 Church St, Austin, TX, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "865-50-1936"
+    },
+    "policy_number": "POL-77008",
+    "sum_insured": 15000,
+    "currency": "USD",
+    "policy_start_date": "2022-11-19",
+    "policy_end_date": "2023-11-19",
+    "pre_existing_medical_history": "Hypertension",
+    "policy_terms": {
+      "room_rent_daily_cap": 75.0,
+      "deductible_amount": 150,
+      "copay_percent": 0,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-009",
+    "full_name": "Vikram Naidu",
+    "date_of_birth": "1963-12-21",
+    "contact": {
+      "phone": "+91-7030570068",
+      "email": "vikram.naidu9@example.com",
+      "address": "76 Park Lane, Pune, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "8491 6180 2188"
+    },
+    "policy_number": "POL-77009",
+    "sum_insured": 6000,
+    "currency": "INR",
+    "policy_start_date": "2024-11-02",
+    "policy_end_date": "2025-11-02",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 48.0,
+      "deductible_amount": 200,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-010",
+    "full_name": "Divya Nair",
+    "date_of_birth": "1959-07-23",
+    "contact": {
+      "phone": "+91-8600842914",
+      "email": "divya.nair10@example.com",
+      "address": "95 MG Road, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "4335 5325 9280"
+    },
+    "policy_number": "POL-77010",
+    "sum_insured": 10000,
+    "currency": "INR",
+    "policy_start_date": "2023-07-21",
+    "policy_end_date": "2024-07-20",
+    "pre_existing_medical_history": "Hypertension",
+    "policy_terms": {
+      "room_rent_daily_cap": 50.0,
+      "deductible_amount": 200,
+      "copay_percent": 10,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-011",
+    "full_name": "Meena Bose",
+    "date_of_birth": "1986-09-24",
+    "contact": {
+      "phone": "+91-9185423473",
+      "email": "meena.bose11@example.com",
+      "address": "799 Park Lane, Hyderabad, Telangana, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "6862 4441 5088"
+    },
+    "policy_number": "POL-77011",
+    "sum_insured": 10000,
+    "currency": "INR",
+    "policy_start_date": "2022-11-13",
+    "policy_end_date": "2023-11-13",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 80.0,
+      "deductible_amount": 150,
+      "copay_percent": 20,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-012",
+    "full_name": "Jennifer Brown",
+    "date_of_birth": "1980-01-16",
+    "contact": {
+      "phone": "+1-536-485-2137",
+      "email": "jennifer.brown12@example.com",
+      "address": "360 MG Road, Austin, TX, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "775-34-7528"
+    },
+    "policy_number": "POL-77012",
+    "sum_insured": 15000,
+    "currency": "USD",
+    "policy_start_date": "2024-03-29",
+    "policy_end_date": "2025-03-29",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 150.0,
+      "deductible_amount": 100,
+      "copay_percent": 0,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-013",
+    "full_name": "Arjun Naidu",
+    "date_of_birth": "1991-08-22",
+    "contact": {
+      "phone": "+91-8661750538",
+      "email": "arjun.naidu13@example.com",
+      "address": "335 Hill Cross, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "6143 3041 5920"
+    },
+    "policy_number": "POL-77013",
+    "sum_insured": 7500,
+    "currency": "INR",
+    "policy_start_date": "2022-09-18",
+    "policy_end_date": "2023-09-18",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 90.0,
+      "deductible_amount": 500,
+      "copay_percent": 20,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-014",
+    "full_name": "Patricia Hernandez",
+    "date_of_birth": "1982-11-06",
+    "contact": {
+      "phone": "+1-295-969-4848",
+      "email": "patricia.hernandez14@example.com",
+      "address": "231 Church St, Columbus, OH, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "390-75-6491"
+    },
+    "policy_number": "POL-77014",
+    "sum_insured": 6000,
+    "currency": "USD",
+    "policy_start_date": "2022-10-29",
+    "policy_end_date": "2023-10-29",
+    "pre_existing_medical_history": "Hypertension",
+    "policy_terms": {
+      "room_rent_daily_cap": 30.0,
+      "deductible_amount": 150,
+      "copay_percent": 20,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-015",
+    "full_name": "Priya Patel",
+    "date_of_birth": "2000-04-14",
+    "contact": {
+      "phone": "+91-9474868008",
+      "email": "priya.patel15@example.com",
+      "address": "437 Church St, Chennai, Tamil Nadu, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "8612 9702 6198"
+    },
+    "policy_number": "POL-77015",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2024-07-02",
+    "policy_end_date": "2025-07-02",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 180.0,
+      "deductible_amount": 250,
+      "copay_percent": 15,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-016",
+    "full_name": "Rajesh Menon",
+    "date_of_birth": "1989-12-10",
+    "contact": {
+      "phone": "+91-9729265069",
+      "email": "rajesh.menon16@example.com",
+      "address": "927 Church St, Ahmedabad, Gujarat, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "7812 2020 4388"
+    },
+    "policy_number": "POL-77016",
+    "sum_insured": 18000,
+    "currency": "INR",
+    "policy_start_date": "2022-02-10",
+    "policy_end_date": "2023-02-10",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 216.0,
+      "deductible_amount": 250,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-017",
+    "full_name": "Richard Lopez",
+    "date_of_birth": "1962-07-13",
+    "contact": {
+      "phone": "+1-227-603-1444",
+      "email": "richard.lopez17@example.com",
+      "address": "659 Hill Cross, Denver, CO, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "578-26-9751"
+    },
+    "policy_number": "POL-77017",
+    "sum_insured": 5000,
+    "currency": "USD",
+    "policy_start_date": "2024-08-03",
+    "policy_end_date": "2025-08-03",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 25.0,
+      "deductible_amount": 200,
+      "copay_percent": 20,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-018",
+    "full_name": "Michael Anderson",
+    "date_of_birth": "1974-07-22",
+    "contact": {
+      "phone": "+1-329-684-2874",
+      "email": "michael.anderson18@example.com",
+      "address": "477 MG Road, Austin, TX, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "736-29-4908"
+    },
+    "policy_number": "POL-77018",
+    "sum_insured": 7500,
+    "currency": "USD",
+    "policy_start_date": "2024-01-26",
+    "policy_end_date": "2025-01-25",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 37.5,
+      "deductible_amount": 150,
+      "copay_percent": 15,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-019",
+    "full_name": "Pooja Naidu",
+    "date_of_birth": "1998-12-23",
+    "contact": {
+      "phone": "+91-7041465057",
+      "email": "pooja.naidu19@example.com",
+      "address": "109 Hill Cross, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "2129 9289 6590"
+    },
+    "policy_number": "POL-77019",
+    "sum_insured": 8000,
+    "currency": "INR",
+    "policy_start_date": "2024-07-30",
+    "policy_end_date": "2025-07-30",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 96.0,
+      "deductible_amount": 150,
+      "copay_percent": 15,
+      "waiting_period_months": 48
+    }
+  },
+  {
+    "claimant_id": "CLM-020",
+    "full_name": "Rajesh Iyer",
+    "date_of_birth": "1979-10-14",
+    "contact": {
+      "phone": "+91-8115246655",
+      "email": "rajesh.iyer20@example.com",
+      "address": "570 Main St, Ahmedabad, Gujarat, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "4475 6813 5232"
+    },
+    "policy_number": "POL-77020",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2023-01-27",
+    "policy_end_date": "2024-01-27",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 120.0,
+      "deductible_amount": 500,
+      "copay_percent": 20,
+      "waiting_period_months": 48
+    }
+  },
+  {
+    "claimant_id": "CLM-021",
+    "full_name": "William Jones",
+    "date_of_birth": "1971-08-11",
+    "contact": {
+      "phone": "+1-523-322-9779",
+      "email": "william.jones21@example.com",
+      "address": "197 Oak Ave, Portland, OR, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "336-25-4155"
+    },
+    "policy_number": "POL-77021",
+    "sum_insured": 12000,
+    "currency": "USD",
+    "policy_start_date": "2023-07-21",
+    "policy_end_date": "2024-07-20",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 120.0,
+      "deductible_amount": 100,
+      "copay_percent": 10,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-022",
+    "full_name": "Sunita Verma",
+    "date_of_birth": "1959-10-23",
+    "contact": {
+      "phone": "+91-8611319710",
+      "email": "sunita.verma22@example.com",
+      "address": "156 Oak Ave, Ahmedabad, Gujarat, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "2869 2070 7565"
+    },
+    "policy_number": "POL-77022",
+    "sum_insured": 18000,
+    "currency": "INR",
+    "policy_start_date": "2023-09-15",
+    "policy_end_date": "2024-09-14",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 144.0,
+      "deductible_amount": 100,
+      "copay_percent": 20,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-023",
+    "full_name": "Anjali Menon",
+    "date_of_birth": "1997-02-27",
+    "contact": {
+      "phone": "+91-8476287832",
+      "email": "anjali.menon23@example.com",
+      "address": "299 Main St, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "3564 1043 7693"
+    },
+    "policy_number": "POL-77023",
+    "sum_insured": 6000,
+    "currency": "INR",
+    "policy_start_date": "2023-08-14",
+    "policy_end_date": "2024-08-13",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 72.0,
+      "deductible_amount": 100,
+      "copay_percent": 10,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-024",
+    "full_name": "Naveen Verma",
+    "date_of_birth": "1962-03-20",
+    "contact": {
+      "phone": "+91-8618067377",
+      "email": "naveen.verma24@example.com",
+      "address": "613 Main St, Kolkata, West Bengal, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "5460 9199 9847"
+    },
+    "policy_number": "POL-77024",
+    "sum_insured": 10000,
+    "currency": "INR",
+    "policy_start_date": "2023-10-23",
+    "policy_end_date": "2024-10-22",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 100.0,
+      "deductible_amount": 100,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-025",
+    "full_name": "Rajesh Rao",
+    "date_of_birth": "1980-11-09",
+    "contact": {
+      "phone": "+91-9273074942",
+      "email": "rajesh.rao25@example.com",
+      "address": "679 Hill Cross, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "3634 6403 7744"
+    },
+    "policy_number": "POL-77025",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2022-03-17",
+    "policy_end_date": "2023-03-17",
+    "pre_existing_medical_history": "Coronary Artery Disease",
+    "policy_terms": {
+      "room_rent_daily_cap": 75.0,
+      "deductible_amount": 200,
+      "copay_percent": 15,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-026",
+    "full_name": "Joseph Thomas",
+    "date_of_birth": "1956-03-24",
+    "contact": {
+      "phone": "+1-926-362-6091",
+      "email": "joseph.thomas26@example.com",
+      "address": "566 Hill Cross, Sacramento, CA, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "224-13-4920"
+    },
+    "policy_number": "POL-77026",
+    "sum_insured": 4500,
+    "currency": "USD",
+    "policy_start_date": "2023-04-06",
+    "policy_end_date": "2024-04-05",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 54.0,
+      "deductible_amount": 100,
+      "copay_percent": 10,
+      "waiting_period_months": 48
+    }
+  },
+  {
+    "claimant_id": "CLM-027",
+    "full_name": "Thomas Jones",
+    "date_of_birth": "1998-06-14",
+    "contact": {
+      "phone": "+1-352-657-9824",
+      "email": "thomas.jones27@example.com",
+      "address": "354 Lake Rd, Austin, TX, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "389-48-9022"
+    },
+    "policy_number": "POL-77027",
+    "sum_insured": 15000,
+    "currency": "USD",
+    "policy_start_date": "2024-02-12",
+    "policy_end_date": "2025-02-11",
+    "pre_existing_medical_history": "Coronary Artery Disease",
+    "policy_terms": {
+      "room_rent_daily_cap": 150.0,
+      "deductible_amount": 150,
+      "copay_percent": 10,
+      "waiting_period_months": 48
+    }
+  },
+  {
+    "claimant_id": "CLM-028",
+    "full_name": "Joseph Johnson",
+    "date_of_birth": "1997-02-13",
+    "contact": {
+      "phone": "+1-870-358-2225",
+      "email": "joseph.johnson28@example.com",
+      "address": "801 Lake Rd, Sacramento, CA, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "115-28-7717"
+    },
+    "policy_number": "POL-77028",
+    "sum_insured": 8000,
+    "currency": "USD",
+    "policy_start_date": "2024-03-25",
+    "policy_end_date": "2025-03-25",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 80.0,
+      "deductible_amount": 500,
+      "copay_percent": 20,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-029",
+    "full_name": "Sunita Verma",
+    "date_of_birth": "1991-12-20",
+    "contact": {
+      "phone": "+91-7800179621",
+      "email": "sunita.verma29@example.com",
+      "address": "580 MG Road, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "7141 8056 3385"
+    },
+    "policy_number": "POL-77029",
+    "sum_insured": 5000,
+    "currency": "INR",
+    "policy_start_date": "2022-12-15",
+    "policy_end_date": "2023-12-15",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 25.0,
+      "deductible_amount": 300,
+      "copay_percent": 20,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-030",
+    "full_name": "Jessica Lopez",
+    "date_of_birth": "1976-04-12",
+    "contact": {
+      "phone": "+1-593-694-2747",
+      "email": "jessica.lopez30@example.com",
+      "address": "391 Park Lane, Portland, OR, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "567-48-4263"
+    },
+    "policy_number": "POL-77030",
+    "sum_insured": 8000,
+    "currency": "USD",
+    "policy_start_date": "2023-08-29",
+    "policy_end_date": "2024-08-28",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 40.0,
+      "deductible_amount": 500,
+      "copay_percent": 20,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-031",
+    "full_name": "John Hernandez",
+    "date_of_birth": "1987-09-25",
+    "contact": {
+      "phone": "+1-516-651-1546",
+      "email": "john.hernandez31@example.com",
+      "address": "750 Oak Ave, Columbus, OH, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "742-92-1645"
+    },
+    "policy_number": "POL-77031",
+    "sum_insured": 4500,
+    "currency": "USD",
+    "policy_start_date": "2023-08-28",
+    "policy_end_date": "2024-08-27",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 54.0,
+      "deductible_amount": 150,
+      "copay_percent": 10,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-032",
+    "full_name": "Richard Anderson",
+    "date_of_birth": "1995-10-20",
+    "contact": {
+      "phone": "+1-470-749-3024",
+      "email": "richard.anderson32@example.com",
+      "address": "378 MG Road, Charlotte, NC, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "192-60-1228"
+    },
+    "policy_number": "POL-77032",
+    "sum_insured": 20000,
+    "currency": "USD",
+    "policy_start_date": "2023-06-21",
+    "policy_end_date": "2024-06-20",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 240.0,
+      "deductible_amount": 500,
+      "copay_percent": 15,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-033",
+    "full_name": "Neha Reddy",
+    "date_of_birth": "1988-04-14",
+    "contact": {
+      "phone": "+91-8273569459",
+      "email": "neha.reddy33@example.com",
+      "address": "687 MG Road, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "4846 9807 3222"
+    },
+    "policy_number": "POL-77033",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2024-05-08",
+    "policy_end_date": "2025-05-08",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 120.0,
+      "deductible_amount": 250,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-034",
+    "full_name": "Priya Desai",
+    "date_of_birth": "1976-11-07",
+    "contact": {
+      "phone": "+91-7165753713",
+      "email": "priya.desai34@example.com",
+      "address": "129 Church St, Ahmedabad, Gujarat, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "2501 4475 1349"
+    },
+    "policy_number": "POL-77034",
+    "sum_insured": 18000,
+    "currency": "INR",
+    "policy_start_date": "2023-02-25",
+    "policy_end_date": "2024-02-25",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 144.0,
+      "deductible_amount": 300,
+      "copay_percent": 10,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-035",
+    "full_name": "Sunita Iyer",
+    "date_of_birth": "1987-06-25",
+    "contact": {
+      "phone": "+91-8560568756",
+      "email": "sunita.iyer35@example.com",
+      "address": "526 Park Lane, Kolkata, West Bengal, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "9619 2862 2041"
+    },
+    "policy_number": "POL-77035",
+    "sum_insured": 4500,
+    "currency": "INR",
+    "policy_start_date": "2024-07-14",
+    "policy_end_date": "2025-07-14",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 36.0,
+      "deductible_amount": 300,
+      "copay_percent": 0,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-036",
+    "full_name": "Divya Gupta",
+    "date_of_birth": "1992-02-15",
+    "contact": {
+      "phone": "+91-8479639949",
+      "email": "divya.gupta36@example.com",
+      "address": "348 Church St, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "2874 4522 8046"
+    },
+    "policy_number": "POL-77036",
+    "sum_insured": 12000,
+    "currency": "INR",
+    "policy_start_date": "2024-03-27",
+    "policy_end_date": "2025-03-27",
+    "pre_existing_medical_history": "Hyperthyroidism",
+    "policy_terms": {
+      "room_rent_daily_cap": 60.0,
+      "deductible_amount": 200,
+      "copay_percent": 20,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-037",
+    "full_name": "Jessica Anderson",
+    "date_of_birth": "1974-02-01",
+    "contact": {
+      "phone": "+1-560-306-9313",
+      "email": "jessica.anderson37@example.com",
+      "address": "159 MG Road, Austin, TX, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "394-86-6119"
+    },
+    "policy_number": "POL-77037",
+    "sum_insured": 12000,
+    "currency": "USD",
+    "policy_start_date": "2023-04-05",
+    "policy_end_date": "2024-04-04",
+    "pre_existing_medical_history": "Type-2 Diabetes",
+    "policy_terms": {
+      "room_rent_daily_cap": 120.0,
+      "deductible_amount": 300,
+      "copay_percent": 15,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-038",
+    "full_name": "Susan Smith",
+    "date_of_birth": "1963-03-26",
+    "contact": {
+      "phone": "+1-271-345-1502",
+      "email": "susan.smith38@example.com",
+      "address": "765 Park Lane, Denver, CO, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "246-82-7566"
+    },
+    "policy_number": "POL-77038",
+    "sum_insured": 6000,
+    "currency": "USD",
+    "policy_start_date": "2024-02-10",
+    "policy_end_date": "2025-02-09",
+    "pre_existing_medical_history": "Hyperthyroidism",
+    "policy_terms": {
+      "room_rent_daily_cap": 72.0,
+      "deductible_amount": 200,
+      "copay_percent": 10,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-039",
+    "full_name": "Priya Verma",
+    "date_of_birth": "1959-12-01",
+    "contact": {
+      "phone": "+91-7722561807",
+      "email": "priya.verma39@example.com",
+      "address": "8 Oak Ave, Ahmedabad, Gujarat, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "9633 6053 1744"
+    },
+    "policy_number": "POL-77039",
+    "sum_insured": 7500,
+    "currency": "INR",
+    "policy_start_date": "2023-03-09",
+    "policy_end_date": "2024-03-08",
+    "pre_existing_medical_history": "Asthma",
+    "policy_terms": {
+      "room_rent_daily_cap": 75.0,
+      "deductible_amount": 200,
+      "copay_percent": 15,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-040",
+    "full_name": "Sanjay Sharma",
+    "date_of_birth": "1964-06-30",
+    "contact": {
+      "phone": "+91-7288767240",
+      "email": "sanjay.sharma40@example.com",
+      "address": "250 Hill Cross, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "3815 8538 6928"
+    },
+    "policy_number": "POL-77040",
+    "sum_insured": 18000,
+    "currency": "INR",
+    "policy_start_date": "2024-03-31",
+    "policy_end_date": "2025-03-31",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 90.0,
+      "deductible_amount": 250,
+      "copay_percent": 15,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-041",
+    "full_name": "Divya Iyer",
+    "date_of_birth": "1995-04-10",
+    "contact": {
+      "phone": "+91-9472183889",
+      "email": "divya.iyer41@example.com",
+      "address": "698 Park Lane, Mumbai, Maharashtra, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "3902 9095 8601"
+    },
+    "policy_number": "POL-77041",
+    "sum_insured": 20000,
+    "currency": "INR",
+    "policy_start_date": "2023-10-24",
+    "policy_end_date": "2024-10-23",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 160.0,
+      "deductible_amount": 250,
+      "copay_percent": 0,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-042",
+    "full_name": "Swati Bose",
+    "date_of_birth": "1999-12-24",
+    "contact": {
+      "phone": "+91-8982472341",
+      "email": "swati.bose42@example.com",
+      "address": "155 Main St, Hyderabad, Telangana, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "8368 4084 6267"
+    },
+    "policy_number": "POL-77042",
+    "sum_insured": 12000,
+    "currency": "INR",
+    "policy_start_date": "2022-07-31",
+    "policy_end_date": "2023-07-31",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 60.0,
+      "deductible_amount": 300,
+      "copay_percent": 10,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-043",
+    "full_name": "Lakshmi Bose",
+    "date_of_birth": "1990-03-01",
+    "contact": {
+      "phone": "+91-8146250662",
+      "email": "lakshmi.bose43@example.com",
+      "address": "133 Park Lane, Chennai, Tamil Nadu, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "6461 2335 3317"
+    },
+    "policy_number": "POL-77043",
+    "sum_insured": 4500,
+    "currency": "INR",
+    "policy_start_date": "2023-09-27",
+    "policy_end_date": "2024-09-26",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 54.0,
+      "deductible_amount": 500,
+      "copay_percent": 15,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-044",
+    "full_name": "Nancy Williams",
+    "date_of_birth": "1994-04-07",
+    "contact": {
+      "phone": "+1-909-989-3712",
+      "email": "nancy.williams44@example.com",
+      "address": "45 Hill Cross, Nashville, TN, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "257-30-3962"
+    },
+    "policy_number": "POL-77044",
+    "sum_insured": 8000,
+    "currency": "USD",
+    "policy_start_date": "2023-05-02",
+    "policy_end_date": "2024-05-01",
+    "pre_existing_medical_history": "Coronary Artery Disease",
+    "policy_terms": {
+      "room_rent_daily_cap": 80.0,
+      "deductible_amount": 500,
+      "copay_percent": 20,
+      "waiting_period_months": 24
+    }
+  },
+  {
+    "claimant_id": "CLM-045",
+    "full_name": "Neha Desai",
+    "date_of_birth": "1969-05-20",
+    "contact": {
+      "phone": "+91-7934020993",
+      "email": "neha.desai45@example.com",
+      "address": "280 Hill Cross, Delhi, Delhi, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "2680 9452 3042"
+    },
+    "policy_number": "POL-77045",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2022-10-29",
+    "policy_end_date": "2023-10-29",
+    "pre_existing_medical_history": "Hyperthyroidism",
+    "policy_terms": {
+      "room_rent_daily_cap": 75.0,
+      "deductible_amount": 150,
+      "copay_percent": 20,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-046",
+    "full_name": "Sarah Lopez",
+    "date_of_birth": "1956-09-14",
+    "contact": {
+      "phone": "+1-830-205-2298",
+      "email": "sarah.lopez46@example.com",
+      "address": "263 Oak Ave, Denver, CO, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "877-70-8349"
+    },
+    "policy_number": "POL-77046",
+    "sum_insured": 5000,
+    "currency": "USD",
+    "policy_start_date": "2024-12-16",
+    "policy_end_date": "2025-12-16",
+    "pre_existing_medical_history": "Hyperthyroidism",
+    "policy_terms": {
+      "room_rent_daily_cap": 25.0,
+      "deductible_amount": 200,
+      "copay_percent": 10,
+      "waiting_period_months": 36
+    }
+  },
+  {
+    "claimant_id": "CLM-047",
+    "full_name": "Divya Rao",
+    "date_of_birth": "1961-01-26",
+    "contact": {
+      "phone": "+91-8715357265",
+      "email": "divya.rao47@example.com",
+      "address": "977 Park Lane, Bengaluru, Karnataka, India"
+    },
+    "national_id": {
+      "type": "Aadhaar",
+      "value": "7825 4068 2402"
+    },
+    "policy_number": "POL-77047",
+    "sum_insured": 15000,
+    "currency": "INR",
+    "policy_start_date": "2024-11-05",
+    "policy_end_date": "2025-11-05",
+    "pre_existing_medical_history": "Chronic Kidney Disease (Stage 2)",
+    "policy_terms": {
+      "room_rent_daily_cap": 75.0,
+      "deductible_amount": 250,
+      "copay_percent": 20,
+      "waiting_period_months": 12
+    }
+  },
+  {
+    "claimant_id": "CLM-048",
+    "full_name": "Patricia Anderson",
+    "date_of_birth": "1958-04-26",
+    "contact": {
+      "phone": "+1-338-264-8498",
+      "email": "patricia.anderson48@example.com",
+      "address": "301 Oak Ave, Sacramento, CA, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "812-71-3986"
+    },
+    "policy_number": "POL-77048",
+    "sum_insured": 3000,
+    "currency": "USD",
+    "policy_start_date": "2023-02-13",
+    "policy_end_date": "2024-02-13",
+    "pre_existing_medical_history": "Hypertension",
+    "policy_terms": {
+      "room_rent_daily_cap": 30.0,
+      "deductible_amount": 200,
+      "copay_percent": 20,
+      "waiting_period_months": 48
+    }
+  },
+  {
+    "claimant_id": "CLM-049",
+    "full_name": "Susan Thomas",
+    "date_of_birth": "1981-05-10",
+    "contact": {
+      "phone": "+1-640-816-3956",
+      "email": "susan.thomas49@example.com",
+      "address": "329 Main St, Portland, OR, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "184-64-2293"
+    },
+    "policy_number": "POL-77049",
+    "sum_insured": 4500,
+    "currency": "USD",
+    "policy_start_date": "2023-11-03",
+    "policy_end_date": "2024-11-02",
+    "pre_existing_medical_history": "None",
+    "policy_terms": {
+      "room_rent_daily_cap": 45.0,
+      "deductible_amount": 250,
+      "copay_percent": 20,
+      "waiting_period_months": 0
+    }
+  },
+  {
+    "claimant_id": "CLM-050",
+    "full_name": "Joseph Smith",
+    "date_of_birth": "1968-10-06",
+    "contact": {
+      "phone": "+1-570-592-1530",
+      "email": "joseph.smith50@example.com",
+      "address": "696 Hill Cross, Denver, CO, USA"
+    },
+    "national_id": {
+      "type": "SSN",
+      "value": "168-40-7001"
+    },
+    "policy_number": "POL-77050",
+    "sum_insured": 8000,
+    "currency": "USD",
+    "policy_start_date": "2024-02-01",
+    "policy_end_date": "2025-01-31",
+    "pre_existing_medical_history": "Coronary Artery Disease",
+    "policy_terms": {
+      "room_rent_daily_cap": 40.0,
+      "deductible_amount": 300,
+      "copay_percent": 10,
+      "waiting_period_months": 36
+    }
+  }
+]
