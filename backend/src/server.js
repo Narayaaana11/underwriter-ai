@@ -1775,6 +1775,9 @@ app.listen(PORT, () => {
   console.log(`🛡️  Security:      Helmet + CORS + Rate Limiting enabled\n`);
 });
 
+// Export for Vercel serverless
+export default app;
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function generateExtractedFields(docType, fileName, claimContext = {}) {
   const typeLower = (docType || '').toLowerCase();
