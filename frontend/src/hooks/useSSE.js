@@ -8,6 +8,7 @@
  *   const { isConnected, lastEvent } = useSSE(token, onEvent);
  */
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { API_BASE } from '../api.js';
 
 export function useSSE(token, onEvent) {
   const [isConnected, setIsConnected] = useState(false);
@@ -24,7 +25,7 @@ export function useSSE(token, onEvent) {
 
     try {
       // SSE with auth via URL param (EventSource doesn't support custom headers)
-      const es = new EventSource(`/api/events?token=${encodeURIComponent(token)}`);
+      const es = new EventSource(`${API_BASE}/api/events?token=${encodeURIComponent(token)}`);
       esRef.current = es;
 
       es.addEventListener('connected', (e) => {

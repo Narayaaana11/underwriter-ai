@@ -7,6 +7,7 @@ import {
   BarChart3, Clock, TrendingUp, ShieldCheck, CheckCircle2,
   XCircle, AlertTriangle, Activity, Zap, Users, IndianRupee
 } from 'lucide-react';
+import { apiFetch } from '../api.js';
 
 const COLORS = {
   approved:  '#3E6E5B',
@@ -65,7 +66,7 @@ export function AnalyticsView({ token }) {
     async function loadAnalytics() {
       setLoading(true);
       try {
-        const res = await fetch('/api/analytics/metrics', {
+        const res = await apiFetch('/api/analytics/metrics', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         const json = await res.json();

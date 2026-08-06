@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Lock, Mail, User, Building2, ArrowRight, AlertCircle, ShieldCheck } from 'lucide-react';
 import { Input, Select, FormField, Button, Alert, Spinner, Divider } from '../components/ui';
+import { apiFetch } from '../api.js';
 
 const COMPANIES = [
   'HDFC ERGO Health & General',
@@ -39,7 +40,7 @@ export function LoginView({ onLoginSuccess }) {
     const payload    = isRegister ? { name, email, password, role, company } : { email, password };
 
     try {
-      const res  = await fetch(endpoint, {
+      const res  = await apiFetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

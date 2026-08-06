@@ -7,6 +7,7 @@ import {
 import { StampBadge } from '../components/StampBadge';
 import { RiskDot } from '../components/RiskDot';
 import { Card, Input, Select, Button, EmptyState, Spinner, StatCard, Badge } from '../components/ui';
+import { apiFetch } from '../api.js';
 
 const POLICY_TYPES   = ['Health', 'Motor', 'Life', 'Travel', 'Property'];
 const STATUSES       = ['submitted', 'review', 'approved', 'rejected', 'escalated', 'doc_pending'];
@@ -56,7 +57,7 @@ export function UnderwriterLedgerView({ onSelectCase, currentRole, activeUser, t
       if (type   !== 'all') p.append('policyType', type);
       if (uwFilter !== 'all') p.append('assignedUnderwriterId', uwFilter);
       if (search) p.append('search', search);
-      const res  = await fetch(`/api/claims?${p}`, { headers: authHeaders });
+      const res  = await apiFetch(`/api/claims?${p}`, { headers: authHeaders });
       const json = await res.json();
       if (json.success) setClaims(json.data);
     } catch (err) {
@@ -69,7 +70,7 @@ export function UnderwriterLedgerView({ onSelectCase, currentRole, activeUser, t
   const fetchDuplicates = useCallback(async () => {
     if (!isUnderwriter) return;
     try {
-      const res = await fetch('/api/claims/duplicates', { headers: authHeaders });
+      const res = await apiFetch('/api/claims/duplicates', { headers: authHeaders });
       const json = await res.json();
       if (json.success && json.totalDuplicates > 0) setDuplicateAlert(json);
     } catch { /* silent */ }
@@ -109,7 +110,7 @@ export function UnderwriterLedgerView({ onSelectCase, currentRole, activeUser, t
     const ids = [...selected];
     try {
       await Promise.all(ids.map(id =>
-        fetch(`/api/claims/${id}`, {
+        apiFetch(`/api/claims/${id}`, {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json', ...authHeaders },
           body: JSON.stringify(

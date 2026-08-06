@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { apiFetch } from './api.js';
 import { Toaster, toast } from 'react-hot-toast';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
@@ -108,7 +109,7 @@ export function App() {
     async function checkAuth() {
       if (token) {
         try {
-          const res = await fetch('/api/auth/me', {
+          const res = await apiFetch('/api/auth/me', {
             headers: { 'Authorization': `Bearer ${token}` }
           });
           const json = await res.json();
@@ -146,7 +147,7 @@ export function App() {
     // Invalidate token server-side
     if (token) {
       try {
-        await fetch('/api/auth/logout', {
+        await apiFetch('/api/auth/logout', {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${token}` }
         });

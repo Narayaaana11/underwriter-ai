@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, User, Key, Sliders, ScrollText, CheckCircle, Save, Lock, Database } from 'lucide-react';
+import { apiFetch } from '../api.js';
 
 export function AdminView({ currentRole, token }) {
   const [users, setUsers] = useState([]);
@@ -14,9 +15,9 @@ export function AdminView({ currentRole, token }) {
     try {
       const headers = token ? { 'Authorization': `Bearer ${token}` } : {};
       const [uRes, aRes, cRes] = await Promise.all([
-        fetch('/api/users', { headers }),
-        fetch('/api/audit-logs', { headers }),
-        fetch('/api/admin/config', { headers })
+        apiFetch('/api/users', { headers }),
+        apiFetch('/api/audit-logs', { headers }),
+        apiFetch('/api/admin/config', { headers })
       ]);
       const uJson = await uRes.json();
       const aJson = await aRes.json();

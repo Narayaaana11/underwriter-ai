@@ -9,6 +9,7 @@ import {
   Card, CardHeader, CardSection, SectionHeading,
   Input, Select, FormField, Button, Alert, DataRow, Spinner, Badge,
 } from '../components/ui';
+import { apiFetch } from '../api.js';
 
 const DOC_TYPES = [
   'Discharge Summary',
@@ -81,7 +82,7 @@ export function ClaimSubmissionView({ onClaimSubmitted, activeUser, token }) {
     setFetchingPol(true);
     setFetchMsg(null);
     try {
-      const res = await fetch(`/api/claims?search=${form.policyNumber}`, {
+      const res = await apiFetch(`/api/claims?search=${form.policyNumber}`, {
         headers: token ? { 'Authorization': `Bearer ${token}` } : {}
       });
       const json = await res.json();
@@ -125,7 +126,7 @@ export function ClaimSubmissionView({ onClaimSubmitted, activeUser, token }) {
     setError(null);
     setSubmitting(true);
     try {
-      const res = await fetch('/api/claims', {
+      const res = await apiFetch('/api/claims', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

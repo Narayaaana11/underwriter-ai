@@ -11,6 +11,7 @@ import {
   Card, CardHeader, CardSection, SectionHeading,
   Button, Select, FormField, Alert, DataRow, Spinner, Divider, Badge,
 } from '../components/ui';
+import { apiFetch } from '../api.js';
 
 // ─── small panel sub-component ─────────────────────────────────
 function Panel({ icon, title, badge, children, className = '' }) {
@@ -99,7 +100,7 @@ export function CaseDetailView({ claimId, onBack, currentRole, activeUser, token
   const load = async () => {
     setLoading(true);
     try {
-      const res  = await fetch(`/api/claims/${claimId}`, {
+      const res  = await apiFetch(`/api/claims/${claimId}`, {
         headers: token ? { 'Authorization': `Bearer ${token}` } : {}
       });
       const json = await res.json();
@@ -120,7 +121,7 @@ export function CaseDetailView({ claimId, onBack, currentRole, activeUser, token
     setSuccess(null);
     setError(null);
     try {
-      const res  = await fetch(`/api/claims/${claimId}${path}`, {
+      const res  = await apiFetch(`/api/claims/${claimId}${path}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -140,7 +141,7 @@ export function CaseDetailView({ claimId, onBack, currentRole, activeUser, token
     setSuccess(null);
     setError(null);
     try {
-      const res  = await fetch(`/api/claims/${claimId}`, {
+      const res  = await apiFetch(`/api/claims/${claimId}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -221,7 +222,7 @@ export function CaseDetailView({ claimId, onBack, currentRole, activeUser, token
     const a = document.createElement('a');
     a.href = url;
     a.setAttribute('download', `IRDAI_Report_${claimId}.html`);
-    fetch(url, { headers: token ? { 'Authorization': `Bearer ${token}` } : {} })
+    apiFetch(url, { headers: token ? { 'Authorization': `Bearer ${token}` } : {} })
       .then(r => r.blob())
       .then(blob => {
         const objUrl = URL.createObjectURL(blob);
@@ -239,7 +240,7 @@ export function CaseDetailView({ claimId, onBack, currentRole, activeUser, token
     const a = document.createElement('a');
     a.href = url;
     a.setAttribute('download', `Settlement_Voucher_${claimId}.html`);
-    fetch(url, { headers: token ? { 'Authorization': `Bearer ${token}` } : {} })
+    apiFetch(url, { headers: token ? { 'Authorization': `Bearer ${token}` } : {} })
       .then(r => r.blob())
       .then(blob => {
         const objUrl = URL.createObjectURL(blob);
