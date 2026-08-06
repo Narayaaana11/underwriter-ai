@@ -82,17 +82,8 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false, // needed for SSE
 }));
 
-// 2. CORS — restrict to allowlist
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || 'http://localhost:5173,http://localhost:3000,http://localhost:5000').split(',');
 app.use(cors({
-  origin: (origin, callback) => {
-    // Allow requests with no origin (same-origin, curl, mobile apps)
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error(`CORS: Origin ${origin} not permitted.`));
-    }
-  },
+  origin: true,
   credentials: true,
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
@@ -322,6 +313,24 @@ app.post('/api/auth/logout', requireAuth, (req, res) => {
   return res.json({ success: true, message: 'Logged out successfully.' });
 });
 
+/**
+ * GET /api/companies
+ * Returns list of supported insurance companies
+ */
+app.get('/api/companies', (req, res) => {
+  return res.json({
+    success: true,
+    data: [
+      "Star Health & Allied Insurance",
+      "HDFC ERGO Health Insurance",
+      "Niva Bupa Health Insurance",
+      "Care Health Insurance",
+      "ICICI Lombard General Insurance",
+      "New India Assurance"
+    ]
+  });
+});
+
 // ══════════════════════════════════════════════════════════════════════════════
 // REAL-TIME SSE — /api/events
 // ══════════════════════════════════════════════════════════════════════════════
@@ -389,6 +398,36 @@ app.get('/api/claims',
       });
 
       return res.json({ success: true, count: claims.length, data: claims });
+    } catch (err) {
+      return res.status(500).json({ success: false, error: err.message });
+    }
+  }
+);
+
+/**
+ * GET /api/claims/duplicates
+ * Return all claims that share an invoice number with another claim.
+ */
+app.get('/api/claims/duplicates',
+  requireAuth,
+  requireRole('underwriter', 'senior_underwriter', 'admin'),
+  (req, res) => {
+    try {
+      const allClaims = db.getAllClaims();
+      const invoiceMap = {};
+      for (const claim of allClaims) {
+        for (const doc of (claim.documents || [])) {
+          const inv = doc.extractedFields?.invoiceNumber;
+          if (inv) {
+            if (!invoiceMap[inv]) invoiceMap[inv] = [];
+            invoiceMap[inv].push({ claimId: claim.id, claimantName: claim.claimantName, claimAmount: claim.claimAmount, status: claim.status });
+          }
+        }
+      }
+      const duplicates = Object.entries(invoiceMap)
+        .filter(([, claims]) => claims.length > 1)
+        .map(([invoiceNumber, claims]) => ({ invoiceNumber, count: claims.length, claims }));
+      return res.json({ success: true, data: duplicates, totalDuplicates: duplicates.length });
     } catch (err) {
       return res.status(500).json({ success: false, error: err.message });
     }
@@ -1182,35 +1221,6 @@ app.post('/api/claims/:id/query-letter',
   }
 );
 
-/**
- * GET /api/claims/duplicates
- * Return all claims that share an invoice number with another claim.
- */
-app.get('/api/claims/duplicates',
-  requireAuth,
-  requireRole('underwriter', 'senior_underwriter', 'admin'),
-  (req, res) => {
-    try {
-      const allClaims = db.getAllClaims();
-      const invoiceMap = {};
-      for (const claim of allClaims) {
-        for (const doc of (claim.documents || [])) {
-          const inv = doc.extractedFields?.invoiceNumber;
-          if (inv) {
-            if (!invoiceMap[inv]) invoiceMap[inv] = [];
-            invoiceMap[inv].push({ claimId: claim.id, claimantName: claim.claimantName, claimAmount: claim.claimAmount, status: claim.status });
-          }
-        }
-      }
-      const duplicates = Object.entries(invoiceMap)
-        .filter(([, claims]) => claims.length > 1)
-        .map(([invoiceNumber, claims]) => ({ invoiceNumber, count: claims.length, claims }));
-      return res.json({ success: true, data: duplicates, totalDuplicates: duplicates.length });
-    } catch (err) {
-      return res.status(500).json({ success: false, error: err.message });
-    }
-  }
-);
 
 /**
  * GET /api/claims/:id/sla

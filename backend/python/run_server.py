@@ -4,6 +4,9 @@ run_server.py — Python FastAPI & PySpark Server Launcher
 import sys
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 os.environ["NO_COLOR"] = "1"
 os.environ["ANSI_COLORS_DISABLED"] = "1"
 

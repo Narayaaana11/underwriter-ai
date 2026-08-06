@@ -167,6 +167,22 @@ async def logout():
     return {"success": True, "message": "Successfully logged out."}
 
 
+@app.get("/api/companies")
+async def get_supported_companies():
+    return {
+        "success": True,
+        "data": [
+            "Star Health & Allied Insurance",
+            "HDFC ERGO Health Insurance",
+            "Niva Bupa Health Insurance",
+            "Care Health Insurance",
+            "ICICI Lombard General Insurance",
+            "New India Assurance"
+        ]
+    }
+
+
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # CLAIMS ROUTES
