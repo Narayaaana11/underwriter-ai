@@ -41,3 +41,23 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+.cursor/
+
+# Uploaded files (don't commit real claim documents)
+backend/uploads/
+uploads/
+
+# Temporary datasets
+dataset_temp/
+
+# SQL Server local files
+*.mdf
+*.ldf
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.tmp
+*.bak
