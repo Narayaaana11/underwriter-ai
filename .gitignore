@@ -8,10 +8,11 @@ dist/
 build/
 **/build/
 
-# Environment files
+# Environment files — NEVER commit secrets
 .env
 .env.local
 .env.*.local
+**/.env
 *.env
 !*.env.example
 
@@ -20,6 +21,7 @@ __pycache__/
 **/__pycache__/
 *.py[cod]
 *$py.class
+*.pyo
 .venv/
 venv/
 env/
@@ -46,6 +48,10 @@ Thumbs.db
 # Uploaded files (don't commit real claim documents)
 backend/uploads/
 uploads/
+
+# Runtime data store (in-memory DB file)
+backend/data/store.json
+**/data/store.json
 
 # Temporary datasets
 dataset_temp/
